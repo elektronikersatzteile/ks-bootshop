@@ -1,0 +1,216 @@
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "et",
+      "last_word_connector": "et"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "payer",
+        "error_page_title": "Erreur",
+        "skip_to_content": "Directement au contenu",
+        "breadcrumb": "miette de pain",
+        "continue_button_label": "Plus loin",
+        "complete_purchase_button_label": "Acheter",
+        "pay_now_button_label": "Payez maintenant",
+        "authenticate_purchase_button_label": "authentifier le paiement",
+        "edit_link_label": "Modifier",
+        "all_rights_reserved": "Tous droits réservés %{shop_name}",
+        "print_policies_link_label": "Presse",
+        "cart": "panier",
+        "close_modal_label": "Fermer",
+        "close_notice_label": "Fermer",
+        "expand_notice_label": "montre plus",
+        "continue_to_shipping_method": "Procéder à l'expédition",
+        "continue_to_payment_method": "Procéder au paiement",
+        "continue_to_review": "vérifier la commande",
+        "back_to_cart": "Retour au panier",
+        "back_to_contact_information": "Retour aux informations",
+        "back_to_shipping_method": "Retour à l'expédition",
+        "back_to_payment_method": "Retour au paiement",
+        "choose_shipping_method": "Choisissez une méthode d'expédition",
+        "choose_payment_method": "Choisissez une méthode de paiement",
+        "choose_billing_address": "choisissez une adresse de facturation",
+        "contact_us_html": "Contactez-nous pour plus d'informations",
+        "autocomplete_title": "Suggestions",
+        "autocomplete_single_item": "1 option disponible",
+        "autocomplete_multi_item": "{{number}} options disponibles",
+        "autocomplete_close": "fermer les suggestions",
+        "forwarding_indicator": {
+          "new_window": "Ouvre une nouvelle fenêtre.",
+          "external": "Ouvre un site Web externe.",
+          "external_and_new_window": "Ouvre le site Web externe dans une nouvelle fenêtre."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - paiement"
+        },
+        "tooltip_accessibility_label": "Plus d'information",
+        "errors": {
+          "session_identifier_not_unique_error": "Quelque chose s'est mal passé avec votre commande, veuillez réessayer.",
+          "line_item_limit_reached": "Le nombre maximum de positions a été atteint."
+        },
+        "full_price": "Plein tarif:"
+      },
+      "contact": {
+        "shipping_address_title": "adresse de livraison",
+        "delivery_option_title": "méthode de livraison",
+        "contact_method_title": "coordonnées",
+        "email_or_phone_label": "e-mail ou numéro de téléphone portable",
+        "email_or_phone_placeholder": "e-mail ou numéro de téléphone portable",
+        "stored_addresses_label": "adresses enregistrées",
+        "new_address_label": "Utiliser la nouvelle adresse",
+        "first_name_label": "Prénom",
+        "optional_first_name_label": "Prénom (facultatif)",
+        "last_name_label": "Nom de famille",
+        "company_label": "entreprise",
+        "optional_company_label": "Société (optionel)",
+        "address2_label": "appartement, chambre, etc.",
+        "optional_address2_label": "Appartement, chambre, etc. (facultatif)",
+        "city_label": "Ville",
+        "country_label": "Pays \/ Région",
+        "country_code": "Indicatif de pays\/région",
+        "province_label": "Etat fédéral",
+        "province_placeholder": "Etat fédéral",
+        "county_label": "province",
+        "county_placeholder": "province",
+        "state_label": "Etat fédéral",
+        "state_placeholder": "Etat fédéral",
+        "prefecture_label": "Préfecture",
+        "prefecture_placeholder": "Préfecture",
+        "governorate_label": "gouvernorat",
+        "governorate_placeholder": "gouvernorat",
+        "state_and_territory_label": "État\/Territoire"
+      },
+      "order_summary": {
+        "scroll_order_summary": "Faites défiler pour plus d'articles",
+        "expand_order_summary": "Afficher l'aperçu de la commande",
+        "collapse_order_summary": "Masquer le récapitulatif de la commande",
+        "total_updated_label": "Prix total mis à jour :",
+        "order_total_updated_label": "Globalement mis à jour",
+        "total_already_paid_label": "Déjà payé",
+        "unit_price": {
+          "accessible_separator": "Par"
+        },
+        "pickup_label": "Ramasser",
+        "no_pickup_location": "Votre commande n'est pas disponible pour la collecte. Entrez une adresse de livraison.",
+        "calculating_shipping": "Calcul…",
+        "estimated_taxes_label": "Impôts estimés",
+        "information_estimated_taxes_label": "Taxes (estimées)",
+        "gift_card_ending": "La carte-cadeau se termine par %{last_characters}",
+        "estimated_tax_label": "Taxe estimée",
+        "multiple_shipping_lines_label": "total d'expédition",
+        "applied_free_shipping_discount_label": "Appliqué",
+        "original_price": "Prix d'origine",
+        "sale_price": "prix de vente",
+        "recurring_subtotal_label": "Sous-total récurrent",
+        "recurring_total_label": "somme récurrente",
+        "recurring_total_tooltip": "N'inclut pas les frais d'expédition, les taxes, les droits ou les remises applicables.",
+        "gift_card_subscriptions_notice": "Les cartes cadeaux ne sont valables que pour votre premier paiement",
+        "confirmation_number_label": "Confirmation #%{confirmation_number}",
+        "estimated_taxes_finalization_tooltip_content": "La taxe finale et le montant total seront confirmés par e-mail ou SMS après avoir passé votre commande.",
+        "deferred_payment_info": {
+          "title": "Le paiement de %{amount_due} est dû le %{due_at}",
+          "description_html": "Pour toute question concernant votre commande, %{contact_us}.",
+          "paid_today": "Total payé aujourd'hui",
+          "due_on_fulfillment_title": "Le paiement de %{amount_due} est dû à l'exécution",
+          "due_on_receipt_title": "Le paiement de %{amount_due} est dû à réception"
+        },
+        "percent_off_shipping": "%{percent} % de réduction sur l'expédition",
+        "amount_off_shipping": "%{amount} réduction sur les frais d'expédition",
+        "payment_terms_totals": {
+          "due_today": "Total dû aujourd'hui",
+          "due_later": "Total dû %{due_at}",
+          "due_later_checkout_to_draft": "Total dû plus tard",
+          "due_on_fulfillment": "Total dû à l'exécution",
+          "due_on_receipt": "Total dû à réception"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> n'a pas pu être utilisé avec vos remises existantes. Vous avez déjà une meilleure combinaison.",
+        "maximum_discount_code_limit_reached": "Vous avez atteint le nombre maximum de codes de réduction. Supprimez un code existant pour utiliser <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
+        "order_total_label": "Total de la commande",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> ne fonctionne pas pour le moment. Contactez-nous pour obtenir de l'aide."
+      },
+      "shipping": {
+        "title": "Expédition",
+        "shipping_method_title": "Mode de livraison",
+        "waiting_on_rate_notice": "Obtenez les frais de port disponibles...",
+        "waiting_on_pickup_location_notice": "Obtenir les lieux de prise en charge disponibles...",
+        "no_rates_for_cart_or_destination_notice": "Aucune méthode d'expédition n'est disponible pour votre panier ou votre adresse",
+        "no_pickup_location_notice": "Au moins un de vos produits n'est pas disponible pour le retrait",
+        "no_rates_for_country_notice": "Aucun frais de port n'a été trouvé pour cette adresse.",
+        "no_rates_contact_notice": "Contactez-nous pour plus d'informations",
+        "free_rate_label": "Gratuit",
+        "cheapest_rate_label": "Le moins cher",
+        "please_enter_your_shipping_information_notice": "Veuillez entrer vos informations d'expédition.",
+        "estimated_delivery_date": {
+          "one": "%{count} jour ouvré",
+          "other": "%{count} jours ouvrés"
+        },
+        "estimated_delivery_date_range": "%{minimum} à %{maximum} jours ouvrables",
+        "shipping_line_phone_label": "Numéro de portable (obligatoire)",
+        "shipping_line_phone": "Votre coursier peut utiliser ce numéro pour vous contacter.",
+        "other_method": {
+          "zero": "Aucune autre méthode disponible",
+          "one": "%{count} autre méthode disponible sur",
+          "other": "%{count} autres méthodes disponibles sur"
+        },
+        "shipping_rate_discounted_amount": "Était : %{original_amount}. Maintenant : %{amount}",
+        "shipping_line_delivery_phone": "Vous pouvez être contacté avec des mises à jour concernant votre livraison.",
+        "optional_shipping_line_delivery_instructions_label": "Instructions de livraison (facultatif)",
+        "shipping_line_delivery_phone_label": "numéro de portable",
+        "shipping_line_delivery_instructions": "Entrez les informations nécessaires telles que les codes de porte ou les instructions de dépôt.",
+        "local_delivery": "Livraison sur place",
+        "subscription_shipping": "expédition d'abonnement",
+        "shipping_method_one_time_purchase_group_title": "Achat en un click",
+        "one_time_purchase_shipping": "Expédition unique",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "pour %{count} livraison",
+            "other": "pour %{count} livraisons"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "quotidien",
+              "other": "tous les %{count} jours"
+            },
+            "week": {
+              "one": "toutes les semaines",
+              "other": "toutes les %{count} semaines"
+            },
+            "month": {
+              "one": "chaque mois",
+              "other": "tous les %{count} mois"
+            },
+            "year": {
+              "one": "chaque année",
+              "other": "tous les %{count} ans"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} par envoi",
+          "prepaid_shipping_price_label": "%{shipping_price} par livraison x %{delivery_interval_count}",
+          "initial_order_discounted": "Frais d'expédition d'abord %{discounted_shipping_cost}, puis %{frequency_description}",
+          "prepaid_initial_order_discounted": "Premier frais d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Premier frais d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}, puis %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Frais d'expédition d'abord %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), puis %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inclus",
+          "recurring_order_shipping_price": "suivi de %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Première commande incluse suivie de %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} par livraison), suivi de %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Première commande gratuite",
+            "other": "Les premières %{count} commandes sont gratuites"
+          },
+          "free_for_first_n_order": {
+            "one": "Pour la première commande",
+            "other": "Pour les %{count} premières commandes"
+          }
+        },
+        "estimated_delivery_time": "Délai de livraison prévu}",
+        "estimated_delivery_time_range": "Livraison estimée %{min_time}–%{max_time}",
+        "arrives_time": "Arrive %{heure}",
+        "arrives_time_range": "Arrive %{min_time}–%{max_time}",
+        "estimated_time": "Temps estimé}"
+      }
+    }
+  }
+}
