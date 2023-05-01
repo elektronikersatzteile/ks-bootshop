@@ -686,6 +686,134 @@
             }
           }
         }
+      },
+      "field_errors": {
+        "credit_card_name_blank": "Geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte steht",
+        "credit_card_name_invalid": "Geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte steht",
+        "credit_card_number_invalid": "Geben Sie eine gültige Kartennummer ein",
+        "credit_card_expiry_invalid": "Geben Sie ein gültiges Kartenablaufdatum ein",
+        "credit_card_month_invalid": "Geben Sie einen gültigen Kartenablaufmonat ein",
+        "credit_card_year_invalid": "Geben Sie ein gültiges Kartenablaufjahr ein",
+        "credit_card_start_invalid": "Geben Sie ein gültiges Kartenstartdatum ein",
+        "credit_card_start_month_invalid": "Geben Sie einen gültigen Kartenstartmonat ein",
+        "credit_card_start_year_invalid": "Geben Sie ein gültiges Kartenstartjahr ein",
+        "credit_card_verification_value_blank": "Geben Sie den CVV- oder Sicherheitscode auf Ihrer Karte ein",
+        "delivery_line_detail_changed": "Einige Lieferdetails können sich geändert haben. Überprüfen Sie Ihre Versandart und versuchen Sie es erneut.",
+        "delivery_zone_not_found": "Die angegebene Zone wurde im angegebenen Land nicht gefunden.",
+        "reduction_code_code_not_found": "Geben Sie einen gültigen Rabattcode oder eine Geschenkkarte ein",
+        "reduction_code_discount_not_found": "Geben Sie einen gültigen Rabattcode ein",
+        "reduction_code_gift_card_code_invalid": "Geben Sie eine gültige Geschenkkarte ein",
+        "reduction_code_gift_card_unusable": "Sie können eine Geschenkkarte nicht verwenden, um eine andere Geschenkkarte zu kaufen",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Geschenkkarten werden nicht mit aufgeschobenen Kaufoptionen unterstützt.",
+        "shipping_line_phone_blank": "Geben Sie eine Telefonnummer ein, um diese Liefermethode zu verwenden",
+        "shipping_line_phone_invalid": "Geben Sie eine gültige Telefonnummer ein, um diese Liefermethode zu verwenden",
+        "tips_invalid_tip_amount": "Geben Sie ein Trinkgeld von nicht mehr als %{amount} ein",
+        "gift_card_already_applied": "Dieser Geschenkgutschein wurde bereits auf Ihre Bestellung angewendet",
+        "gift_card_disabled": "Dieser Geschenkgutschein ist nicht mehr verfügbar",
+        "gift_card_expired": "Diese Geschenkkarte ist abgelaufen",
+        "gift_card_depleted": "Diese Geschenkkarte hat kein Guthaben mehr",
+        "gift_card_currency_mismatch": "Bei dieser Bestellung können nur Geschenkkarten in %{checkout_currency} verwendet werden",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Geschenkkarten werden nicht mit aufgeschobenen Kaufoptionen unterstützt.",
+        "gift_card_buying_gift_card": "Sie können eine Geschenkkarte nicht verwenden, um eine andere Geschenkkarte zu kaufen",
+        "payment_gateway_needs_paid_plan_error": "Diese Zahlungsmethode ist derzeit im Store nicht verfügbar",
+        "payment_gateway_not_in_test_mode": "ist nicht zum Testen von Bestellungen eingerichtet. Dieser Shop kann keine echten Bestellungen oder echten Zahlungen annehmen.",
+        "payment_gateway_incompatible_with_multi_currency": "Um diesen Checkout in Ihrer Landeswährung abzuschließen, müssen Sie per Kreditkarte bezahlen.",
+        "payment_gateway_unsupported_for_subscriptions": "Diese Zahlungsmethode ist für Abonnementbestellungen nicht verfügbar.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "Diese Zahlungsmethode ist für aufgeschobene Kaufoptionen nicht verfügbar.",
+        "payment_gateway_unsupported_for_country": "Diese Zahlungsmethode ist für Ihr Lieferland nicht verfügbar.",
+        "purchase_options_agreement_blank": "Um mit Ihrem Einkauf fortzufahren, stimmen Sie den Bedingungen für aufgeschobene oder wiederkehrende Käufe zu.",
+        "physical_gift_card_invalid_quantity": "Physische Geschenkgutscheinpositionen müssen eine Menge haben, die der Anzahl der Geschenkgutscheincodes entspricht.",
+        "physical_gift_card_duplicate_code": "Die Position der physischen Geschenkkarte enthält doppelten Code.",
+        "physical_gift_card_invalid_code": "Der physische Geschenkkartencode ist ungültig."
+      },
+      "payment_errors": {
+        "generic_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "rejected_transaction": "Ihre Bezahlung wurde abgelehnt. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "credit_card_processing": "Ihre Zahlung kann aus technischen Gründen nicht verarbeitet werden. Versuchen Sie es in ein paar Minuten erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "checkout_amount_changed": "Ihre Zahlung konnte nicht verarbeitet werden, da sich der an der Kasse fällige Betrag geändert hat. Bitte überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "deferred_payment_not_allowed": "Zahlungsaufschub ist nicht zulässig. Bitte überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "deferred_payment_required": "Diese Bestellung erfordert eine aufgeschobene Zahlung. Bitte überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "deferred_amount_changed": "Ihre Zahlung konnte nicht verarbeitet werden, da sich der Betrag der aufgeschobenen Zahlung geändert hat. Bitte überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "deferred_date_changed": "Ihre Zahlung konnte nicht verarbeitet werden, da sich das Zahlungsaufschubdatum geändert hat. Bitte überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "order_total_changed": "Ihre Zahlung konnte nicht verarbeitet werden, da sich der Gesamtbetrag Ihrer Bestellung geändert hat. Überprüfen Sie die Gesamtsumme Ihrer Bestellung und versuchen Sie es erneut.",
+        "payment_processing": "Ihre Zahlung kann aus technischen Gründen nicht verarbeitet werden. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "payment_processing_no_retry": "Ihre Zahlung kann aus technischen Gründen nicht verarbeitet werden. Bitte versuchen Sie es mit einer anderen Zahlungsmethode.",
+        "paypal_zero_amount": "Sie können PayPal nicht für %{amount} Bestellungen verwenden. Bestätigen Sie, dass Ihre Bestellung korrekt ist, und checken Sie ohne PayPal aus.",
+        "paypal_invalid_token": "PayPal war nicht verfügbar. Versuchen Sie es erneut oder verwenden Sie eine andere Checkout-Option.",
+        "pay_later_failed": "Bei der Verarbeitung Ihrer Zahlung mit Pay later ist ein Fehler aufgetreten. Wählen Sie eine andere Zahlungsmethode und versuchen Sie es erneut.",
+        "three_d_secure_failed": "Ihre Zahlung konnte nicht verifiziert werden. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "three_d_secure_failed_duplicate": "Die 3D-Secure-Authentifizierung der Kreditkarte ist fehlgeschlagen, da bereits eine andere durchgeführt wird.",
+        "three_d_secure_throttled": "Zu viele Versuche; Bitte warten Sie, bevor Sie es erneut versuchen",
+        "subscription_agreement_blank": "Um ein Abonnement zu kaufen, müssen Ihre Zahlungsdaten gespeichert werden. Um fortzufahren, bestätigen Sie, dass Sie damit einverstanden sind, oder entfernen Sie Abonnementartikel aus Ihrer Bestellung.",
+        "insufficient_funds": "Ihre Zahlung wurde aufgrund unzureichender Deckung abgelehnt. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "multiple_deferred_payment_not_allowed": "Pro Anfrage ist nur eine aufgeschobene Zahlung zulässig. Bitte überprüfen Sie Ihre Anfrage und versuchen Sie es erneut.",
+        "shipping_must_match_billing": "Die Rechnungsadresse muss mit der Lieferadresse übereinstimmen. Bitte verwenden Sie eine andere Zahlungsmethode.",
+        "fraud_payment_errors": {
+          "transaction_declined": "Diese Transaktion wurde abgelehnt",
+          "address_mismatch": "Straße und Postleitzahl stimmen nicht überein.",
+          "cannot_process": "Diese Überweisung kann nicht durchgeführt werden.",
+          "no_match": "Keine Übereinstimmung",
+          "card_declined": "Deine Karte wurde abgelehnt"
+        },
+        "decision_rule_block": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Bitte wenden Sie sich an den Ladenbesitzer."
+      },
+      "shipping_errors": {
+        "shipping_method": "Ihr Warenkorb wurde aktualisiert und der vorherige Versandpreis ist ungültig. Wählen Sie einen neuen Tarif aus.",
+        "shipping_method_not_available": "Ihr Warenkorb wurde aktualisiert und die hinzugefügten Artikel können nicht an Ihre Adresse versendet werden. Entfernen Sie die Artikel, um Ihre Bestellung abzuschließen.",
+        "shipping_method_not_available_generic": {
+          "one": "Diese Bestellung kann nicht an die von Ihnen eingegebene Adresse versendet werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass alle Felder korrekt ausgefüllt wurden, und versuchen Sie es erneut.",
+          "other": "Einige Artikel in Ihrem Einkaufswagen können nicht an die von Ihnen eingegebene Adresse versendet werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass alle Felder korrekt ausgefüllt wurden, und versuchen Sie es erneut."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Der hinzugefügte Artikel wird nicht an Ihren Standort geliefert. Entfernen Sie es zum Auschecken oder wenden Sie sich an das Geschäft.",
+          "other": "Mindestens ein Artikel, den Sie hinzugefügt haben, wird nicht an Ihren Standort geliefert. Entfernen Sie sie zum Auschecken oder wenden Sie sich an das Geschäft."
+        },
+        "payment_method_not_supported": "Sie können diese Zahlungsmethode nicht für %{country} verwenden. Bitte verwenden Sie eine andere Zahlungsmethode, um in dieses Land zu versenden."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Express-Kasse",
+        "or": "ODER"
+      },
+      "alternative_payment_method": {
+        "button_html": "Kasse mit: %{method}",
+        "button_label": "Kasse mit: %{method}"
+      },
+      "paypal": {
+        "button_html": "Kasse mit %{logo}"
+      },
+      "apple_pay": {
+        "button_html": "Kaufen mit %{logo}"
+      },
+      "post_purchase": {
+        "page_title": "Nach Kauf",
+        "title": "Nach Kauf",
+        "escape_confirmation": "Sie haben Ihre Bestellung bezahlt.",
+        "escape_action": "Bestellbestätigung ansehen ›",
+        "components": {
+          "close": "Schließen",
+          "expand": "Mehr sehen",
+          "processing": "Wird bearbeitet…",
+          "submit": "Einreichen"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Umleitung…",
+        "redirecting_title": "Umleitung…",
+        "redirecting_notice": "Warten Sie, während wir Sie weiterleiten.",
+        "complete_your_purchase_title": "Schließen Sie Ihren Einkauf ab",
+        "continue_to_payment_gateway_notice": "Fahren Sie mit der Zahlung fort, um Ihre Zahlungsinformationen hinzuzufügen.",
+        "continue_to_payment_gateway_button_label": "Weiter zur Zahlung",
+        "complete_your_purchase_title_error": "Korrigieren Sie Ihre Zahlungsinformationen",
+        "continue_to_payment_gateway_notice_error": "Ihre Zahlungsinformationen konnten nicht bestätigt werden.",
+        "continue_to_payment_gateway_button_label_error": "Zahlungsinformationen aktualisieren",
+        "page_title": "Auftrag bearbeiten",
+        "title": "Auftrag bearbeiten",
+        "your_order_has_been_received_title": "Danke für Ihre Bestellung",
+        "you_will_receive_confirmation": "Wir bekommen gerade sehr viele Bestellungen. Sie sollten bald eine Bestätigung per E-Mail oder SMS erhalten. Wenn Sie es nicht in der nächsten Stunde erhalten, lassen Sie es uns wissen.",
+        "you_will_not_be_charged": "Sie werden noch nicht belastet",
+        "wait": {
+          "short": "Ihre Bestellung wird bearbeitet."
+        }
       }
     },
     "pagination": {
