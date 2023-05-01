@@ -12,12 +12,12 @@
             "img_desktop": "shopify:\/\/shop_images\/Title_3-transformed.png",
             "img_desktop_height": 850,
             "img_desktop_opacity": 0.7,
-            "title": "Welcome to KS BootShop Theme",
+            "title": "Elektronik Ersatzteile Schweiz",
             "title_size": "h2",
-            "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
+            "description": "",
             "description_size": "fs-5",
-            "btn_text": "Download Free",
-            "btn_url": "https:\/\/www.kondasoft.com\/products\/ks-bootshop",
+            "btn_text": "Produkte",
+            "btn_url": "shopify:\/\/collections",
             "btn_color": "btn-primary",
             "btn_size": ""
           }
