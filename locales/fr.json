@@ -812,8 +812,102 @@
         "shop_pay_installments": {
           "paid_in_installments": "Payez en plusieurs fois avec Shop Pay.",
           "view_schedule": "voir le calendrier"
+        },
+        "gift_card_payment_details": "se termine par {{lastDigits}} - {{formattedTransactionAmount}}"
+      },
+      "shipping": {
+        "address": "Adresse de livraison",
+        "address_map_marker": "Adresse de livraison",
+        "method": "Mode de livraison",
+        "summary": "Expédition",
+        "free": "Gratuit"
+      },
+      "show_items": "Afficher l'article",
+      "subtitle": "Confirmé le {{date}}",
+      "subtotal": "Total",
+      "summary_list_title_accessibility_label": "Items commandés",
+      "summary_title": "Aperçu de la commande",
+      "summary_totals_title_accessibility_label": "totaux des commandes",
+      "taxes": "Diriger",
+      "title": "Commandez {{name}}",
+      "total": "Au total",
+      "unit_price": "( {{price}} \/ch)",
+      "location": "Emplacement",
+      "fully_refunded_label": "REMBOURSÉ",
+      "partially_refunded_label": "PARTIELLEMENT REMBOURSÉ",
+      "refunded_amount": "remboursé",
+      "discount": "Rabais",
+      "no_data": "aucun",
+      "pagination": {
+        "load_more": "charger plus",
+        "load_more_accessibility_label": "Charger plus d'articles",
+        "loading_accessibility_label": "charger l'article"
+      },
+      "returns": {
+        "expand_events_label": "Afficher les détails",
+        "hide_events_label": "cacher les détails",
+        "print_shipping_label": "Imprimer l'étiquette d'expédition",
+        "tracking_number": "Numéro de suivi:",
+        "ineligible_return_with_policy_message": "Aucun article de cette commande ne peut être retourné. Lisez notre {{returnAndRefundPolicyLinkText}} pour en savoir plus.",
+        "ineligible_return_without_policy_message": "Aucun article de cette commande ne peut être retourné.",
+        "return_and_refund_link_text": "Politique de retour et de remboursement",
+        "return_and_refund_modal_header": "Politique de retour et de remboursement"
+      },
+      "request_return_failed": "Il y avait un problème lors du traitement de votre demande. Veuillez réessayer.",
+      "mobile_summary_toggle_button": {
+        "open": "Afficher l'aperçu de la commande",
+        "closed": "Masquer le récapitulatif de la commande"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Afficher les détails",
+        "expand_events_accessibility_label": "Afficher les détails d'expédition de la commande",
+        "hide_events_label": "cacher les détails",
+        "hide_events_accessibility_label": "Masquer les détails d'expédition de la commande"
+      },
+      "show_order_summary": "Afficher l'aperçu de la commande",
+      "hide_order_summary": "Masquer le récapitulatif de la commande",
+      "company": "Poursuivre",
+      "no_data_provided_accessibility_label": "{{fieldName}} est vide",
+      "marketing_section_title": "Actualités et offres",
+      "marketing_description": "Vous recevez des e-mails marketing. Vous pouvez vous désabonner à tout moment.",
+      "marketing_checkbox_label": "Envoyez-moi un e-mail avec des nouvelles et des offres",
+      "marketing_checkmark_label": "Vous vous êtes abonné pour recevoir des actualités et des offres par e-mail",
+      "image_gallery": {
+        "next": "Afficher les prochains articles",
+        "previous": "Voir les articles précédents"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Boutique de téléchargement pour suivre le colis",
+        "track_order_with_shop": "Suivre la commande avec la boutique",
+        "title_header": "Scannez avec votre téléphone",
+        "real_time_delivery_updates": "La boutique vous enverra des mises à jour de livraison en temps réel une fois votre commande expédiée."
+      },
+      "shop_pay": {
+        "order_completed_with": "Commande complétée avec",
+        "learn_more": "Apprendre encore plus"
+      },
+      "edit_summary": {
+        "added": "Ajoutée",
+        "added_with_quantity": "Ajout de {{quantity}}",
+        "removed": "SUPPRIMÉ",
+        "removed_with_quantity": "{{quantity}} supprimé",
+        "updated_at": "Votre commande a été mise à jour le {{date}}"
+      },
+      "pickup": {
+        "pickup": "Ramasser",
+        "pickup_location": "point de rencontre"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Payé avec des versements Shop Pay",
+        "description": "Gardez une trace de votre calendrier de paiement avec des rappels dans l'application de la boutique.",
+        "payment_reminders_button": "Recevoir des rappels de paiement",
+        "desktop_qr_code_content": {
+          "title": "Rechercher des souvenirs",
+          "description": "Laissez Shop vous rappeler vos paiements échelonnés."
         }
-      }
+      },
+      "order_details": "Détails de la commande",
+      "contact_information": "coordonnées"
     },
     "B2B": {
       "draft_order_details": {
@@ -979,6 +1073,43 @@
         "next_payment_due": "Prochain paiement dû le {{dueDateInMonthDayYear}}",
         "edit_payment_method_button": "Modifier",
         "edit_payment_method_button_accessibility_label": "Modifier le mode de paiement se terminant par {{lastDigits}}"
+      }
+    },
+    "addresses": {
+      "add_button": "Ajouter une adresse",
+      "address_deleted_notification": "Adresse supprimée",
+      "cancel_adding_address_accessibility_label": "Annuler l'ajout d'une adresse",
+      "cancel_deletion_button": "Annuler",
+      "cancel_deletion_button_accessibility_label": "Annuler la suppression de {{address}}",
+      "default_address": {
+        "title": "Adresse par défaut",
+        "title_accessibility_label": "Adresse par défaut : {{address}}"
+      },
+      "delete_button": "Éteindre",
+      "delete_button_accessibility_label": "Supprimer {{address}}",
+      "delete_confirmation_button": "Supprimer l'adresse",
+      "delete_confirmation_button_accessibility_label": "Supprimer {{address}}",
+      "delete_confirmation_message": "Supprimer l'adresse ? Les commandes existantes ne sont pas affectées.",
+      "edit_button": "Modifier",
+      "edit_button_accessibility_label": "Modifier {{address}}",
+      "edit_section_accessibility_label": "Modifier {{address}}",
+      "loading_accessibility_message": "l'adresse est chargée",
+      "loading_addresses_accessibility_message": "Les adresses sont chargées",
+      "loading_billing_accessibility_message": "L'adresse de facturation est chargée",
+      "loading_finished_accessibility_message": "Une nouvelle page avec des adresses a été chargée",
+      "loading_shipping_accessibility_message": "L'adresse de livraison est chargée",
+      "pagination": {
+        "load_more": "charger plus",
+        "load_more_accessibility_label": "Charger plus d'adresses"
+      },
+      "save_new_address_accessibility_label": "enregistrer l'adresse",
+      "title": "adresses",
+      "delete_confirmation_title": "Supprimer l'adresse ?",
+      "delete_confirmation_description": "Les commandes existantes ne sont pas affectées.",
+      "edit_modal_title": {
+        "default": "Modifier l'adresse",
+        "billing": "Modifier l'adresse de facturation",
+        "shipping": "modifier l'adresse de livraison"
       }
     }
   },
