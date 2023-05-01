@@ -50,7 +50,7 @@
         "controls": true,
         "indicators": true,
         "autoplay": true,
-        "animation": "slide",
+        "animation": "slide carousel-fade",
         "mt": 0,
         "mb": 0
       }
