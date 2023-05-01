@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "pagetify-template": {
+      "type": "pagetify-template",
+      "settings": {
+        "type": "collection",
+        "width": "boxed",
+        "templateId": "884711"
+      }
+    }
+  },
+  "order": [
+    "pagetify-template"
+  ]
+}
