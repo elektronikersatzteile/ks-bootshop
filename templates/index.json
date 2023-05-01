@@ -194,7 +194,7 @@
 
       ],
       "settings": {
-        "html": "<style>\n    .responsive-map {\n      position: relative;\n      padding-bottom: 56.25%; \/* Adjust this value according to the aspect ratio \/\n      height: 0;\n      overflow: hidden;\n      margin: 0 auto; \/ Center the map horizontally \/\n    }\n\n    .responsive-map iframe {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      border: 0;\n    }\n\n    @media screen and (min-width: 768px) {\n      .responsive-map {\n        width: 50%; \/ Adjust this value to make the map smaller or larger on desktop *\/\n      }\n    }\n  <\/style>\n\n\n  <div class=\"responsive-map\">\n    <iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=...\" width=\"600\" height=\"338\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>\n  <\/div>",
+        "html": "<body>\n\n\n  <style>\n    .responsive-map {\n      position: relative;\n      overflow: hidden;\n      margin: 0 auto; \/* Center the map horizontally \/\n    }\n\n    .responsive-map iframe {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      border: 0;\n    }\n\n    @media screen and (min-width: 768px) {\n      .responsive-map {\n        width: 50%; \/ Adjust this value to make the map smaller or larger on desktop *\/\n      }\n    }\n  <\/style>\n\n\n  <div class=\"responsive-map\" style=\"height: 338px;\">\n    <iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=...\" width=\"600\" height=\"338\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>\n  <\/div>\n\n<\/body>",
         "bg_color": "",
         "container": "container-fluid",
         "text_align": "text-center",
