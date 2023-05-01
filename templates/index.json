@@ -194,7 +194,7 @@
 
       ],
       "settings": {
-        "html": "<style>\n    .responsive-map {\n      position: relative;\n      padding-bottom: 75%;\n      height: 0;\n      overflow: hidden;\n    }\n\n    .responsive-map iframe {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      border: 0;\n    }\n  <\/style>\n\n\n  <div class=\"responsive-map\">\n    <iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d43385.08371217071!2d8.66269973870701!3d47.18589939892329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ab2259902d0df%3A0x6a5f99845c89977a!2sWollerau!5e0!3m2!1sde!2sch!4v1682949782102!5m2!1sde!2sch\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>\n  <\/div>",
+        "html": "<style>\n    .responsive-map {\n      position: relative;\n      padding-bottom: 75%;\n      height: 0;\n      overflow: hidden;\n    }\n\n    .responsive-map iframe {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      border: 0;\n    }\n\n    @media screen and (min-width: 768px) {\n      .responsive-map {\n        width: 50%; \/* Adjust this value to make the map smaller or larger on desktop \/\n        margin: 0 auto; \/ Center the map horizontally *\/\n      }\n    }\n  <\/style>\n\n\n  <div class=\"responsive-map\">\n    <iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=...\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>\n  <\/div>",
         "bg_color": "",
         "container": "container-fluid",
         "text_align": "text-center",
