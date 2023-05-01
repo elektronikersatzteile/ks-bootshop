@@ -384,6 +384,385 @@
           "unpaid": "Unbezahlt"
         }
       }
+    },
+    "challenge": {
+      "submit_button_text": "Einreichen"
+    },
+    "checkpoint": {
+      "message": "Lösen Sie das Captcha, um fortzufahren",
+      "error": "Captcha-Validierung fehlgeschlagen",
+      "submit_button_text": "Einreichen"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Normalerweise in 1 Stunde fertig",
+        "two_hours": "Normalerweise in 2 Stunden fertig",
+        "four_hours": "Normalerweise in 4 Stunden fertig",
+        "twenty_four_hours": "Normalerweise in 24 Stunden fertig",
+        "two_to_four_days": "Normalerweise in 2-4 Tagen fertig",
+        "five_or_more_days": "Normalerweise in 5+ Tagen fertig",
+        "zero_to_two_hours": "Normalerweise in 2 Stunden fertig",
+        "two_to_four_hours": "Normalerweise in 4 Stunden fertig",
+        "immediately": "Jetzt abholbereit",
+        "next_day": "Am nächsten Tag abholbereit"
+      }
+    }
+  },
+  "customer_accounts": {
+    "enable_javascript": "Um Ihr Konto anzuzeigen, aktivieren Sie JavaScript in Ihren Browsereinstellungen oder melden Sie sich mit einem anderen Browser an.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Kontomenü ausblenden",
+        "label": "Konto",
+        "show_accessibility_label": "Kontomenü anzeigen"
+      },
+      "action_menu_accessibility_label": "Mehr Aktionen",
+      "close_menu_accessibility_label": "Hauptnavigation schließen",
+      "contact_email_subject": "Kontakt vom Online-Shop von {{shopName}}",
+      "contact_link": "Kontaktiere uns",
+      "delete_confirmation": {
+        "cancel": "Stornieren",
+        "delete": "Löschen"
+      },
+      "dismiss_toast": "Zurückweisen",
+      "document_title": "{{sectionName}} – {{shopName}} – Konto",
+      "go_to_store_link": "Zum Laden gehen",
+      "loading_message": "Wird geladen",
+      "log_out_link": "Ausloggen",
+      "logout_overlay_label": "Sie werden abgemeldet...",
+      "nav_label_accessibility_label": "Hauptnavigation",
+      "navigation_accessibility_message": "Sie haben zu {{sectionName}} navigiert",
+      "open_menu_accessibility_label": "Hauptnavigation öffnen",
+      "orders_link_label": "Aufträge",
+      "shop_logo_accessibility_label": "{{shopName}} Logo",
+      "subscriptions_link_label": "Abonnements"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Kontoinformationen werden geladen",
+      "loading_finished_accessibility_message": "Kontoinformationen wurden geladen",
+      "profile_card": {
+        "cancel": "Stornieren",
+        "cancel_accessibility_label": "Bearbeiten des Profils abbrechen",
+        "edit": "Bearbeiten",
+        "edit_accessibility_label": "Profil bearbeiten",
+        "email_help_text": "Die für die Anmeldung verwendete E-Mail-Adresse kann nicht geändert werden",
+        "first_name": "Vorname",
+        "last_name": "Familienname, Nachname",
+        "phone_number_help_text": "Die für die Anmeldung verwendete Telefonnummer kann nicht geändert werden",
+        "save": "Speichern",
+        "save_accessibility_label": "Profil sichern",
+        "title": "Profil"
+      },
+      "profile_update_confirmation_message": "Profil aktualisiert",
+      "title": "Kontoinformationen",
+      "people": {
+        "pagination": {
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Laden Sie mehr Leute ein",
+          "loading_accessibility_label": "Leute laden"
+        }
+      },
+      "add_button": "Hinzufügen"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Layoutoptionen",
+      "list_title": "Aufträge",
+      "order_list": {
+        "column_headers": {
+          "order": "Befehl",
+          "items": "Artikel",
+          "total": "Gesamt"
+        },
+        "delivered": "Geliefert am {{date}}",
+        "empty_state_order_source_description": "Hier werden nur Bestellungen angezeigt, die von {{email}} aufgegeben wurden.",
+        "empty_state_subtitle": "Gehen Sie zum Geschäft, um eine Bestellung aufzugeben.",
+        "empty_state_title": "Noch keine Bestellungen",
+        "empty_state_title_for_pending_orders": "Keine ausstehenden Bestellungen",
+        "estimated_shortform": "Europäische Sommerzeit. {{date}}",
+        "estimated_delivery": "Voraussichtliche Lieferung {{date}}",
+        "one_images_accessibility_label": "Bestellung enthält {{lineItemName1}}",
+        "two_images_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "Die Bestellung umfasst {{lineItemName1}} , {{lineItemName2}} und {{numberOfAdditionalProducts}} weitere Produkte",
+        "more_than_four_products_accessibility_label": "Die Bestellung umfasst {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} und {{numberOfAdditionalProducts}} weitere Produkte",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} Produkte",
+        "carousel": {
+          "one_products_accessibility_label": "Bestellung enthält {{lineItemName1}} Menge {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}} , {{lineItemName4}} Menge {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}} , {{lineItemName4}} Menge {{lineItemQuantity4}} , {{lineItemName5}} Menge {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}} , {{lineItemName4}} Menge {{lineItemQuantity4}} , {{lineItemName5}} Menge {{lineItemQuantity5}} , {{lineItemName6}} Menge {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Bestellung beinhaltet {{lineItemName1}} Menge {{lineItemQuantity1}} , {{lineItemName2}} Menge {{lineItemQuantity2}} , {{lineItemName3}} Menge {{lineItemQuantity3}} , {{lineItemName4}} Menge {{lineItemQuantity4}} , {{lineItemName5}} Menge {{lineItemQuantity5}} , {{lineItemName6}} Menge {{lineItemQuantity6}} und mehr",
+          "view_order_details": "Bestell Details ansehen",
+          "previous": "Vorherige",
+          "next": "Nächste"
+        },
+        "items": {
+          "one": "{{count}} Artikel",
+          "other": "{{count}} Artikel"
+        },
+        "list_view": "Listenansicht anzeigen",
+        "no_filtered_results_description": "Filter entfernen oder anpassen, um Ihre Bestellungen anzuzeigen",
+        "no_filtered_results_title": "Keine gefilterten Ergebnisse",
+        "order_link": "Bestellung {{name}} anzeigen",
+        "order_number": "Bestelle {{name}}",
+        "orders_title": "Bestätigt",
+        "pagination": {
+          "nav_accessibility_label": "Navigationsschaltflächen für Bestellungen",
+          "next": "Nächste",
+          "next_accessibility_label": "Nächste Bestellungen",
+          "previous": "Vorher",
+          "previous_accessibility_label": "Vorherige Bestellungen",
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Laden Sie mehr Bestellungen"
+        }
+      }
+    },
+    "addresses": {
+      "delete_confirmation_description": "Bestehende Bestellungen sind davon nicht betroffen.",
+      "edit_button": "Bearbeiten",
+      "edit_button_accessibility_label": "{{address}} bearbeiten",
+      "edit_section_accessibility_label": "{{address}} bearbeiten",
+      "edit_modal_title": {
+        "default": "Adresse bearbeiten",
+        "billing": "Rechnungsadresse bearbeiten",
+        "shipping": "Versandadresse bearbeiten"
+      },
+      "loading_accessibility_message": "Adresse wird geladen",
+      "loading_addresses_accessibility_message": "Adressen werden geladen",
+      "loading_billing_accessibility_message": "Rechnungsadresse wird geladen",
+      "loading_finished_accessibility_message": "Neue Seite mit Adressen wurde geladen",
+      "loading_shipping_accessibility_message": "Versandadresse wird geladen",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Laden Sie weitere Adressen"
+      },
+      "save_new_address_accessibility_label": "Adresse speichern",
+      "title": "Adressen",
+      "billing_address_dropdown_placeholder": "Rechnungsadresse"
+    },
+    "address_form": {
+      "attention": "Aufmerksamkeit",
+      "attention_help_text": "Der Name einer Person oder Abteilung",
+      "auto_complete_close_accessibility_label": "Vorschläge schließen",
+      "auto_complete_title": "Vorschläge",
+      "billing_address": "Als Rechnungsadresse verwenden",
+      "cancel": "Stornieren",
+      "cancel_accessibility_label": "Bearbeiten der Adresse {{address}} abbrechen",
+      "creation_success_notification": "Adresse hinzugefügt",
+      "default_address": "Dies ist meine Standardadresse",
+      "default_address_creation_success_notification": "Standardadresse hinzugefügt",
+      "default_address_update_success_notification": "Standardadresse aktualisiert",
+      "loading_add_form_accessibility_message": "Neues Adressformular wird geladen",
+      "loading_edit_form_accessibility_message": "Formular zum Bearbeiten der Adresse wird geladen",
+      "loading_form_accessibility_message": "Adressformular wird geladen",
+      "loading_finished_accessibility_message": "Adressformular wurde geladen",
+      "save": "Speichern",
+      "save_accessibility_label": "Adresse speichern {{address}}",
+      "section_title_accessibility_label": "Adresse hinzufügen",
+      "update_success_notification": "Adresse aktualisiert"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Name der Firma",
+        "company_card_section_accessibility_label": "Unternehmen",
+        "company_card_main_contact_label": "Hauptkontakt",
+        "company_card_location_count_label": "Standorte"
+      },
+      "locations": {
+        "contact_list_title": "Menschen",
+        "contact_permissions": "Berechtigungen",
+        "contact_phone_number": "Telefonnummer",
+        "location_picker_label": "Standortnamen",
+        "location_picker_accessibility_label": "Standortname: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : Zahlungen fällig innerhalb von {{numberOfDays}} Tagen",
+        "own_role_contact_name": "Du",
+        "pagination": {
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Laden Sie mehr Standorte"
+        },
+        "payment_details_title": "Zahlungsdetails",
+        "payment_terms": "Zahlungsbedingungen",
+        "permissions_label": "Ihre Berechtigungen",
+        "permissions_title": "Berechtigungen",
+        "section_title": "Standort",
+        "shipping_address_required": "Fügen Sie diesem Standort eine Lieferadresse hinzu, um Bestellungen aufzugeben.",
+        "staff_and_permissions_title": "Personal und Berechtigungen",
+        "tax_details_title": "Steuerdetails",
+        "tax_id": "Steuer ID",
+        "tax_exemptions": "Steuerbefreiungen",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} mehr",
+        "multiple_tax_exemptions_and": "Und",
+        "tax_exemptions_modal_close": "Schließen",
+        "taxes_none": "Keiner",
+        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemptions_modal_button_accessibility_label": "Alle Steuerbefreiungen anzeigen"
+      },
+      "location_selection": {
+        "continue_to_store": "Weiter speichern",
+        "description": "Wenn Sie bereits Artikel in Ihrem Einkaufswagen haben, kann sich ein Standortwechsel auf Preise und Mengen im Einkaufswagen auswirken.",
+        "list_accessibility_label": "Standortliste",
+        "list_item_without_address_accessibility_label": "{{name}} : Keine Adresse",
+        "list_loading_accessibility_message": "Liste der Standorte wird geladen",
+        "list_loading_address_accessibility_message": "Ladeadresse für {{locationName}}",
+        "list_loading_finished_accessibility_message": "Liste der Standorte wurde geladen",
+        "loading_store_accessibility_message": "Zum Laden gehen",
+        "no_location_title": "Nur persönliche Bestellungen",
+        "no_location_description": "Sie sind nicht mehr berechtigt, Bestellungen für {{company}} aufzugeben. Sie können weiterhin persönliche Bestellungen aufgeben.",
+        "no_locations_found": "Keine Standorte gefunden",
+        "search": "Suchen Sie nach einem Ort",
+        "search_location_title": "Wähle einen Ort",
+        "selection_cancel_button": "Stornieren",
+        "selection_confirmation_button": "Ort wählen",
+        "title": "Für welchen Standort kaufen Sie ein?",
+        "clear_search": "Saubere Suche",
+        "try_new_search": "Versuchen Sie eine neue Suche"
+      },
+      "addresses": {
+        "add_billing_address_button": "Rechnungsadresse hinzufügen",
+        "add_billing_address_section_accessibility_label": "Rechnungsadresse hinzufügen",
+        "add_shipping_address_button": "Lieferadresse hinzufügen",
+        "add_shipping_address_section_accessibility_label": "Lieferadresse hinzufügen",
+        "billing_address_card_title": "Rechnungsadresse",
+        "cancel_adding_billing_address_accessibility_label": "Brechen Sie das Hinzufügen der Rechnungsadresse ab",
+        "cancel_adding_shipping_address_accessibility_label": "Hinzufügen der Lieferadresse abbrechen",
+        "save_new_billing_address_accessibility_label": "Rechnungsadresse speichern",
+        "save_new_shipping_address_accessibility_label": "Lieferadresse speichern",
+        "shipping_address_card_title": "Lieferanschrift"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Versteck alles",
+          "show_all": "Zeige alles",
+          "hide_all_accessibility_label": "Alle Bestellungen in der Überprüfung ausblenden",
+          "show_all_accessibility_label": "Alle Bestellungen im Überblick anzeigen",
+          "show_all_orders_in_review": "Alle Bestellungen im Überblick anzeigen"
+        }
+      }
+    },
+    "payment_methods": {
+      "expiration_warning_button_accessibility_label": "Ablaufwarnung für {{paymentMethodName}} anzeigen, die auf {{lastDigits}} endet",
+      "expires_soon": "Diese Karte läuft bald ab",
+      "expired": "Diese Karte ist ungültig",
+      "card_update_consent": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert.",
+      "digital_wallet_title": "Digitale Geldbörse",
+      "credit_or_debit_card_title": "Kredit- oder Debitkarte",
+      "google_pay": {
+        "loading": "Laden von Google Pay",
+        "errors": {
+          "generic": "Es gab ein Problem mit Google Pay. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "missing_billing_address": "Für Google Pay ist eine Rechnungsadresse erforderlich. Bitte fügen Sie eine zu Ihrem Konto hinzu."
+        }
+      },
+      "apple_pay": {
+        "loading": "Laden von Apple Pay",
+        "errors": {
+          "generic": "Es gab ein Problem mit Apple Pay. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "not_available": "Apple Pay ist auf diesem Gerät nicht verfügbar.",
+          "missing_billing_address": "Apple Pay erfordert eine Rechnungsadresse. Bitte fügen Sie eine zu Ihrem Konto hinzu."
+        }
+      },
+      "payment_details": {
+        "title": "Einzelheiten zur Zahlungsmethode",
+        "credit_card_details_accessibility_label": "endet auf {{lastDigits}}",
+        "billing_title": "Rechnungsadresse",
+        "card_info_title": "Karteninformationen",
+        "payment_method_expiring_on": "Läuft am {{expiryDate}} ab",
+        "payment_method_expired_on": "Abgelaufen am {{expiryDate}}",
+        "preauthorized_payments": "Vorautorisierte Zahlungen",
+        "close_payment_modal": "Schließen",
+        "close_payment_modal_accessibility_label": "Details zur Zahlungsmethode modal schließen",
+        "payment_method_not_found_error": "Zahlungsmethode kann nicht gefunden werden",
+        "payment_details_loading": "Details zur Zahlungsmethode werden geladen",
+        "pre_authorized_payments": "Vorautorisierte Zahlungen",
+        "total_amount_of_subscription_line_items_left": "und {{total}} mehr",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} Artikel insgesamt, Anzeige von {{totalItemsToDisplay}} Artikeln.",
+        "next_payment_due": "Nächste Zahlung fällig am {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Bearbeiten",
+        "edit_payment_method_button_accessibility_label": "Zahlungsmethode bearbeiten, die auf {{lastDigits}} endet",
+        "loading_shop_pay": "Shop Pay wird geladen",
+        "invalid_payment_method": "Ungültige Zahlungsmethode",
+        "invalid_payment_method_message": "Verwenden Sie eine neue Kreditkarte, um weiterhin anstehende Bestellungen zu erhalten.",
+        "replace_payment_method": "Zahlungsmethode ersetzen"
+      },
+      "edit_payment_method": {
+        "title": "Zahlungsmethode bearbeiten",
+        "save_payment_method_button": "Speichern",
+        "cancel_edit_payment_method_button": "Stornieren",
+        "payment_method_updated_toast": "Zahlungsmethode aktualisiert",
+        "billing_address": "Rechnungsadresse",
+        "billing_address_add_new": "Neue hinzufügen",
+        "billing_address_choose_from_list": "Wählen Sie aus der Liste",
+        "future_purchases_notice": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert."
+      },
+      "card_fields": {
+        "card_number_label": "Kartennummer",
+        "card_number_placeholder": "Kartennummer",
+        "name_on_card_label": "Name auf der Karte",
+        "name_on_card_placeholder": "Name auf der Karte",
+        "card_expiry_label": "Ablaufdatum (MM \/ JJ)",
+        "card_expiry_placeholder": "Ablaufdatum (MM \/ JJ)",
+        "card_verification_value_label": "Sicherheitscode",
+        "card_verification_value_placeholder": "Sicherheitscode",
+        "card_start_label": "Ausstellungsdatum (MM \/ JJ)",
+        "card_start_placeholder": "Ausstellungsdatum (MM \/ JJ)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Mehr Informationen",
+          "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite Ihrer Karte",
+          "card_verification_value_explanation_other": "3-stelliger Sicherheitscode auf der Rückseite Ihrer Karte",
+          "card_verification_value_explanation": "3-stelliger Sicherheitscode, der normalerweise auf der Rückseite Ihrer Karte zu finden ist. American Express-Karten haben einen 4-stelligen Code auf der Vorderseite.",
+          "card_security_notice": "Alle Transaktionen sind sicher und verschlüsselt."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte steht",
+          "credit_card_number_invalid": "Geben Sie eine gültige Kartennummer ein",
+          "credit_card_expiry_invalid": "Geben Sie ein gültiges Kartenablaufdatum ein",
+          "credit_card_verification_value_blank": "Geben Sie den CVV- oder Sicherheitscode auf Ihrer Karte ein"
+        }
+      },
+      "payment_delete": {
+        "title": "Zahlungsmethode löschen",
+        "description_without_replacement": "Diese Zahlungsmethode wird für zukünftige Einkäufe nicht mehr verfügbar sein.",
+        "description_with_replacement": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorautorisierte Zahlungen aus. Sie können es optional durch eine andere Zahlungsmethode ersetzen, um anstehende Bestellungen weiterhin zu erhalten.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorautorisierte Zahlungen aus. Sofern Sie keine alternative Zahlungsmethode auswählen, wird diese Zahlungsmethode weiterhin mit allen ausstehenden Beträgen für bestehende Bestellungen belastet. Wenn Sie eine alternative Zahlungsmethode auswählen, können Sie anstehende Abonnementbestellungen ohne Unterbrechung erhalten.",
+          "with_pending_orders": "Wenn Sie diese Zahlungsmethode löschen, wird sie aus Ihrem Konto entfernt und steht für zukünftige Einkäufe nicht mehr zur Verfügung. Sofern Sie keine alternative Zahlungsmethode auswählen, werden alle ausstehenden Beträge für bestehende Bestellungen dennoch in Rechnung gestellt.",
+          "with_subscriptions": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorautorisierte Zahlungen aus. Ersetzen Sie es durch eine alternative Zahlungsmethode, um weiterhin anstehende Bestellungen zu erhalten."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorautorisierte Zahlungen aus. Diese Zahlungsmethode wird weiterhin mit ausstehenden Beträgen für bestehende Bestellungen belastet, Sie erhalten jedoch keine anstehenden Abonnementbestellungen. Fügen Sie eine alternative Zahlungsmethode hinzu, um weiterhin Abonnementbestellungen zu erhalten.",
+          "with_pending_orders": "Wenn Sie diese Zahlungsmethode löschen, wird sie aus Ihrem Konto entfernt und steht für zukünftige Einkäufe nicht mehr zur Verfügung. Es werden weiterhin alle ausstehenden Salden für bestehende Bestellungen in Rechnung gestellt.",
+          "with_subscriptions": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorautorisierte Zahlungen aus. Fügen Sie eine alternative Zahlungsmethode hinzu, um weiterhin anstehende Bestellungen zu erhalten."
+        },
+        "payment_method_selector_placeholder": "Wählen Sie eine Ersatzzahlungsmethode (optional)",
+        "payment_method_selector_no_alternative_payment": "Keine Ersatzmethode",
+        "replace_method_with_new_method_description": "Ihr {{currentPaymentMethodName}} wird gelöscht und durch Ihren {{newPaymentMethodName}} ersetzt.",
+        "error_when_deleting": "Wir entschuldigen uns, aber etwas ist schief gelaufen und wir konnten diese Zahlungsmethode nicht löschen. Bitte versuchen Sie es später erneut oder aktualisieren Sie die Seite.",
+        "delete_and_replace_button": "Löschen und ersetzen",
+        "delete_and_replace_button_accessibility_label": "Löschen Sie {{currentPaymentMethodName}} und ersetzen Sie es durch {{newPaymentMethodName}} .",
+        "deleted_successfully": "Zahlungsmethode erfolgreich gelöscht.",
+        "loading_available_payment_methods_accessibility_label": "Verfügbare Zahlungsmethoden werden geladen"
+      },
+      "add_payment_method": {
+        "title": "Zahlungsmethode hinzufügen",
+        "payment_method_added_confirmation": "Zahlungsmethode hinzugefügt",
+        "billing_address": {
+          "title": "Rechnungsadresse",
+          "add_billing_address_button": "Neue hinzufügen",
+          "add_billing_address_button_accessibility_label": "Neue Rechnungsadresse hinzufügen",
+          "choose_billing_address_from_list_button": "Wählen Sie aus der Liste",
+          "choose_billing_address_from_list_button_accessibility_label": "Wählen Sie eine Rechnungsadresse aus der Liste aus",
+          "missing_billing_address_error_message": "Bitte geben Sie eine Rechnungsadresse an"
+        }
+      }
+    },
+    "payment_method_brands": {
+      "discover": "Entdecken",
+      "visaelectron": "Visa Elektron",
+      "dankort": "Dankeort"
     }
   }
 }
