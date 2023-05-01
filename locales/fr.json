@@ -394,8 +394,10 @@
             "other": "Aucune livraison disponible pour %{count} articles"
           },
           "message": {
-            "one": "Cet article sera supprimé de votre panier car aucun mode de livraison n'est disponible pour votre adresse."
-          }
+            "one": "Cet article sera supprimé de votre panier car aucun mode de livraison n'est disponible pour votre adresse.",
+            "other": "Ces articles seront supprimés de votre panier car aucun mode de livraison n'est disponible pour votre adresse."
+          },
+          "label": "Pas de livraison"
         }
       }
     },
@@ -403,7 +405,10 @@
       "order": {
         "fulfillment_status": {
           "unfulfilled": "Insatisfait",
-          "restocked": "rempli"
+          "restocked": "rempli",
+          "fulfilled": "Réalise",
+          "complete": "Complet",
+          "partial": "Partiellement"
         },
         "transaction_status": {
           "success": "Succès",
@@ -418,7 +423,19 @@
           "customer": "Le client a modifié\/annulé la commande",
           "other": "Autre"
         },
-        "cash_on_delivery": "Paiement à la livraison (COD)"
+        "cash_on_delivery": "Paiement à la livraison (COD)",
+        "not_available": "Cette commande n'est pas disponible",
+        "financial_status": {
+          "authorized": "Autorisé",
+          "pending": "En attente",
+          "paid": "Payé",
+          "unpaid": "non payé",
+          "voided": "annulé",
+          "partially_paid": "Partiellement payé",
+          "partially_refunded": "Partiellement remboursé",
+          "refunded": "remboursé",
+          "expired": "Expiré"
+        }
       },
       "cart": {
         "only_n_items_available": "Vous ne pouvez ajouter que %{count} %{name} au panier.",
@@ -454,6 +471,20 @@
         "add_products": "Restreindre la sélection aux produits correspondant au tag %{tag}",
         "remove_articles": "Élargir la recherche aux éléments non tagués avec %{tag}",
         "remove_products": "Supprimer la balise %{tag}"
+      },
+      "customer": {
+        "password_reset_error": "Erreur lors de la réinitialisation du mot de passe",
+        "no_account_found": "Aucun compte trouvé avec cet e-mail.",
+        "invalid_credentials": "Mauvais email ou mot de passe.",
+        "denylisted_reset_password": "Impossible d'accéder à votre compte car le mot de passe actuel n'est pas sécurisé. Vous recevrez un e-mail pour mettre à jour votre mot de passe."
+      },
+      "address": {
+        "updated": "Adresse mise à jour avec succès.",
+        "error_updating": "Erreur lors de la mise à jour de l'adresse",
+        "created": "Adresse créée avec succès",
+        "error_creating": "Erreur lors de la création de l'adresse.",
+        "deleted": "Adresse supprimée avec succès",
+        "error_deleting": "Erreur lors de la suppression de l'adresse."
       }
     },
     "page_titles": {
@@ -560,6 +591,93 @@
       "boolean": {
         "true_label": "Oui"
       }
+    },
+    "pagination": {
+      "previous": "précédent",
+      "next": "Suivant"
+    },
+    "links": {
+      "powered_by_shopify": "Propulsé par Shopify",
+      "learn_more": "Apprendre encore plus"
+    },
+    "feed": {
+      "more": "Plus"
+    },
+    "attributes": {
+      "password": "mot de passe",
+      "password_confirmation": "La validation du mot de passe",
+      "first_name": "Prénom",
+      "last_name": "nom de famille, nom de famille",
+      "body": "Corps"
+    },
+    "addresses": {
+      "zip_code": "Code postal",
+      "postal_code": "Code Postal",
+      "postcode": "Code Postal",
+      "pincode": "BROCHE",
+      "prefecture": "Préfecture",
+      "province": "province",
+      "state": "Condition",
+      "state_and_territory": "État\/Territoire",
+      "county": "district",
+      "governorate": "gouvernorat",
+      "confirm": "Voulez-vous vraiment supprimer cette adresse ?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Souligné",
+        "best_selling": "Les plus vendus",
+        "az": "Par ordre alphabétique, AZ",
+        "za": "Alphabétiquement ZA",
+        "price_ascending": "Prix croissant",
+        "price_descending": "Prix, décroissant",
+        "date_ascending": "Date, ancienne à nouvelle",
+        "date_descending": "date, du nouveau à l'ancien"
+      }
+    },
+    "errors": {
+      "blank": "ne doit pas être vide",
+      "credit_card_session_expired": "L'autorisation de carte de crédit a expiré, veuillez ressaisir vos informations de paiement. Votre carte n'a pas été débitée.",
+      "empty": "ne peux pas être vide",
+      "invalid_email": "Doit être une adresse e-mail valide",
+      "discount_disabled": "Cette réduction a été désactivée",
+      "discount_expired": "Cette réduction n'est plus valable",
+      "discount_limit_reached": "Cette réduction a atteint sa limite d'utilisation",
+      "discount_not_found": "Aucune remise valide correspondant au code saisi n'a pu être trouvée",
+      "customer_already_used_once_per_customer_discount_notice": "Cette réduction a atteint sa limite d'utilisation",
+      "gift_card_already_applied": "Le code a déjà été appliqué à votre paiement",
+      "gift_card_code_invalid": "Le code est invalide",
+      "gift_card_currency_mismatch": "Votre carte-cadeau est en %{gift_card_currency}. Contactez-nous pour le faire réémettre en %{checkout_currency}.",
+      "gift_card_depleted": "Il n'y a plus de solde sur cette carte-cadeau",
+      "gift_card_disabled": "La carte-cadeau est désactivée",
+      "gift_card_expired": "La carte-cadeau a expiré",
+      "invalid": "est invalide",
+      "bad_domain": "contient un nom de domaine invalide",
+      "taken": "a déjà été repris",
+      "contains_html_tags": "ne doit pas contenir de balises HTML",
+      "too_short": "est trop court (au moins %{count} caractères)",
+      "too_long": "est trop long (maximum %{count} caractères)",
+      "password_mismatch": "doit correspondre au mot de passe donné",
+      "contains_spaces": "commence ou se termine par des espaces.",
+      "email_domain_invalid": "Le fournisseur n'est pas pris en charge",
+      "invalid_for_country": "n'est pas valide pour %{country}",
+      "invalid_for_country_and_province": "n'est pas valide pour %{province} et %{country}",
+      "invalid_province_in_country": "n'est pas une province valide dans %{country}",
+      "invalid_state_in_country": "n'est pas un pays valide dans %{country}",
+      "invalid_region_in_country": "n'est pas une région valide dans %{country}",
+      "less_than_or_equal_to": "doit être inférieur ou égal à %{count}",
+      "not_supported": "n'est pas pris en charge",
+      "full_name_required": "Saisissez un prénom et un nom de famille",
+      "invalid_for_card_type": "est invalide",
+      "invalid_type": "Désolé, nous n'acceptons pas les cartes de ce type",
+      "invalid_format": "Le format n'est pas valide",
+      "expired": "expiré",
+      "invalid_start_date_or_issue_number_for_debit": "une date de début ou un numéro d'émission valide est requis",
+      "invalid_expiry_year": "n'est pas une année d'expiration valide",
+      "reset_password_html": "Cette adresse e-mail est déjà liée à un compte. Si vous possédez ce compte, vous pouvez <a href=\"\/account\/login#recover\">réinitialiser votre mot de passe<\/a>",
+      "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien qu'il contient pour vérifier votre adresse e-mail.",
+      "blocked_address": "Cet emplacement n'est pas pris en charge.",
+      "product_not_available": "Le produit n'est pas publié pour ce client."
     }
   },
   "customer_accounts": {
@@ -863,5 +981,145 @@
         "edit_payment_method_button_accessibility_label": "Modifier le mode de paiement se terminant par {{lastDigits}}"
       }
     }
+  },
+  "general": {
+    "general": {
+      "share": "partager",
+      "copy": "Copie",
+      "copied": "copié !",
+      "all_rights_reserved": "Tous les droits sont réservés.",
+      "secure_payments": "Paiements 100% sûrs et sécurisés",
+      "pagination_page_of": "Page {{ count }} sur {{ total }}",
+      "follow_us": "Soyons amis..."
+    },
+    "accessibility": {
+      "skip_content": "Aller au contenu",
+      "skip_product_content": "Accéder aux informations sur le produit",
+      "utility_icons": "Menu utilitaires",
+      "menu": "Menu",
+      "cart": "Voiture",
+      "account": "Compte",
+      "previous": "précédent",
+      "next": "Suivant",
+      "previous_page": "Page précédente",
+      "next_page": "Page suivante",
+      "close": "Fermer",
+      "decrease_qty": "diminuer le montant",
+      "increase_qty": "pour augmenter le montant",
+      "social_media_links": "Liens de médias sociaux",
+      "cart_product_list": "Articles dans le panier",
+      "payment_methods": "méthodes de payement",
+      "sorted_by": "Trier par",
+      "product_media_gallery": "Galerie média du produit",
+      "product_options": "options de produit"
+    },
+    "offcanvas_search": {
+      "title": "Rechercher dans notre boutique",
+      "input_label": "Commencez à taper pour voir les résultats...",
+      "view_all_results": "Afficher tous les résultats →",
+      "title_collections": "collections",
+      "title_products": "Des produits",
+      "title_pages": "pages",
+      "title_articles": "Article",
+      "search_for": "Rechercher",
+      "result_found": "1 résultat trouvé",
+      "results_found": "[count] résultats trouvés",
+      "no_results": "Aucun résultat trouvé"
+    },
+    "search_page": {
+      "title": "Rechercher dans notre boutique",
+      "title_search_performed": "Résultats de recherche",
+      "no_results": "Aucun résultat trouvé pour \" {{ terms }} \". Vérifiez l'orthographe ou utilisez un autre mot ou une autre phrase.",
+      "results_with_count_and_term": {
+        "one": "{{ count }} résultat trouvé pour \" {{ terms }} \"",
+        "other": "{{ count }} résultats trouvés pour \" {{ terms }} \""
+      },
+      "form": {
+        "input_label": "Rechercher...",
+        "select_label": "types de produits"
+      },
+      "types": {
+        "products": "Des produits",
+        "pages": "pages",
+        "articles": "Article"
+      }
+    },
+    "newsletter": {
+      "input_label": "Entrez votre adresse email...",
+      "confirmation_text": "Merci de vous être abonné, vous aurez bientôt de nos nouvelles.",
+      "submit_button": "S'abonner à"
+    },
+    "breadcrumbs": {
+      "label": "chapelure",
+      "home": "Maison"
+    },
+    "404_page": {
+      "title": "404 Page non trouvée",
+      "subtext": "La page que vous recherchez n'existe pas",
+      "button": "Retournez à la page d'accueil"
+    },
+    "contact": {
+      "phone": "Téléphone facultatif)",
+      "message": "Nouvelles",
+      "send": "Envoyer",
+      "success": "Merci de nous contacter. Nous vous répondrons dès que possible."
+    },
+    "password_page": {
+      "password_form": {
+        "password_label": "mot de passe",
+        "btn_label": "Saisir"
+      }
+    }
+  },
+  "collection": {
+    "empty_html": "Aucun produit trouvé ! <a href=\"\/collections\/all\">Voir tout \"<\/a>",
+    "sort_by": "Trier par",
+    "btn_filter_products": "Afficher les filtres",
+    "paginate_count": "{{ count }} produits sur {{ total }} sont affichés",
+    "count_products": {
+      "one": "{{ count }} produit",
+      "other": "{{ count }} produits"
+    },
+    "filters": {
+      "title": "filtre",
+      "reset": "Réinitialiser par défaut",
+      "from": "Hors de",
+      "to": "Pour",
+      "view_more": "Voir plus",
+      "clear_filter": "Effacer les filtres",
+      "clear_all": "Effacer tout ( {{ count }} )",
+      "view_results": {
+        "one": "Afficher {{ count }} produit",
+        "other": "Afficher {{ count }} produits"
+      },
+      "max_range_notice": "Remarque : Le prix le plus élevé est de {{ value }}"
+    }
+  },
+  "product": {
+    "add_to_cart": "Ajouter au panier",
+    "add": "Ajouter à",
+    "added_to_cart": "✓ Ajouté au panier",
+    "price_regular": "Prix habituel",
+    "price_from": "Hors de",
+    "price_sale": "prix de vente",
+    "price_unit": "prix unitaire",
+    "sold_out": "Solder",
+    "quantity": "Foule",
+    "unavailable": "Pas disponible",
+    "product_options": "options de produit",
+    "buy_it_now": "Achetez-le maintenant",
+    "save": "Enregistrer sur ordinateur",
+    "in_stock": "En stock",
+    "select_variant": "sélectionner la variante",
+    "color_options": "options de couleur"
+  },
+  "cart": {
+    "title": "votre caddie",
+    "empty_html": "<p>Votre carte est actuellement vide<\/p>",
+    "summary": "Résumé",
+    "continue_shopping": "Procéder aux achats",
+    "view_cart": "Voir le panier",
+    "checkout": "Espèces",
+    "remove": "Supprimé"
   }
 }
