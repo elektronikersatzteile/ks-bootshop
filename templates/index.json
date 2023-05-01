@@ -84,58 +84,6 @@
         "mb": 6
       }
     },
-    "6a8fcfd5-432b-4df4-bf73-f4949fea9e88": {
-      "type": "carousel",
-      "blocks": {
-        "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-0": {
-          "type": "slide",
-          "settings": {
-            "img_mobile": "shopify:\/\/shop_images\/TitleOriginal.jpg",
-            "img_mobile_height": 500,
-            "img_mobile_opacity": 0.7,
-            "img_desktop_height": 800,
-            "img_desktop_opacity": 0.7,
-            "title": "Caption for the 1st slide",
-            "title_size": "h2",
-            "description": "",
-            "description_size": "fs-5",
-            "btn_text": "",
-            "btn_url": "",
-            "btn_color": "btn-primary",
-            "btn_size": ""
-          }
-        },
-        "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-1": {
-          "type": "slide",
-          "settings": {
-            "img_mobile_height": 500,
-            "img_mobile_opacity": 0.7,
-            "img_desktop_height": 800,
-            "img_desktop_opacity": 0.7,
-            "title": "Caption for the 2nd slide",
-            "title_size": "h2",
-            "description": "",
-            "description_size": "fs-5",
-            "btn_text": "",
-            "btn_url": "",
-            "btn_color": "btn-primary",
-            "btn_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-0",
-        "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-1"
-      ],
-      "settings": {
-        "controls": true,
-        "indicators": true,
-        "autoplay": false,
-        "animation": "slide",
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "c310b92a-a3c6-494d-8c25-fe7bcde9090d": {
       "type": "featured-products",
       "settings": {
@@ -261,7 +209,6 @@
   "order": [
     "carousel",
     "1651754599ab801902",
-    "6a8fcfd5-432b-4df4-bf73-f4949fea9e88",
     "c310b92a-a3c6-494d-8c25-fe7bcde9090d",
     "165175524396f2667c",
     "16517348541d37c171",
