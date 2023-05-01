@@ -43,7 +43,7 @@
           "logo_height_mobile": 40,
           "logo_height_desktop": 40,
           "offcanvas_menu_header_bg": "bg-dark text-white",
-          "menu_mobile": "menue",
+          "menu_mobile": "",
           "utilities_menu": "",
           "offcanvas_menu_show_social_icons": true,
           "pt": 6,
@@ -56,7 +56,7 @@
           "738cdbe4-d453-45ea-8940-aed81d08bf3b": {
             "type": "menu",
             "settings": {
-              "menu": "",
+              "menu": "sidebar-menu",
               "title": "Shop",
               "title_size": "h6"
             }
