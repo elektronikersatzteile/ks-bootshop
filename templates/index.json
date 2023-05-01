@@ -8,9 +8,10 @@
           "settings": {
             "img_mobile": "shopify:\/\/shop_images\/Title2.png",
             "img_mobile_height": 500,
-            "img_mobile_opacity": 0.7,
-            "img_desktop_height": 800,
-            "img_desktop_opacity": 0.7,
+            "img_mobile_opacity": 0,
+            "img_desktop": "shopify:\/\/shop_images\/Original_title.png",
+            "img_desktop_height": 730,
+            "img_desktop_opacity": 1,
             "title": "Welcome to KS BootShop Theme",
             "title_size": "h2",
             "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
@@ -24,9 +25,9 @@
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify:\/\/shop_images\/pavement-3365703_1920_11b26542-0575-44f7-8432-47b3c9d142ed.jpg",
+            "img_mobile": "shopify:\/\/shop_images\/Verlauf_Blau.png",
             "img_mobile_height": 500,
-            "img_mobile_opacity": 0.7,
+            "img_mobile_opacity": 0,
             "img_desktop_height": 800,
             "img_desktop_opacity": 0.7,
             "title": "Simple to Use, Easy to Customize",
