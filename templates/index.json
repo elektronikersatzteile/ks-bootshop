@@ -47,8 +47,7 @@
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96"
       ],
       "custom_css": [
-        ".carousel-container {position: relative; width: 100%; height: 0; padding-bottom: 56.25%; \/* hier das Seitenverhältnis definieren (z.B. 16:9 = 56.25%) *\/}",
-        ".carousel-container img {position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;}"
+
       ],
       "settings": {
         "controls": true,
@@ -83,6 +82,57 @@
         "pb": 11,
         "mt": 0,
         "mb": 6
+      }
+    },
+    "6a8fcfd5-432b-4df4-bf73-f4949fea9e88": {
+      "type": "carousel",
+      "blocks": {
+        "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-0": {
+          "type": "slide",
+          "settings": {
+            "img_mobile_height": 500,
+            "img_mobile_opacity": 0.7,
+            "img_desktop_height": 800,
+            "img_desktop_opacity": 0.7,
+            "title": "Caption for the 1st slide",
+            "title_size": "h2",
+            "description": "",
+            "description_size": "fs-5",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-primary",
+            "btn_size": ""
+          }
+        },
+        "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-1": {
+          "type": "slide",
+          "settings": {
+            "img_mobile_height": 500,
+            "img_mobile_opacity": 0.7,
+            "img_desktop_height": 800,
+            "img_desktop_opacity": 0.7,
+            "title": "Caption for the 2nd slide",
+            "title_size": "h2",
+            "description": "",
+            "description_size": "fs-5",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-primary",
+            "btn_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-0",
+        "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-1"
+      ],
+      "settings": {
+        "controls": true,
+        "indicators": true,
+        "autoplay": false,
+        "animation": "slide",
+        "mt": 0,
+        "mb": 0
       }
     },
     "c310b92a-a3c6-494d-8c25-fe7bcde9090d": {
@@ -210,6 +260,7 @@
   "order": [
     "carousel",
     "1651754599ab801902",
+    "6a8fcfd5-432b-4df4-bf73-f4949fea9e88",
     "c310b92a-a3c6-494d-8c25-fe7bcde9090d",
     "165175524396f2667c",
     "16517348541d37c171",
