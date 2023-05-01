@@ -6,10 +6,8 @@
         "7c7200c0-9e25-4d6f-8e80-68098f92561e": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify:\/\/shop_images\/lifestyle-1-mobile.jpg",
             "img_mobile_height": 500,
             "img_mobile_opacity": 0.7,
-            "img_desktop": "shopify:\/\/shop_images\/lifestyle-1.jpg",
             "img_desktop_height": 800,
             "img_desktop_opacity": 0.7,
             "title": "Welcome to KS BootShop Theme",
@@ -25,10 +23,8 @@
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify:\/\/shop_images\/lifestyle-2-mobile.jpg",
             "img_mobile_height": 500,
             "img_mobile_opacity": 0.7,
-            "img_desktop": "shopify:\/\/shop_images\/lifestyle-2.jpg",
             "img_desktop_height": 800,
             "img_desktop_opacity": 0.7,
             "title": "Simple to Use, Easy to Customize",
@@ -55,121 +51,6 @@
         "mb": 0
       }
     },
-    "165151877352b831f8": {
-      "type": "featured-products",
-      "settings": {
-        "products": [
-          "bag-series-1",
-          "glasses-series-3",
-          "heat-series-2",
-          "lamp-series-2",
-          "watch-series-1",
-          "bag-series-3",
-          "lamp-series-1",
-          "glasses-series-2"
-        ],
-        "bg_color": "",
-        "text_align": "text-center",
-        "title": "Featured Products",
-        "title_size": "h2",
-        "description": "<p>Add on optional description to this section<\/p>",
-        "description_size": "fs-6",
-        "product_img_orientation": "square",
-        "product_img_border": "img-thumbnail",
-        "product_title_size": "h6",
-        "breakpoint_xs": 2,
-        "breakpoint_sm": 2,
-        "breakpoint_md": 2,
-        "breakpoint_lg": 3,
-        "breakpoint_xl": 4,
-        "breakpoint_xxl": 4,
-        "btn_show": true,
-        "btn_text": "View more products »",
-        "btn_url": "shopify:\/\/collections\/all",
-        "btn_color": "btn-outline-secondary",
-        "pt": 10,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
-      }
-    },
-    "1651733459a1bea1c2": {
-      "type": "featured-collections",
-      "blocks": {
-        "8c529e86-7b51-4d75-baa3-1d4681b8c75c": {
-          "type": "collection",
-          "settings": {
-            "collection": "men",
-            "title": ""
-          }
-        },
-        "77c3798e-6857-46a0-92bc-df3c48109366": {
-          "type": "collection",
-          "settings": {
-            "collection": "women",
-            "title": ""
-          }
-        },
-        "ec048dd5-f669-4b0e-811b-cd904f95bde5": {
-          "type": "collection",
-          "settings": {
-            "collection": "children",
-            "title": ""
-          }
-        },
-        "ec7164c1-d2b0-4fd9-b81f-18204c938d9a": {
-          "type": "collection",
-          "settings": {
-            "collection": "babies",
-            "title": ""
-          }
-        },
-        "9e860958-3e5a-44e1-ace8-49e74c8ea9ef": {
-          "type": "collection",
-          "settings": {
-            "collection": "latest",
-            "title": ""
-          }
-        },
-        "e86d0893-60ca-4bbf-aa40-c1ea7de37bec": {
-          "type": "collection",
-          "settings": {
-            "collection": "sale",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "8c529e86-7b51-4d75-baa3-1d4681b8c75c",
-        "77c3798e-6857-46a0-92bc-df3c48109366",
-        "ec048dd5-f669-4b0e-811b-cd904f95bde5",
-        "ec7164c1-d2b0-4fd9-b81f-18204c938d9a",
-        "9e860958-3e5a-44e1-ace8-49e74c8ea9ef",
-        "e86d0893-60ca-4bbf-aa40-c1ea7de37bec"
-      ],
-      "settings": {
-        "bg_color": "bg-light text-dark",
-        "text_align": "text-center",
-        "title": "Featured Collections",
-        "title_size": "h2",
-        "description": "<p>Add on optional description to this section<\/p>",
-        "description_size": "fs-6",
-        "collection_img_orientation": "landscape",
-        "collection_img_border": "img-thumbnail",
-        "btn_text": "View all collections",
-        "btn_color": "btn-outline-secondary",
-        "breakpoint_xs": 1,
-        "breakpoint_sm": 2,
-        "breakpoint_md": 2,
-        "breakpoint_lg": 3,
-        "breakpoint_xl": 3,
-        "breakpoint_xxl": 3,
-        "pt": 10,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "16527743361f98366e": {
       "type": "cards-with-image",
       "blocks": {
@@ -180,7 +61,6 @@
             "shadow": "shadow-sm",
             "border_color": "",
             "border_width": 1,
-            "img": "shopify:\/\/shop_images\/collection-5.jpg",
             "img_orientation": "landscape",
             "img_crop": "center",
             "title": "Card with image",
@@ -200,7 +80,6 @@
             "shadow": "shadow",
             "border_color": "border-primary",
             "border_width": 1,
-            "img": "shopify:\/\/shop_images\/collection-3.jpg",
             "img_orientation": "landscape",
             "img_crop": "center",
             "title": "Card with image",
@@ -220,7 +99,6 @@
             "shadow": "shadow-sm",
             "border_color": "",
             "border_width": 1,
-            "img": "shopify:\/\/shop_images\/collection-2.jpg",
             "img_orientation": "landscape",
             "img_crop": "center",
             "title": "Card with image",
@@ -240,7 +118,6 @@
             "shadow": "shadow-sm",
             "border_color": "",
             "border_width": 1,
-            "img": "shopify:\/\/shop_images\/collection-4.jpg",
             "img_orientation": "landscape",
             "img_crop": "center",
             "title": "Card with image",
@@ -281,34 +158,21 @@
       "settings": {
         "bg_color": "bg-light text-body",
         "text_align": "text-start",
-        "image": "shopify:\/\/shop_images\/no-image.jpg",
+        "image": "shopify:\/\/shop_images\/mechanism-1641935.jpg",
         "img_orientation": "landscape-x2",
         "img_crop": "center",
         "img_border": "img-thumbnail",
         "img_align_desktop": "flex-lg-row",
-        "title": "Image With Text",
+        "title": "Unsere Werte",
         "title_size": "h2",
         "subtitle": "Some Optional Subtitle",
         "subtitle_size": "fs-6",
-        "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "description": "<p>Entdecke unseren Ersatzteil Online Shop für Smartphones! Bei uns findest du eine große Auswahl an Ersatzteilen und Zubehör zu unschlagbaren Preisen. Wir setzen auf eine effiziente und nachhaltige Beschaffung und verkaufen ausschließlich in der Schweiz - für eine umweltfreundliche und regionale Versorgung.<\/p>",
         "description_size": "fs-6",
         "btn_text": "Learn more",
-        "btn_url": "#",
+        "btn_url": "shopify:\/\/blogs\/news\/eroffnungsbeitrag-elektronik-ersatzteile-schweiz",
         "btn_color": "btn-primary",
         "btn_size": "",
-        "pt": 11,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
-      }
-    },
-    "f79472bd-ea06-4791-b546-621b9bdf76a3": {
-      "type": "external-video",
-      "settings": {
-        "external_video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "bg_color": "",
-        "max_width": "960",
-        "video_border": "img-thumbnail",
         "pt": 11,
         "pb": 11,
         "mt": 0,
@@ -321,43 +185,36 @@
         "1651755243f618171d-0": {
           "type": "text",
           "settings": {
-            "title": "Where do you ship?",
-            "description": "<p>We ship all around the world... Please provide here you own shipping information, including times, prices, options etc.<\/p>"
+            "title": "Wohin liefern wir?",
+            "description": "<p>Wir liefern unsere Ersatzteile in die gesamte Schweiz aus. Egal, ob Sie in einer Stadt oder auf dem Land leben, wir bringen Ihnen Ihre Bestellung schnell und zuverlässig nach Hause.<\/p>"
           }
         },
         "1651755243f618171d-1": {
           "type": "text",
           "settings": {
-            "title": "How long will it take to receive my order",
-            "description": "<p>This depends on whether it is an International or a Domestic order. All orders within the U.S. are considered domestic orders and they are shipped and delivered within 2-5 business days. Please see International Orders for more details.<\/p>"
+            "title": "Wann erhalte ich meine Bestellung?",
+            "description": "<p>Wir versenden Ihre Bestellung in der Regel innerhalb von 24 Stunden nach Zahlungseingang. Je nach Wohnort und gewählter Versandart beträgt die Lieferzeit zwischen 1-3 Werktagen.<br\/>Wenn ein Produkt nicht auf Lager vorrätig ist, kann sich die Lieferzeit verzögern. Beachten Sie hierfür die Beschreibung beim Produkt. Dort ist hinterlegt, ob ein Produkt auf Lager vorrätig ist oder nicht. Wenn bei einem Produkt kurzfristig eine starke Verzögerung vorliegt, bekommen Sie selbstverständlich eine Benachrichtigung per E-Mail.<\/p>"
           }
         },
         "1651755243f618171d-2": {
           "type": "text",
           "settings": {
-            "title": "What payment methods do you support?",
-            "description": "<p>We accept PayPal, Visa, MasterCard, Discover, and American Express but feel free to contact us for other payment options.<\/p>"
-          }
-        },
-        "1651755243f618171d-3": {
-          "type": "text",
-          "settings": {
-            "title": "How can I track my order?",
-            "description": "<p>We will send tracking information to the e-mail address associated with your order once the item has shipped. If you have not received your tracking information and it has been over 2 business day, please contact us at (012) 123 - 4567<\/p>"
+            "title": "Welche Zahlungsmöglichkeiten akzeptieren wir",
+            "description": "<p>Wir akzeptieren verschiedene Zahlungsmittel, darunter Kreditkarten Paypal und Shop Pay. So können Sie ganz bequem die Zahlungsmethode wählen, die für Sie am besten geeignet ist.<\/p>"
           }
         },
         "1651755243f618171d-4": {
           "type": "text",
           "settings": {
-            "title": "Can I order as a gift for someone else?",
-            "description": "<p>When ordering as a gift for someone, be sure to enter in your email address to receive all summary information but enter in the recipient’s name and shipping information. We will be sure to keep all prices and receipts out of the package.<\/p>"
+            "title": "Kann ich als Geschenk für jemanden bestellen?",
+            "description": "<p>Selbstverständlich können Sie bei uns auch als Geschenk bestellen. Geben Sie einfach bei der Bestellung eine abweichende Lieferadresse an und wir liefern Ihre Bestellung direkt an den Beschenkten. Wenn Sie möchten, dass das Geschenk verpackt wird als Geschenk, können Sie dies bei der Bestellung angeben. <\/p>"
           }
         },
         "1651755243f618171d-5": {
           "type": "text",
           "settings": {
-            "title": "How can I get a refund for my order?",
-            "description": "<p>If for any reason you are not completely satisfied with your purchase, within 30 days of placing your order, we will refund you for your purchase with no questions asked.<\/p>"
+            "title": "Wie kann ich ein Produkt zurückschicken?",
+            "description": "<p>Sollten Sie mit Ihrer Bestellung nicht zufrieden sein oder ein falsches Produkt erhalten haben, können Sie innerhalb von 14 Tagen nach Erhalt der Ware von Ihrem Widerrufsrecht Gebrauch machen. Kontaktieren Sie uns einfach per E-Mail und wir werden gemeinsam eine Lösung finden. Weitere Informationen finden Sie auch im Abschnitt \"Widerrufsrecht\".<\/p>"
           }
         }
       },
@@ -365,7 +222,6 @@
         "1651755243f618171d-0",
         "1651755243f618171d-1",
         "1651755243f618171d-2",
-        "1651755243f618171d-3",
         "1651755243f618171d-4",
         "1651755243f618171d-5"
       ],
@@ -375,7 +231,7 @@
         "text_align": "text-center",
         "title": "F.A.Q",
         "title_size": "h2",
-        "description": "<p>Write something useful to describe this section.<\/p>",
+        "description": "<p>Häufig gestellte Fragen<\/p>",
         "description_size": "fs-6",
         "pt": 10,
         "pb": 10,
@@ -432,11 +288,8 @@
   },
   "order": [
     "carousel",
-    "165151877352b831f8",
-    "1651733459a1bea1c2",
     "16527743361f98366e",
     "1651754599ab801902",
-    "f79472bd-ea06-4791-b546-621b9bdf76a3",
     "165175524396f2667c",
     "c74ebbe2-8be5-4594-80c9-25bb5250e03b",
     "16517348541d37c171",
