@@ -542,7 +542,27 @@
       },
       "save_new_address_accessibility_label": "Adresse speichern",
       "title": "Adressen",
-      "billing_address_dropdown_placeholder": "Rechnungsadresse"
+      "billing_address_dropdown_placeholder": "Rechnungsadresse",
+      "add_button": "Adresse hinzufügen",
+      "add_button_text": "Hinzufügen",
+      "add_button_accessibility_label": "Adresse hinzufügen",
+      "back_button": "Zurück",
+      "back_button_accessibility_label": "Zurück zum Bearbeiten der Adresse {{address}}",
+      "add_address_banner": "Fügen Sie Adressen hinzu, die an der Kasse verwendet werden sollen",
+      "address_deleted_notification": "Adresse gelöscht",
+      "cancel_adding_address_accessibility_label": "Hinzufügen einer Adresse abbrechen",
+      "cancel_deletion_button": "Stornieren",
+      "cancel_deletion_button_accessibility_label": "Löschen von {{address}} abbrechen",
+      "default_address": {
+        "title": "Standardadresse",
+        "title_accessibility_label": "Standardadresse: {{address}}"
+      },
+      "delete_button": "Löschen",
+      "delete_button_accessibility_label": "{{address}} löschen",
+      "delete_confirmation_button": "Adresse löschen",
+      "delete_confirmation_button_accessibility_label": "{{address}} löschen",
+      "delete_confirmation_message": "Adresse löschen? Bestehende Bestellungen sind davon nicht betroffen.",
+      "delete_confirmation_title": "Adresse löschen?"
     },
     "address_form": {
       "attention": "Aufmerksamkeit",
@@ -762,7 +782,256 @@
     "payment_method_brands": {
       "discover": "Entdecken",
       "visaelectron": "Visa Elektron",
-      "dankort": "Dankeort"
+      "dankort": "Dankeort",
+      "shoppay": "Laden bezahlen",
+      "applepay": "ApplePay",
+      "googlepay": "GooglePay"
+    },
+    "shop_policies": {
+      "legal_notice": "Impressum",
+      "privacy_policy": "Datenschutz-Bestimmungen",
+      "refund_policy": "Rückgaberecht",
+      "shipping_policy": "Versandbedingungen",
+      "subscription_policy": "Abonnementrichtlinie",
+      "terms_of_sale": "Verkaufsbedingungen",
+      "terms_of_service": "Nutzungsbedingungen"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "hide_events_label": "Details ausblenden",
+        "hide_events_accessibility_label": "Versanddetails der Bestellung ausblenden"
+      },
+      "addresses_section_title": "Rechnung und Versand",
+      "order_details": "Bestelldetails",
+      "billing_address": "Rechnungsadresse",
+      "card_ending_with": "endet mit {{lastDigits}}",
+      "contact": "Kontakt",
+      "contact_information": "Kontaktinformationen",
+      "company": "Unternehmen",
+      "fully_refunded_label": "ERSTATTET",
+      "discount": "Rabatt",
+      "hide_items": "Elemente ausblenden",
+      "loading": "Bestelldetails werden geladen",
+      "loading_finished_accessibility_message": "Bestelldetails wurden geladen",
+      "location": "Standort",
+      "image_gallery": {
+        "next": "Nächste Artikel anzeigen",
+        "previous": "Vorherige Elemente anzeigen"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Bestellübersicht anzeigen",
+        "closed": "Bestellzusammenfassung ausblenden"
+      },
+      "no_data": "Keiner",
+      "no_data_provided_accessibility_label": "{{fieldName}} ist leer",
+      "not_applicable": "N \/ A",
+      "partially_refunded_label": "TEILWEISE ERSTATTET",
+      "payment": {
+        "status_in_review": "Zahlung nach Prüfung fällig",
+        "status_unpaid": "Zahlung fällig am {{date}}",
+        "title": "Zahlung",
+        "card_payment_details": "endet mit {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "endet mit {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Bezahlt in Raten mit Shop Pay.",
+          "view_schedule": "Zeitplan ansehen"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Bezahlt mit Shop Pay Raten",
+        "description": "Behalten Sie Ihren Zahlungsplan mit Erinnerungen in der Shop-App im Auge.",
+        "payment_reminders_button": "Erhalten Sie Zahlungserinnerungen",
+        "desktop_qr_code_content": {
+          "title": "Nach Erinnerungen scannen",
+          "description": "Lassen Sie sich mit Shop an Ihre Ratenzahlungen erinnern."
+        }
+      },
+      "refunded_amount": "Erstattet",
+      "request_return_failed": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuche es erneut.",
+      "marketing_section_title": "Neuigkeiten und Angebote",
+      "marketing_description": "Sie erhalten Marketing-E-Mails. Sie können sich jederzeit abmelden.",
+      "marketing_checkbox_label": "Senden Sie mir eine E-Mail mit Neuigkeiten und Angeboten",
+      "marketing_checkmark_label": "Sie haben den Erhalt von Neuigkeiten und Angeboten per E-Mail abonniert",
+      "returns": {
+        "expand_events_label": "Zeige Details",
+        "hide_events_label": "Details ausblenden",
+        "ineligible_return_with_policy_message": "Keine Artikel in dieser Bestellung können zurückgegeben werden. Lesen Sie unsere {{returnAndRefundPolicyLinkText}} , um mehr zu erfahren.",
+        "ineligible_return_without_policy_message": "Keine Artikel in dieser Bestellung können zurückgegeben werden.",
+        "print_shipping_label": "Versandetikett drucken",
+        "return_and_refund_link_text": "Rückgabe- und Rückerstattungsrichtlinie",
+        "return_and_refund_modal_header": "Rückgabe- und Rückerstattungsrichtlinie",
+        "tracking_number": "Auftragsnummer, Frachtnummer, Sendungscode:"
+      },
+      "shipping": {
+        "address": "Lieferanschrift",
+        "address_map_marker": "Lieferanschrift",
+        "method": "Versandart",
+        "summary": "Versand",
+        "free": "Frei"
+      },
+      "pickup": {
+        "pickup": "Abholen",
+        "pickup_location": "Treffpunkt"
+      },
+      "show_items": "Artikel anzeigen",
+      "show_order_summary": "Bestellübersicht anzeigen",
+      "hide_order_summary": "Bestellzusammenfassung ausblenden",
+      "subtitle": "Bestätigt am {{date}}",
+      "subtotal": "Zwischensumme",
+      "summary_list_title_accessibility_label": "Auftragspositionen",
+      "summary_title": "Bestellübersicht",
+      "summary_totals_title_accessibility_label": "Bestellsummen",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Laden Sie Shop herunter, um das Paket zu verfolgen",
+        "track_order_with_shop": "Bestellung mit Shop verfolgen",
+        "title_header": "Scannen Sie mit Ihrem Telefon",
+        "real_time_delivery_updates": "Der Shop sendet Ihnen Lieferaktualisierungen in Echtzeit, sobald Ihre Bestellung versandt wurde."
+      },
+      "edit_summary": {
+        "added": "Hinzugefügt",
+        "added_with_quantity": "{{quantity}} hinzugefügt",
+        "removed": "ENTFERNT",
+        "removed_with_quantity": "{{quantity}} entfernt",
+        "updated_at": "Ihre Bestellung wurde am {{date}} aktualisiert"
+      },
+      "shop_pay": {
+        "order_completed_with": "Bestellung abgeschlossen mit",
+        "learn_more": "Erfahren Sie mehr"
+      },
+      "taxes": "Steuern",
+      "title": "Bestelle {{name}}",
+      "total": "Gesamt",
+      "unit_price": "( {{price}} \/ea)",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Laden Sie mehr Artikel",
+        "loading_accessibility_label": "Artikel laden"
+      }
     }
+  },
+  "general": {
+    "general": {
+      "share": "Aktie",
+      "copy": "Kopieren",
+      "copied": "Kopiert!",
+      "all_rights_reserved": "Alle Rechte vorbehalten.",
+      "secure_payments": "100 % sichere und geschützte Zahlungen",
+      "pagination_page_of": "Seite {{ count }} von {{ total }}",
+      "follow_us": "Lass uns Freunde sein..."
+    },
+    "accessibility": {
+      "skip_content": "Zum Inhalt springen",
+      "skip_product_content": "Zu den Produktinformationen springen",
+      "utility_icons": "Dienstprogramme-Menü",
+      "menu": "Speisekarte",
+      "cart": "Wagen",
+      "search": "Suchen",
+      "account": "Konto",
+      "previous": "Vorherige",
+      "next": "Nächste",
+      "previous_page": "Vorherige Seite",
+      "next_page": "Nächste Seite",
+      "close": "Schließen",
+      "decrease_qty": "Menge verringern",
+      "increase_qty": "Menge erhöhen",
+      "social_media_links": "Social-Media-Links",
+      "cart_product_list": "Artikel im Warenkorb",
+      "payment_methods": "Zahlungsarten",
+      "sorted_by": "Sortiert nach",
+      "product_media_gallery": "Produktmediengalerie",
+      "product_options": "Produktoptionen"
+    },
+    "offcanvas_search": {
+      "title": "Suchen Sie in unserem Shop",
+      "input_label": "Beginnen Sie mit der Eingabe, um Ergebnisse zu sehen...",
+      "view_all_results": "Alle Ergebnisse anzeigen →",
+      "button": "Suchen",
+      "title_collections": "Sammlungen",
+      "title_products": "Produkte",
+      "title_pages": "Seiten",
+      "title_articles": "Artikel",
+      "search_for": "Suchen nach",
+      "result_found": "1 Ergebnis gefunden",
+      "results_found": "[count] Ergebnisse gefunden",
+      "no_results": "keine Ergebnisse gefunden"
+    },
+    "search_page": {
+      "title": "Suchen Sie in unserem Shop",
+      "title_search_performed": "Suchergebnisse",
+      "no_results": "Keine Ergebnisse gefunden für „ {{ terms }} “. Überprüfen Sie die Rechtschreibung oder verwenden Sie ein anderes Wort oder einen anderen Ausdruck.",
+      "results_with_count_and_term": {
+        "one": "{{ count }} Ergebnis gefunden für „ {{ terms }} “",
+        "other": "{{ count }} Ergebnisse gefunden für „ {{ terms }} “"
+      },
+      "form": {
+        "input_label": "Suchen nach...",
+        "select_label": "Produktarten",
+        "btn_text": "Suchen"
+      },
+      "types": {
+        "products": "Produkte",
+        "pages": "Seiten",
+        "articles": "Artikel"
+      }
+    },
+    "newsletter": {
+      "input_label": "Geben sie ihre E-Mail Adresse ein...",
+      "confirmation_text": "Vielen Dank für Ihre Anmeldung, Sie werden bald von uns hören.",
+      "submit_button": "Abonnieren"
+    },
+    "breadcrumbs": {
+      "label": "Semmelbrösel",
+      "home": "Heim"
+    },
+    "404_page": {
+      "title": "404 Seite nicht gefunden",
+      "subtext": "Die gesuchte Seite existiert nicht",
+      "button": "Gehen Sie zurück zur Homepage"
+    },
+    "contact": {
+      "phone": "Telefon optional)",
+      "message": "Nachricht",
+      "send": "Schicken",
+      "success": "Danke, dass sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden."
+    },
+    "password_page": {
+      "password_form": {
+        "password_label": "Passwort",
+        "btn_label": "Eingeben"
+      }
+    }
+  },
+  "collection": {
+    "empty_html": "Keine Produkte gefunden! <a href=\"\/collections\/all\">Alle ansehen \"<\/a>",
+    "sort_by": "Sortiere nach",
+    "btn_filter_products": "Filter anzeigen",
+    "paginate_count": "{{ count }} von {{ total }} Produkten werden angezeigt",
+    "count_products": {
+      "one": "{{ count }} Produkt",
+      "other": "{{ count }} Produkte"
+    },
+    "filters": {
+      "title": "Filter",
+      "reset": "Zurücksetzen",
+      "from": "Aus",
+      "to": "Zu",
+      "view_more": "Mehr sehen",
+      "clear_filter": "Filter löschen",
+      "clear_all": "Alles löschen ( {{ count }} )",
+      "view_results": {
+        "one": "Produkt {{ count }} ansehen",
+        "other": "{{ count }} Produkte anzeigen"
+      },
+      "max_range_notice": "Hinweis: Der höchste Preis ist {{ value }}"
+    }
+  },
+  "product": {
+    "add_to_cart": "In den Warenkorb legen",
+    "add": "Hinzufügen",
+    "added_to_cart": "✓ In den Warenkorb gelegt",
+    "price_regular": "Regulärer Preis",
+    "price_from": "Aus",
+    "price_sale": "Verkaufspreis",
+    "price_unit": "Einzelpreis"
   }
 }
