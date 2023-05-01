@@ -47,7 +47,8 @@
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96"
       ],
       "custom_css": [
-
+        ".carousel-container {position: relative; width: 100%; height: 0; padding-bottom: 56.25%; \/* hier das Seitenverhältnis definieren (z.B. 16:9 = 56.25%) *\/}",
+        ".carousel-container img {position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;}"
       ],
       "settings": {
         "controls": true,
