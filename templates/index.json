@@ -202,8 +202,8 @@
         "title_size": "h2",
         "description": "<p>Entdecken Sie, wo wir zu Hause sind - Unser Hauptsitz in der Schweiz, ein stolzes lokales Unternehmen<\/p>",
         "description_size": "fs-6",
-        "pt": 11,
-        "pb": 14,
+        "pt": 5,
+        "pb": 0,
         "mt": 0,
         "mb": 0
       }
