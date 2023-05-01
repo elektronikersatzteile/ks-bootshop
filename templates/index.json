@@ -6,12 +6,12 @@
         "7c7200c0-9e25-4d6f-8e80-68098f92561e": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify:\/\/shop_images\/Title_3-transformed.png",
-            "img_mobile_height": 730,
-            "img_mobile_opacity": 0.8,
+            "img_mobile": "shopify:\/\/shop_images\/3.jpg",
+            "img_mobile_height": 360,
+            "img_mobile_opacity": 0.7,
             "img_desktop": "shopify:\/\/shop_images\/Title_3-transformed.png",
-            "img_desktop_height": 760,
-            "img_desktop_opacity": 0.8,
+            "img_desktop_height": 850,
+            "img_desktop_opacity": 0.7,
             "title": "Welcome to KS BootShop Theme",
             "title_size": "h2",
             "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
@@ -25,9 +25,9 @@
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96": {
           "type": "slide",
           "settings": {
-            "img_mobile": "shopify:\/\/shop_images\/Title2-transformed.png",
-            "img_mobile_height": 800,
-            "img_mobile_opacity": 0.6,
+            "img_mobile": "shopify:\/\/shop_images\/2.jpg",
+            "img_mobile_height": 330,
+            "img_mobile_opacity": 0.5,
             "img_desktop": "shopify:\/\/shop_images\/Title2-transformed.png",
             "img_desktop_height": 800,
             "img_desktop_opacity": 0.6,
