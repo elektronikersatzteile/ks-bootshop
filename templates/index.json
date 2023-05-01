@@ -47,7 +47,7 @@
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96"
       ],
       "custom_css": [
-        "img {max-width:1; height:auto;}"
+        "img {max-width: 100%; height: auto;}"
       ],
       "settings": {
         "controls": true,
