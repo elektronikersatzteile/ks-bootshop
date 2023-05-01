@@ -44,7 +44,6 @@
           "bg_color": "bg-white text-dark",
           "shadow": "shadow-sm",
           "menu_desktop": "sidebar-menu",
-          "logo": "{{ shop.brand.square_logo }}",
           "logo_height_mobile": 40,
           "logo_height_desktop": 40,
           "offcanvas_menu_header_bg": "bg-dark text-white",
