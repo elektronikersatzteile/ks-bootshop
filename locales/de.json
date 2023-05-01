@@ -358,7 +358,68 @@
         "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} insgesamt %{total_shop_price}",
         "receiver_payment_experience_hint": "Nach Ihrer Bestellung erhalten Sie Zahlungsdetails. Nehmen Sie die Zahlung bei Multibanco oder online innerhalb von %{due_days} Tagen vor.",
         "billing_address_title": "Rechnungsadresse",
-        "billing_address_description": "Wählen Sie die Adresse aus, die Ihrer Karte oder Zahlungsmethode entspricht."
+        "billing_address_description": "Wählen Sie die Adresse aus, die Ihrer Karte oder Zahlungsmethode entspricht.",
+        "billing_address_description_no_shipping_address": "Geben Sie die Adresse ein, die Ihrer Karte oder Zahlungsmethode entspricht.",
+        "no_js_credit_card_fields_redirect_hint": "Sie werden weitergeleitet, um Ihre Zahlungsinformationen hinzuzufügen.",
+        "card_fields_container_prefix": "Feldcontainer für:",
+        "card_fields_unavailable_html": {
+          "one": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br> <a href=\"%%7Bcurrent_url%7D\">Aktualisieren Sie diese Seite<\/a> oder versuchen Sie es später erneut.",
+          "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br> <a href=\"%%7Bcurrent_url%7D\">Aktualisieren Sie diese Seite<\/a> oder versuchen Sie es mit einer anderen Zahlungsmethode."
+        },
+        "card_fields_processing_error": "Bei der Verarbeitung der Zahlung ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
+        "technical_error": "Zahlungen können derzeit aufgrund eines technischen Problems nicht verarbeitet werden. Versuchen Sie es in ein paar Minuten erneut.",
+        "no_method_error": "Dieser Shop kann derzeit keine Zahlungen annehmen.",
+        "not_configured_error": "Dieser Shop kann derzeit keine Zahlungen annehmen.",
+        "missing_credit_card_error": "Geben Sie Ihre Kartendaten ein, um die Zahlung abzuschließen",
+        "billing_address_not_supported_for_payment_method_error": "Diese Zahlungsmethode ist für Ihre Rechnungsadresse und Währung nicht verfügbar. Bitte versuchen Sie es mit einer anderen Zahlungsmethode.",
+        "generic_incorrect_card_info": "Ihre Zahlungsdetails konnten nicht verifiziert werden. Überprüfen Sie Ihre Kartendetails und versuchen Sie es erneut.",
+        "sofort_label": "Sofortüberweisung",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Abonnement",
+          "order_contains_fixed_selling_plans": "Der Gesamtbetrag enthält möglicherweise keine Steuern, Versandkosten, aufgeschobene Gebühren und einige Rabatte. Fahren Sie mit der Kasse für den heute fälligen Betrag fort."
+        },
+        "klarna_label": "Klara",
+        "klarna_pay_later_label": "Bezahlen Sie später mit Klarna",
+        "klarna_pay_now_label": "Bezahlen Sie jetzt mit Klarna",
+        "bancontact_label": "Bankontakt",
+        "klarna_slice_it_label": "Finanzieren mit Klarna",
+        "purchase_options_card_update_agreement_label_html": "Indem Sie Ihre Zahlungsmethode aktualisieren, autorisieren Sie Zahlungen für wiederkehrende oder aufgeschobene Käufe gemäß den <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%%7Bpolicy_href%7D\">Stornierungsbedingungen<\/a> dieses Shops .",
+        "subscription_card_update_agreement_label": "Wenn Sie die Zahlungsmethode ändern, werden Ihr Abonnement und zukünftige wiederkehrende Zahlungen aktualisiert.",
+        "subscription_agreement_label": "Ich verstehe, dass ich einem Abonnement zustimme. Es wird zum angegebenen Preis und in der angegebenen Häufigkeit verlängert, bis es endet oder %{cancelled} ist.",
+        "subscription_agreement_cancelled": "abgesagt",
+        "subscription_agreement_label_html": "Ich verstehe, dass ich einem Abonnement zustimme. Es wird zu dem angegebenen Preis und in der angegebenen Häufigkeit verlängert, bis es endet oder endet\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">abgesagt<\/a> .\n",
+        "purchase_options_agreement_label": "Mir ist bekannt, dass es sich bei einem oder mehreren Artikeln in meinem Warenkorb um einen aufgeschobenen oder wiederkehrenden Kauf handelt. Indem ich fortfahre, stimme ich den %{cancellation_policy_label} zu und ermächtige Sie, meine Zahlungsmethode mit den auf dieser Seite aufgeführten Preisen, Häufigkeiten und Daten zu belasten, bis meine Bestellung erfüllt ist oder ich storniere, falls zulässig.",
+        "purchase_options_agreement_label_html": "Mir ist bekannt, dass es sich bei einem oder mehreren Artikeln in meinem Warenkorb um einen aufgeschobenen oder wiederkehrenden Kauf handelt. Indem ich fortfahre, stimme ich dem zu\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">Stornierungsbedingungen<\/a>\nund ermächtigen Sie, meine Zahlungsmethode bis zum my\nBestellung ausgeführt wird oder ich storniere, falls zulässig.\n",
+        "change_currency_section_description": "Wählen Sie eine Währungsoption aus",
+        "no_real_orders_dev_store": "Dieser Shop kann keine echten Bestellungen oder echten Zahlungen annehmen.",
+        "waiting_on_payment_methods": "Verfügbare Zahlungsmethoden abrufen...",
+        "apple_pay_payment_error": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "taxes_not_included": "Steuern nicht inbegriffen",
+        "no_taxes_banner_content": "Für diese Bestellung werden keine Steuern berechnet. Sobald Sie die Zahlung eingezogen haben, können keine Steuern mehr hinzugefügt werden.",
+        "paypal": {
+          "connect": "Klicken Sie hier, um Ihr PayPal-Konto zu verbinden"
+        },
+        "apple": {
+          "connect": "Klicken Sie hier, um Ihr Apple Pay-Konto zu verbinden",
+          "not_available": "Apple Pay ist in diesem Browser nicht verfügbar. Um Ihr Apple Pay-Konto zu verbinden, müssen Sie Safari auf einem Apple-Gerät verwenden."
+        },
+        "google": {
+          "connect": "Klicken Sie hier, um eine Verbindung mit Ihrem Google Pay-Konto herzustellen",
+          "error_authorizing": "Fehler beim Autorisieren der Zahlung"
+        },
+        "account_connected": "Konto verbunden.",
+        "mor_disclaimer_html": "Indem Sie unten klicken und Ihre Bestellung abschließen, erklären Sie sich damit einverstanden, Ihre Artikel von Global-e als eingetragenem Händler zu kaufen\nfür diese Transaktion auf <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%%7Bterms_href%7D\">den Allgemeinen Geschäftsbedingungen<\/a> von Global-e\nund <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%%7Bpolicy_href%7D\">Datenschutzrichtlinie<\/a> . Global-e ist eine internationale\nErfüllungsdienstleister für %{shop_name}\n",
+        "pending_payment": {
+          "due_notice": "Ihre Zahlung von %{amount_due} ist am %{due_date} fällig.",
+          "multibanco": {
+            "instruction_html": "Nehmen Sie Ihre Zahlung bei Multibanco oder online unter Verwendung der nachstehenden Angaben vor. Bei Fragen oder zum Aktualisieren von Zahlungsdetails, %{contact_us}.",
+            "entity": "Juristische Person",
+            "reference": "Referenz",
+            "amount": "Menge",
+            "find_nearest_atm": "Finden Sie den nächsten Geldautomaten"
+          }
+        },
+        "update_payment_method": "Zahlungsmethode aktualisieren"
       },
       "throttle": {
         "title": "Warteschlange",
@@ -724,7 +785,48 @@
         "purchase_options_agreement_blank": "Um mit Ihrem Einkauf fortzufahren, stimmen Sie den Bedingungen für aufgeschobene oder wiederkehrende Käufe zu.",
         "physical_gift_card_invalid_quantity": "Physische Geschenkgutscheinpositionen müssen eine Menge haben, die der Anzahl der Geschenkgutscheincodes entspricht.",
         "physical_gift_card_duplicate_code": "Die Position der physischen Geschenkkarte enthält doppelten Code.",
-        "physical_gift_card_invalid_code": "Der physische Geschenkkartencode ist ungültig."
+        "physical_gift_card_invalid_code": "Der physische Geschenkkartencode ist ungültig.",
+        "handle_phone_invalid": "Geben Sie eine gültige Telefonnummer ein",
+        "handle_email_invalid": "Geben Sie eine gültige E-Mail-Adresse ein",
+        "email_invalid": "Geben Sie eine gültige E-Mail-Adresse ein",
+        "email_or_phone_blank": "Geben Sie eine E-Mail- oder Handynummer ein",
+        "email_or_phone_invalid": "Geben Sie eine gültige E-Mail-Adresse oder eine Mobiltelefonnummer ein",
+        "address_first_name_blank": "Geben Sie einen Vornamen ein",
+        "address_first_name_too_long": "Vorname ist zu lang (maximal 255 Zeichen)",
+        "address_first_name_contains_emojis": "Der Vorname darf keine Emojis enthalten",
+        "address_first_name_contains_html_tags": "Der Vorname darf keine HTML-Tags enthalten.",
+        "address_first_name_contains_url": "Der Vorname darf keine URL enthalten",
+        "address_last_name_blank": "Geben Sie einen Nachnamen ein",
+        "address_last_name_too_long": "Nachname ist zu lang (maximal 255 Zeichen)",
+        "address_last_name_contains_emojis": "Der Nachname darf keine Emojis enthalten",
+        "address_last_name_contains_html_tags": "Der Nachname darf keine HTML-Tags enthalten.",
+        "address_last_name_contains_url": "Der Nachname darf keine URL enthalten",
+        "address_address1_blank": "Gib eine Adresse ein",
+        "address_address1_too_long": "Die erste Adresszeile ist zu lang (maximal 255 Zeichen)",
+        "address_address1_contains_emojis": "Adresse1 darf keine Emojis enthalten",
+        "address_address1_contains_html_tags": "Adresse1 darf keine HTML-Tags enthalten.",
+        "address_address2_blank": "Betreten Sie eine Wohnung, Suite usw.",
+        "address_address2_too_long": "Die zweite Adresszeile ist zu lang (maximal 255 Zeichen)",
+        "address_address2_contains_emojis": "Adresse2 darf keine Emojis enthalten",
+        "address_address2_contains_html_tags": "Adresse2 darf keine HTML-Tags enthalten.",
+        "address_city_blank": "Geben Sie eine Stadt ein",
+        "address_city_too_long": "Stadt ist zu lang (maximal 255 Zeichen)",
+        "address_city_contains_emojis": "Die Stadt darf keine Emojis enthalten",
+        "address_city_contains_html_tags": "Stadt darf keine HTML-Tags enthalten.",
+        "address_country_blank": "Wählen Sie ein Land\/eine Region aus",
+        "address_country_not_supported": "Wir liefern nicht in dieses Land oder diese Region. Geben Sie eine neue Lieferadresse ein und versuchen Sie es erneut.",
+        "address_province_blank": "Wählen Sie ein Bundesland \/ eine Provinz aus",
+        "address_company_blank": "Geben Sie einen Firmennamen ein",
+        "address_company_too_long": "Firmenname ist zu lang (maximal 255 Zeichen)",
+        "address_company_contains_emojis": "Das Unternehmen darf keine Emojis enthalten",
+        "address_company_contains_html_tags": "Das Unternehmen darf keine HTML-Tags enthalten.",
+        "address_phone_blank": "Geben Sie eine gültige Telefonnummer ein",
+        "address_phone_contains_emojis": "Die Telefonnummer darf keine Emojis enthalten",
+        "address_zip_blank": "Geben Sie eine Postleitzahl ein",
+        "address_zip_not_supported": "Dieser Standort wird nicht unterstützt.",
+        "address_zip_invalid_for_country": "Geben Sie eine gültige Postleitzahl für %{country} ein",
+        "address_zip_invalid_for_country_and_province": "Geben Sie eine gültige Postleitzahl für %{province}, %{country} ein",
+        "address_zip_contains_emojis": "Postleitzahl darf keine Emojis enthalten"
       },
       "payment_errors": {
         "generic_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
@@ -814,6 +916,14 @@
         "wait": {
           "short": "Ihre Bestellung wird bearbeitet."
         }
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktueller Kontostand %{amount}",
+        "credit_card_expires_on_notice": "Läuft am %{Monat}\/%{Jahr} ab",
+        "express_payment_gateway_label": "Äußern",
+        "manual_payment_gateway_label": "Handbuch",
+        "billing_address_title": "Rechnungsadresse",
+        "free_label": "Frei"
       }
     },
     "pagination": {
