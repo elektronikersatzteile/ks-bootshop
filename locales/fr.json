@@ -589,7 +589,11 @@
         "label": "type de produit"
       },
       "boolean": {
-        "true_label": "Oui"
+        "true_label": "Oui",
+        "false_label": "NON"
+      },
+      "tags": {
+        "label": "Plus de filtres"
       }
     },
     "pagination": {
@@ -678,6 +682,13 @@
       "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien qu'il contient pour vérifier votre adresse e-mail.",
       "blocked_address": "Cet emplacement n'est pas pris en charge.",
       "product_not_available": "Le produit n'est pas publié pour ce client."
+    },
+    "search": {
+      "sorting": {
+        "relevance": "pertinence",
+        "price_ascending": "Prix croissant",
+        "price_descending": "Prix, décroissant"
+      }
     }
   },
   "customer_accounts": {
@@ -687,7 +698,21 @@
           "table_view": {
             "due_on_fulfillment": "Dû à l'exécution",
             "pay_to_confirm": "Payer pour confirmer",
-            "payment_not_due": "Pas encore dû"
+            "payment_not_due": "Pas encore dû",
+            "overdue": "En retard",
+            "due": "Dû le {{date}}",
+            "due_today": "Dû aujourd'hui",
+            "paid": "Payé",
+            "due_without_date": "Exigible"
+          },
+          "list_view": {
+            "overdue": "retard de paiement",
+            "due": "Paiement dû le {{date}}",
+            "due_today": "Paiement dû aujourd'hui",
+            "due_without_date": "Paiement dû",
+            "due_on_fulfillment": "Paiement dû à la réalisation",
+            "pay_to_confirm": "Payer pour confirmer",
+            "payment_not_due": "Paiement pas encore dû"
           }
         },
         "sort_currently_sorted_by_accessibility_label": "Actuellement trié par : {{option}}",
@@ -718,7 +743,64 @@
           }
         },
         "more_than_three_products_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}} et {{numberOfAdditionalProducts}} produits supplémentaires",
-        "plus_more": "+ {{numberOfAdditionalProducts}}"
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "column_headers": {
+          "total": "Au total",
+          "items": "Article",
+          "order": "commande"
+        },
+        "delivered": "Livré le {{date}}",
+        "empty_state_order_source_description": "Seules les commandes passées par {{email}} sont affichées ici.",
+        "empty_state_subtitle": "Rendez-vous en magasin pour passer commande.",
+        "empty_state_title": "Pas encore de commandes",
+        "estimated_delivery": "Livraison estimée {{date}}",
+        "items": {
+          "one": "{{count}} éléments",
+          "other": "{{count}} éléments"
+        },
+        "list_view": "Afficher la vue en liste",
+        "order_link": "Afficher la commande {{name}}",
+        "order_number": "Commandez {{name}}",
+        "orders_title": "Confirmé",
+        "pagination": {
+          "nav_accessibility_label": "Boutons de navigation pour les commandes",
+          "next": "Suivant",
+          "next_accessibility_label": "prochaines commandes",
+          "previous": "Préalablement",
+          "previous_accessibility_label": "Commandes précédentes",
+          "load_more": "charger plus",
+          "load_more_accessibility_label": "Charger plus de commandes"
+        },
+        "sort_by": "Trier par : {{option}}",
+        "sort_hide_options_accessibility_label": "Masquer les options de tri pour les commandes confirmées.",
+        "sort_show_options_accessibility_label": "Afficher les options de tri pour les commandes confirmées.",
+        "sort_title": "Trier par",
+        "sort": {
+          "date": {
+            "newest": "Du plus récent au plus ancien",
+            "oldest": "Du plus ancien au plus récent"
+          },
+          "location": {
+            "ascending": "Emplacement (AZ)",
+            "descending": "Emplacement (ZA)"
+          },
+          "order_number": {
+            "ascending": "Numéro de commande (de bas en haut)",
+            "descending": "Numéro de commande (de haut en bas)"
+          },
+          "order_total": {
+            "ascending": "Total de la commande (de bas en haut)",
+            "descending": "Total de la commande (décroissant)"
+          }
+        },
+        "table_view": "Afficher la vue tableau",
+        "one_images_accessibility_label": "La commande contient {{lineItemName1}}",
+        "two_images_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "La commande comprend {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "no_filtered_results_description": "Supprimez ou ajustez les filtres pour afficher vos commandes",
+        "no_filtered_results_title": "Aucun résultat filtré",
+        "estimated_shortform": "Heure d'été européenne. {{date}}"
       },
       "order_status": {
         "canceled_description": "Votre commande a été annulée le {{date}} .",
@@ -795,7 +877,9 @@
       "didnt_pick_up_order": "Vous n'avez pas récupéré votre commande ?",
       "let_us_know": "Faites le nous savoir",
       "contact_us": "Contactez-nous.",
-      "if_you_didnt_receive_this": "Si vous ne l'avez pas reçu,"
+      "if_you_didnt_receive_this": "Si vous ne l'avez pas reçu,",
+      "list_layout_accessibility_label": "options de mise en page",
+      "list_title": "affectations"
     },
     "order_details": {
       "addresses_section_title": "facture et expédition",
@@ -1111,6 +1195,58 @@
         "billing": "Modifier l'adresse de facturation",
         "shipping": "modifier l'adresse de livraison"
       }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Masquer le menu du compte",
+        "label": "Compte",
+        "show_accessibility_label": "Afficher le menu du compte"
+      },
+      "action_menu_accessibility_label": "Plus de promotions",
+      "close_menu_accessibility_label": "Fermer la navigation principale",
+      "contact_email_subject": "Contact de la boutique en ligne de {{shopName}}",
+      "contact_link": "Contactez-nous",
+      "delete_confirmation": {
+        "cancel": "Annuler",
+        "delete": "Éteindre"
+      },
+      "dismiss_toast": "Refuser",
+      "document_title": "{{sectionName}} - {{shopName}} - Compte",
+      "go_to_store_link": "aller au magasin",
+      "loading_message": "Chargement",
+      "log_out_link": "Se déconnecter",
+      "logout_overlay_label": "Vous serez déconnecté...",
+      "nav_label_accessibility_label": "Navigation principale",
+      "navigation_accessibility_message": "Vous avez navigué vers {{sectionName}}",
+      "open_menu_accessibility_label": "Ouvrir la navigation principale",
+      "orders_link_label": "affectations",
+      "shop_logo_accessibility_label": "Logo {{shopName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Les informations du compte sont en cours de chargement",
+      "loading_finished_accessibility_message": "Les informations de compte ont été chargées",
+      "profile_card": {
+        "cancel": "Annuler",
+        "cancel_accessibility_label": "Annuler la modification du profil",
+        "edit": "Modifier",
+        "edit_accessibility_label": "Editer le profil",
+        "email_help_text": "L'adresse e-mail utilisée pour l'inscription ne peut pas être modifiée",
+        "first_name": "Prénom",
+        "last_name": "nom de famille, nom de famille",
+        "phone_number_help_text": "Le numéro de téléphone utilisé pour l'inscription ne peut pas être modifié",
+        "save": "Enregistrer sur ordinateur",
+        "save_accessibility_label": "Enregistrer le profil"
+      },
+      "profile_update_confirmation_message": "Profil mis à jour",
+      "title": "Information sur le compte",
+      "people": {
+        "pagination": {
+          "load_more": "charger plus",
+          "load_more_accessibility_label": "Invitez plus de personnes",
+          "loading_accessibility_label": "charger les gens"
+        }
+      },
+      "add_button": "Ajouter à"
     }
   },
   "general": {
