@@ -39,7 +39,7 @@
         "settings": {
           "bg_color": "bg-white text-dark",
           "shadow": "shadow-sm",
-          "menu_desktop": "menue",
+          "menu_desktop": "sidebar-menu",
           "logo_height_mobile": 40,
           "logo_height_desktop": 40,
           "offcanvas_menu_header_bg": "bg-dark text-white",
