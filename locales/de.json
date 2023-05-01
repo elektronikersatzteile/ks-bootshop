@@ -398,8 +398,19 @@
           "change_shipping_address_link_label": "Lieferadresse ändern",
           "change_shipping_method_link_label": "Versandart ändern",
           "change_payment_method_link_label": "Bezahlungsmethode ändern",
-          "pick_up_in_store_shipping_method_html": "Abholung im Geschäft · %{location_name}"
-        }
+          "pick_up_in_store_shipping_method_html": "Abholung im Geschäft · %{location_name}",
+          "contact_method_title": "Kontakt",
+          "billing_address_title": "Abrechnung",
+          "shipping_address_title": "Ausliefern",
+          "shipping_method_title": "Methode",
+          "payment_method_title": "Zahlung",
+          "change_link_label": "Ändern",
+          "change_contact_method_link_label": "Kontaktdaten ändern",
+          "change_billing_address_link_label": "Rechnungsadresse ändern"
+        },
+        "title": "Rezension",
+        "review_title": "Bestellung überprüfen",
+        "checkout_as_guest": "Kasse als Gast"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Senden Sie mir eine E-Mail mit Neuigkeiten und Angeboten",
@@ -545,6 +556,135 @@
         "delete_customer_mandate": {
           "generic_error": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten.",
           "success_message": "Ihre Zahlungsmethode wurde erfolgreich gelöscht"
+        }
+      },
+      "thank_you": {
+        "attempted_delivery_local_description_html": "Wir konnten Ihre Bestellung nicht liefern. Um eine weitere Lieferung zu planen, %{contact_us}.",
+        "delivered": "Geliefert",
+        "delivered_title": "Ihre Bestellung wurde geliefert",
+        "delivered_description_html": "Ihre Bestellung wurde an die von Ihnen angegebene Adresse geliefert. Wenn Sie es nicht erhalten haben oder andere Probleme haben, %{contact_us}.",
+        "delivered_local_title": "Ihre Bestellung wurde geliefert",
+        "delivered_local_description_html": "Sie haben Ihre Bestellung nicht erhalten? %{Lass uns wissen}.",
+        "payment_method_draft_order": "Fällig nach Prüfung der Bestellung",
+        "choose_payment_method_later": "Zahlungsmethode später auswählen",
+        "picked_up_title": "Ihre Bestellung wurde abgeholt",
+        "picked_up_description_html": "Ihre Bestellung wurde am %{date} in %{location_name} abgeholt.",
+        "contact_us": "Kontaktiere uns",
+        "contact_us_lowercase": "kontaktiere uns",
+        "contact_us_html": "Brauchen Sie Hilfe? %{kontaktiere uns}",
+        "updated_time": "Vor %{time_ago} aktualisiert",
+        "failure": "Nicht zugestellt",
+        "failed_title": "Ihre Bestellung konnte nicht geliefert werden",
+        "failed_contact_merchant": "Wenden Sie sich an %{company}, um die Lieferung zu arrangieren.",
+        "failed_contact_merchant_no_company": "Kontaktieren Sie uns, um die Lieferung zu arrangieren.",
+        "non_shippable_title": "Ihre Bestellung ist abgeschlossen",
+        "let_us_know": "Lass uns wissen",
+        "login_title": "Melden Sie sich an, um alle Bestelldetails anzuzeigen",
+        "login_description": "Sie finden Ihre Bestellnummer in der Quittung, die Sie per E-Mail erhalten haben.",
+        "login_description_phone": "Ihre Bestellnummer finden Sie in der Quittung, die Sie per SMS erhalten haben.",
+        "login_not_customer_html": "Nicht %{name}? Sie können %{link}",
+        "login_reorder_link_text": {
+          "one": "kaufe dieses Produkt auch",
+          "other": "kaufen Sie diese Produkte auch"
+        },
+        "customer_information_hidden_fields_message": "Melden Sie sich an, um alle Kundeninformationen anzuzeigen.",
+        "cancelled_title": "Ihre Bestellung wurde storniert",
+        "cancelled_description": "Ihre Bestellung wurde am %{date} storniert. Kontaktieren Sie uns, wenn Sie Fragen haben.",
+        "order_number_label": "Bestellnummer",
+        "customer_validation_error": "Geben Sie eine gültige E-Mail-Adresse oder Bestellnummer ein.",
+        "customer_validation_error_phone": "Geben Sie eine gültige Telefonnummer oder Bestellnummer ein.",
+        "login": "Anmeldung",
+        "unfulfilled_items_title": "Versand vorbereiten",
+        "unfulfilled_items_description": "Wir bereiten diese Artikel derzeit für den Versand vor.",
+        "marker": {
+          "current": "Aktueller Versandort",
+          "shipping": "Lieferanschrift"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Aktueller Versandort",
+          "shipping": "Treffpunkt"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Artikel in dieser Sendung",
+          "unfulfilled_table_title": "Artikel für den Versand vorbereiten",
+          "product_image_label": "Produktbild",
+          "description_label": "Beschreibung",
+          "quantity_label": "Menge"
+        },
+        "opt_in_message_html": "Ihre Informationen wurden erfolgreich mit %{shopify_pay} gespeichert",
+        "order_updates_description_missing": "Sie erhalten keine Versandaktualisierungen.",
+        "order_updates_subscribe_to_email_notifications": "Erhalten Sie Versandaktualisierungen per E-Mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Erhalten Sie Versandaktualisierungen per E-Mail oder SMS",
+        "order_updates_subscribe_to_phone_notifications": "Erhalten Sie Versandaktualisierungen per SMS",
+        "order_updates_submit_subscription": "Einreichen",
+        "optimus_button_label": "Kaufen Sie mit Optimus: Track-Paket",
+        "track_shipment": "Sendung verfolgen",
+        "shopify_pay": {
+          "order_completed_html": "Bestellung abgeschlossen mit %{shopify_pay}",
+          "learn_more_label": "Erfahren Sie mehr über ShopPay"
+        },
+        "other_options": "Andere Optionen",
+        "delivery_information_label": "Lieferinformationen:",
+        "gift_card_sent_confirmation": "Gutscheine verschickt",
+        "qr_code": {
+          "send_link_to_phone": "Oder senden Sie einen Link an Ihr Telefon",
+          "title": "Verfolgen Sie auf Ihrem Telefon",
+          "subtitle": "Scannen Sie den Code mit der Kamera Ihres Telefons, um ihn mit Shop zu verfolgen."
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scannen Sie mit Ihrem Telefon",
+            "description": "Shop sendet Ihnen Lieferaktualisierungen in Echtzeit, sobald Ihre Bestellung versandt wurde."
+          },
+          "sms": {
+            "title": "Oder senden Sie einen Link an Ihr Telefon"
+          }
+        },
+        "view_business_customer_account": "Konto ansehen",
+        "breadcrumbs_submitted": "Eingereicht",
+        "breadcrumbs_in_review": "Im Rückblick",
+        "breadcrumbs_confirmed": "Bestätigt",
+        "missing_shipping_address_banner": {
+          "title": "Die Bestellung hat keine Lieferadresse",
+          "text_html": "%{contact_us}, um Ihre Adresse hinzuzufügen"
+        },
+        "first_payment_complete": "Erste Zahlung abgeschlossen",
+        "in_store_purchase": "Kauf im Geschäft",
+        "branded_promise": {
+          "shop_promise": {
+            "confirmed": {
+              "guaranteed_on_time": "Lieferung garantiert bis zum %{date} mit",
+              "on_time": "Lieferung bis %{date} mit"
+            },
+            "in_transit": {
+              "guaranteed_on_time": "Lieferung garantiert bis zum %{date} mit",
+              "on_time": "Lieferung bis %{date} mit",
+              "guaranteed_delayed": "Ihre Sendung ist nicht wie erwartet am %{date} eingetroffen. Sobald es eintrifft, können Sie eine Reklamation mit einreichen",
+              "delayed": "Ihre Lieferung, die bis zum %{date} erwartet wird, hat Verspätung."
+            },
+            "out_for_delivery": {
+              "guaranteed_on_time": "Lieferung garantiert bis zum %{date} mit",
+              "on_time": "Lieferung bis %{date} mit",
+              "guaranteed_delayed": "Ihre Sendung ist nicht wie erwartet am %{date} eingetroffen. Sobald es eintrifft, können Sie eine Reklamation mit einreichen",
+              "delayed": "Ihre Lieferung, die bis zum %{date} erwartet wird, hat Verspätung."
+            },
+            "delivered": {
+              "guaranteed_on_time": "Pünktlich geliefert mit",
+              "on_time": "Geliefert am %{date} mit",
+              "guaranteed_delayed": "Da Ihre Lieferung nach dem erwarteten Datum am %{date} eingetroffen ist, haben Sie möglicherweise Anspruch auf %{shop_cash} mit",
+              "delayed": "Geliefert am %{date}, ursprünglich erwartet am %{original_delivery_date}"
+            },
+            "guarantee": {
+              "app_user": {
+                "popover_title": "Scannen Sie, um Ihr Shop Cash zu erhalten",
+                "popover_subtitle": "Ihre Bestellung kam später als erwartet an. Verwenden Sie Ihr Shop-Cash für einen zukünftigen Einkauf in der Shop-App."
+              },
+              "non_app_user": {
+                "popover_title": "Laden Sie Shop herunter, um Ihr Shop-Cash zu erhalten",
+                "popover_subtitle": "Ihre Bestellung kam später als erwartet an. Laden Sie Shop herunter, um Ihr Shop Cash für einen zukünftigen Einkauf zu verwenden."
+              }
+            }
+          }
         }
       }
     },
@@ -951,8 +1091,140 @@
           "previous_accessibility_label": "Vorherige Bestellungen",
           "load_more": "Mehr laden",
           "load_more_accessibility_label": "Laden Sie mehr Bestellungen"
-        }
-      }
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Siehe Bestellung für Details",
+            "estimated_delivery": "Voraussichtliche Lieferung {{date}}",
+            "last_updated": "Zuletzt aktualisiert am {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Europäische Sommerzeit. Lieferung {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Zahlung überfällig",
+            "due": "Zahlung fällig am {{date}}",
+            "due_today": "Zahlung heute fällig",
+            "due_without_date": "Zahlung fällig",
+            "due_on_fulfillment": "Zahlung fällig bei Erfüllung",
+            "pay_to_confirm": "Bezahlen Sie, um zu bestätigen",
+            "payment_not_due": "Zahlung noch nicht fällig"
+          },
+          "table_view": {
+            "overdue": "Überfällig",
+            "due": "Fällig am {{date}}",
+            "due_today": "Heute fällig",
+            "paid": "Bezahlt",
+            "due_without_date": "Fällig",
+            "due_on_fulfillment": "Fällig bei Erfüllung",
+            "pay_to_confirm": "Bezahlen Sie, um zu bestätigen",
+            "payment_not_due": "Noch nicht fällig"
+          }
+        },
+        "sort_by": "Sortieren nach: {{option}}",
+        "sort_hide_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen ausblenden.",
+        "sort_show_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen anzeigen.",
+        "sort_currently_sorted_by_accessibility_label": "Derzeit sortiert nach: {{option}}",
+        "sort_title": "Sortieren",
+        "sort": {
+          "date": {
+            "newest": "Vom Neusten zum Ältesten",
+            "oldest": "Vom Ältesten zum Neuesten"
+          },
+          "location": {
+            "ascending": "Standort (AZ)",
+            "descending": "Standort (ZA)"
+          },
+          "order_number": {
+            "ascending": "Bestellnummer (niedrig bis hoch)",
+            "descending": "Bestellnummer (hoch bis niedrig)"
+          },
+          "order_total": {
+            "ascending": "Bestellsumme (niedrig bis hoch)",
+            "descending": "Bestellsumme (hoch bis niedrig)"
+          }
+        },
+        "table_view": "Tabellenansicht anzeigen",
+        "show_order_actions_accessibility_label": "Bestellaktionen für Bestellung {{name}} anzeigen"
+      },
+      "order_status": {
+        "attempted_delivery_label": "Versuchte Lieferung",
+        "attempted_delivery_description": "Der Zustellversuch war erfolglos.",
+        "confirmed_description": "Wir haben Ihre Bestellung erhalten.",
+        "on_its_way_description": "Diese Sendung ist unterwegs.",
+        "out_for_delivery_description": "Diese Sendung ist zur Zustellung bereit.",
+        "preparing_for_shipping_label": "Versand vorbereiten",
+        "preparing_for_shipping_description": "Diese Artikel werden für den Versand vorbereitet.",
+        "ready_for_pickup_label": "Abholbereit",
+        "ready_for_pickup_description": "Diese Artikel stehen zur Abholung bereit. Bitte bringen Sie Ihre Auftragsbestätigung zur Abholung Ihrer Bestellung mit.",
+        "ready_for_pickup_location": "Ihre Bestellung steht vor Ort zur Abholung bereit",
+        "picked_up_label": "Abgeholt",
+        "picked_up_description": "Diese Artikel wurden abgeholt.",
+        "canceled_description": "Ihre Bestellung wurde am {{date}} storniert.",
+        "canceled_label": "Abgesagt",
+        "canceled_title": "Ihre Bestellung wurde storniert",
+        "come_back": "Kehren Sie zu dieser Seite zurück, um Updates zu Ihrem Sendungsstatus zu erhalten.",
+        "company_tracking_number": "{{company}} Tracking-Nummer:",
+        "confirmed_label": "Bestätigt",
+        "confirmed_title": "Ihre Bestellung wird bestätigt",
+        "confirmed_description_pickup": "Sie erhalten eine E-Mail, wenn Ihre Bestellung zur Abholung bereit ist.",
+        "confirmed_description_digital": "Sie erhalten eine E-Mail, wenn Ihre Bestellung fertig ist.",
+        "delivered_description": "Diese Sendung wurde zugestellt.",
+        "delivered_label": "Geliefert",
+        "delivered_title": "Ihre Sendung wurde zugestellt",
+        "delivered_description_digital": "Ihre Bestellung ist abgeschlossen.",
+        "delivered_description_gift_card": {
+          "one": "Geschenkgutschein wurde per E-Mail verschickt.",
+          "other": "Gutscheine wurden per E-Mail verschickt."
+        },
+        "gift_card_label": {
+          "one": "Geschenkkarte",
+          "other": "Geschenkkarten"
+        },
+        "gift_card_resend": {
+          "one": "E-Mail zurücksenden",
+          "other": "E-Mails erneut senden"
+        },
+        "gift_card_resend_description": {
+          "one": "Wenn Sie es nicht erhalten haben, senden Sie die E-Mail erneut oder",
+          "other": "Wenn Sie sie nicht erhalten haben, senden Sie die E-Mails erneut oder"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Der Geschenkgutschein wird in einer separaten E-Mail verschickt.",
+          "other": "Jeder Geschenkgutschein wird in einer separaten E-Mail verschickt."
+        },
+        "estimated_delivery": "Voraussichtliche Lieferung {{date}}",
+        "in_review_description": "Wir lassen Sie wissen, wenn wir weitere Informationen benötigen oder wenn Ihre Bestellung bestätigt ist.",
+        "in_review_label": "Im Rückblick",
+        "in_review_title": "Ihre Bestellung wird überprüft",
+        "last_updated": "Zuletzt aktualisiert am {{date}}",
+        "multiple_shipments_label": "Mehrere Sendungen",
+        "no_tracking_number": "Für diese Sendung gibt es keine Sendungsverfolgungsnummer.",
+        "on_its_way_label": "Auf dem Weg",
+        "on_its_way_title": "Ihre Sendung ist unterwegs",
+        "out_for_delivery_label": "raus zur Lieferung",
+        "out_for_delivery_title": "Ihre Sendung ist zur Zustellung bereit",
+        "resume_tracking": "Tracking fortsetzen",
+        "submitted_label": "Eingereicht",
+        "submitted_description": "Überprüfen Sie die Bestell- und Zahlungsdetails.",
+        "track_shipment": "Sendung verfolgen",
+        "request_return": "Rückgabe anfordern",
+        "view_order_for_details": "Siehe Bestellung für Details"
+      },
+      "status_mark_as_delivered": "Als zugestellt markieren",
+      "status_title": "Bestellstatus",
+      "buy_again": "Noch einmal kaufen",
+      "buy_again_accessibility_label": "Erneut kaufen für Bestellung {{orderId}}",
+      "manage": "Verwalten",
+      "manage_accessiblity_label": "Bestellung {{orderId}} verwalten",
+      "group_title_label": "Teil von: {{groupTitle}}",
+      "havent_received_your_delivery": "Sie haben Ihre Lieferung nicht erhalten?",
+      "didnt_pick_up_order": "Sie haben Ihre Bestellung nicht abgeholt?",
+      "if_you_didnt_receive_this": "Wenn Sie dies nicht erhalten haben,",
+      "let_us_know": "Lass uns wissen",
+      "contact_us": "kontaktiere uns."
     },
     "addresses": {
       "delete_confirmation_description": "Bestehende Bestellungen sind davon nicht betroffen.",
@@ -1232,7 +1504,9 @@
     "order_details": {
       "shipment_timeline": {
         "hide_events_label": "Details ausblenden",
-        "hide_events_accessibility_label": "Versanddetails der Bestellung ausblenden"
+        "hide_events_accessibility_label": "Versanddetails der Bestellung ausblenden",
+        "expand_events_label": "Zeige Details",
+        "expand_events_accessibility_label": "Sendungsdetails der Bestellung anzeigen"
       },
       "addresses_section_title": "Rechnung und Versand",
       "order_details": "Bestelldetails",
