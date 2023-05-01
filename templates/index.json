@@ -40,11 +40,29 @@
             "btn_color": "btn-primary",
             "btn_size": ""
           }
+        },
+        "33d78870-a856-43c4-b3b1-3301c5f6a60e": {
+          "type": "slide",
+          "settings": {
+            "img_mobile_height": 500,
+            "img_mobile_opacity": 0.7,
+            "img_desktop_height": 800,
+            "img_desktop_opacity": 0.7,
+            "title": "",
+            "title_size": "h2",
+            "description": "",
+            "description_size": "fs-5",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-primary",
+            "btn_size": ""
+          }
         }
       },
       "block_order": [
         "7c7200c0-9e25-4d6f-8e80-68098f92561e",
-        "45eefe8d-75a6-4c0d-83c1-bf904392cb96"
+        "45eefe8d-75a6-4c0d-83c1-bf904392cb96",
+        "33d78870-a856-43c4-b3b1-3301c5f6a60e"
       ],
       "settings": {
         "controls": true,
@@ -53,6 +71,41 @@
         "animation": "slide",
         "mt": 0,
         "mb": 0
+      }
+    },
+    "c310b92a-a3c6-494d-8c25-fe7bcde9090d": {
+      "type": "featured-products",
+      "settings": {
+        "products": [
+          "124-in-1-screwdriver-set-screw-driver-kit-tool-tools-mobile-precision-multi-bit-electronic-cell-phone-repair",
+          "9-in-1-mobile-phone-screen-opening-repair-tools-kit-screwdriver-set-for-iphone",
+          "9h-high-clear-anti-scratch-0-33mm-clear-screen-protector-for-iphone-11-12-13-14-pro-max-clear-tempered-glass-for-various-model",
+          "for-iphone-all-mobile-phone-charging-flex-cable-dock-connector-high-grade-factory-price-charger-board-port"
+        ],
+        "bg_color": "",
+        "text_align": "text-center",
+        "title": "Beliebte Produkte",
+        "title_size": "h2",
+        "description": "<p>Andere Kunden interessiert auch:<\/p>",
+        "description_size": "fs-6",
+        "product_img_orientation": "square",
+        "product_img_border": "img-thumbnail",
+        "product_title_size": "h6",
+        "mobile_scroll": true,
+        "breakpoint_xs": 2,
+        "breakpoint_sm": 2,
+        "breakpoint_md": 2,
+        "breakpoint_lg": 3,
+        "breakpoint_xl": 4,
+        "breakpoint_xxl": 4,
+        "btn_show": false,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "pt": 10,
+        "pb": 5,
+        "mt": 4,
+        "mb": 6
       }
     },
     "1651754599ab801902": {
@@ -170,6 +223,7 @@
   },
   "order": [
     "carousel",
+    "c310b92a-a3c6-494d-8c25-fe7bcde9090d",
     "1651754599ab801902",
     "165175524396f2667c",
     "16517348541d37c171",
