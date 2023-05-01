@@ -8,8 +8,9 @@
           "settings": {
             "img_mobile_height": 500,
             "img_mobile_opacity": 0.7,
+            "img_desktop": "shopify:\/\/shop_images\/pavement-3365703_1920.jpg",
             "img_desktop_height": 800,
-            "img_desktop_opacity": 0.7,
+            "img_desktop_opacity": 0.4,
             "title": "Welcome to KS BootShop Theme",
             "title_size": "h2",
             "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
