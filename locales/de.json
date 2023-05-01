@@ -2141,7 +2141,16 @@
     "price_regular": "Regulärer Preis",
     "price_from": "Aus",
     "price_sale": "Verkaufspreis",
-    "price_unit": "Einzelpreis"
+    "price_unit": "Einzelpreis",
+    "sold_out": "Ausverkauft",
+    "quantity": "Menge",
+    "unavailable": "Nicht verfügbar",
+    "product_options": "Produktoptionen",
+    "buy_it_now": "Kaufe es jetzt",
+    "save": "Speichern",
+    "in_stock": "Auf Lager",
+    "select_variant": "Variante auswählen",
+    "color_options": "Farboptionen"
   },
   "customer": {
     "order": {
@@ -2165,7 +2174,11 @@
       "tracking_company": "Träger",
       "tracking_number": "Auftragsnummer, Frachtnummer, Sendungscode",
       "subtotal": "Zwischensumme",
-      "note": "Kundennotiz"
+      "note": "Kundennotiz",
+      "title": "Bestellen Sie {{ name }}",
+      "date_html": "Platziert am {{ date }}",
+      "cancelled_html": "Bestellung storniert am {{ date }}",
+      "cancelled_reason": "Grund: {{ reason }}"
     },
     "addresses": {
       "title": "Adressen",
@@ -2193,6 +2206,110 @@
       "delete_confirm": "Möchten Sie diese Adresse wirklich löschen?",
       "select_country": "Land auswählen",
       "no_addresses": "Noch keine Adressen. Fügen Sie Ihre erste Adresse über die Registerkarte \"Neu hinzufügen\" hinzu."
+    },
+    "account": {
+      "title": "Mein Konto",
+      "logout": "Ausloggen",
+      "order_history": "Bestellverlauf",
+      "account_details": "Kontodetails",
+      "view_addresses": "Adressen anzeigen",
+      "return": "Zurück zu den Kontodetails",
+      "drawer_manage_account_html": "Gehen Sie zu <a href=\"\/account\">Mein Konto<\/a>",
+      "drawer_register_login_html": "Bitte <a href=\"\/account\/register\">registrieren<\/a> oder <a href=\"\/account\/login\">einloggen<\/a>"
+    },
+    "login": {
+      "title": "Anmeldung",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "forgot_password": "Haben Sie Ihr Passwort vergessen?",
+      "new": "Bist du neu hier?",
+      "create_account": "Kostenlosen Account erstellen",
+      "guest_title": "Als Gast fortfahren",
+      "guest_continue": "Weitermachen"
+    },
+    "recover_password": {
+      "title": "Setze dein Passwort zurück",
+      "submit": "Einreichen",
+      "cancel": "Stornieren",
+      "subtext": "Wir senden Ihnen eine E-Mail, um Ihr Passwort zurückzusetzen.",
+      "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren Ihres Passworts gesendet."
+    },
+    "reset_password": {
+      "title": "Passwort zurücksetzen",
+      "subtext": "Geben Sie ein neues Passwort für {{ email }} ein",
+      "password": "Passwort",
+      "password_confirm": "Bestätige das Passwort",
+      "submit": "Passwort zurücksetzen"
+    },
+    "activate_account": {
+      "title": "Konto aktivieren",
+      "subtext": "Erstellen Sie Ihr Passwort, um Ihr Konto zu aktivieren.",
+      "password": "Passwort",
+      "password_confirm": "Bestätige das Passwort",
+      "submit": "Konto aktivieren",
+      "cancel": "Einladung ablehnen"
+    },
+    "register": {
+      "title": "Benutzerkonto erstellen",
+      "first_name": "Vorname",
+      "last_name": "Familienname, Nachname",
+      "password": "Passwort",
+      "submit": "Erstellen",
+      "have_account": "Sie haben bereits ein Konto?",
+      "login": "Bitte loggen Sie sich ein"
+    },
+    "orders": {
+      "title": "Bestellverlauf",
+      "order_number": "Befehl",
+      "date": "Datum",
+      "payment_status": "Zahlungsstatus",
+      "fulfillment_status": "Erfüllungsstatus",
+      "total": "Gesamt",
+      "none": "Sie haben noch keine Bestellungen aufgegeben."
+    }
+  },
+  "cart": {
+    "title": "Ihr Einkaufswagen",
+    "empty_html": "<p>Ihr Warenkorb ist derzeit leer<\/p>",
+    "summary": "Zusammenfassung",
+    "continue_shopping": "Mit dem Einkaufen fortfahren",
+    "view_cart": "Warenkorb ansehen",
+    "checkout": "Kasse",
+    "remove": "Entfernen",
+    "quantity": "Menge",
+    "qty": "Menge",
+    "note_label": "Fügen Sie Ihrer Bestellung eine Notiz hinzu",
+    "note_placeholder": "Irgendetwas Wichtiges, das wir wissen sollten?! Bitte schreiben Sie es hier auf.",
+    "note_button": "Notiz speichern",
+    "note_saved": "Hinweis gespeichert",
+    "subtotal": "Zwischensumme",
+    "subtotal_regular": "Regulärer Preis",
+    "subtotal_discounted": "Herabgesetzter Preis",
+    "alert_item_added": "Artikel wurde Ihrem Warenkorb hinzugefügt",
+    "alert_cart_updated": "Warenkorb wurde erfolgreich aktualisiert",
+    "alert_error": "Während ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie uns bitte",
+    "taxes_shipping_at_checkout_html": "Steuern und <a href=\"\/policies\/shipping-policy\">Versand<\/a> werden an der Kasse berechnet"
+  },
+  "blogs": {
+    "filter_by": "Filtern nach",
+    "all_topics": "Alle Themen",
+    "posted_in": "Veröffentlicht in",
+    "article": {
+      "blog": "Bloggen",
+      "read_more_title": "Weiterlesen: {{ title }}",
+      "read_more": "Weiterlesen",
+      "comments": {
+        "one": "{{ count }} Kommentar",
+        "other": "{{ count }} Kommentare"
+      },
+      "moderated": "Bitte beachte, dass Kommentare vor der Veröffentlichung genehmigt werden müssen.",
+      "comment_form_title": "Hinterlasse einen Kommentar",
+      "message": "Kommentar",
+      "post": "Kommentar hinzufügen",
+      "back_to_blog": "Zurück zum Blog",
+      "share": "Teile diesen Artikel",
+      "success": "Ihr Kommentar wurde erfolgreich veröffentlicht! Danke schön!",
+      "success_moderated": "Ihr Kommentar wurde erfolgreich veröffentlicht. Wir werden es in Kürze veröffentlichen, da unser Blog moderiert wird."
     }
   }
 }
