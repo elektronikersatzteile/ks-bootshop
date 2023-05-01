@@ -31,12 +31,12 @@
             "img_desktop": "shopify:\/\/shop_images\/Title2-transformed.png",
             "img_desktop_height": 800,
             "img_desktop_opacity": 0.6,
-            "title": "Simple to Use, Easy to Customize",
+            "title": "Sparen anstatt neu kaufen!",
             "title_size": "h2",
-            "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
+            "description": "<p>Wie repariere ich mein Smartphone?<\/p>",
             "description_size": "fs-5",
-            "btn_text": "Download Free",
-            "btn_url": "https:\/\/www.kondasoft.com",
+            "btn_text": "Anleitungen",
+            "btn_url": "shopify:\/\/blogs\/news\/eroffnungsbeitrag-elektronik-ersatzteile-schweiz",
             "btn_color": "btn-primary",
             "btn_size": ""
           }
