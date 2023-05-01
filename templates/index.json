@@ -40,29 +40,11 @@
             "btn_color": "btn-primary",
             "btn_size": ""
           }
-        },
-        "33d78870-a856-43c4-b3b1-3301c5f6a60e": {
-          "type": "slide",
-          "settings": {
-            "img_mobile_height": 500,
-            "img_mobile_opacity": 0.7,
-            "img_desktop_height": 800,
-            "img_desktop_opacity": 0.7,
-            "title": "",
-            "title_size": "h2",
-            "description": "",
-            "description_size": "fs-5",
-            "btn_text": "",
-            "btn_url": "",
-            "btn_color": "btn-primary",
-            "btn_size": ""
-          }
         }
       },
       "block_order": [
         "7c7200c0-9e25-4d6f-8e80-68098f92561e",
-        "45eefe8d-75a6-4c0d-83c1-bf904392cb96",
-        "33d78870-a856-43c4-b3b1-3301c5f6a60e"
+        "45eefe8d-75a6-4c0d-83c1-bf904392cb96"
       ],
       "settings": {
         "controls": true,
