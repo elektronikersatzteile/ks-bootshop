@@ -230,7 +230,13 @@
           "paid_in_installments": "Payez en plusieurs fois avec Shop Pay.",
           "view_schedule": "voir le calendrier"
         },
-        "external_acessibility_label": "(ouvre une nouvelle fenêtre)"
+        "external_acessibility_label": "(ouvre une nouvelle fenêtre)",
+        "shopify_pay_label": "payer magasin",
+        "save": "Enregistrer sur ordinateur",
+        "title": "Se souvenir",
+        "label": "Enregistrer mes informations pour un paiement plus rapide",
+        "description_html": "La prochaine fois que vous effectuerez des achats ici ou dans d'autres magasins alimentés par Shopify, vous recevrez un code par SMS pour effectuer vos achats en toute sécurité avec Shop Pay.",
+        "mobile_phone_icon_alt": "téléphone mobile"
       },
       "notifications": {
         "title": "notifications"
@@ -537,7 +543,96 @@
         "contact_information_title": "coordonnées",
         "billing_address_title": "Adresse de facturation",
         "shipping_address_title": "adresse de livraison",
-        "shipping_address_map_title": "Une carte Google indiquant l'adresse de livraison : %{address}"
+        "shipping_address_map_title": "Une carte Google indiquant l'adresse de livraison : %{address}",
+        "gift_card_sent_confirmation": "bons envoyés",
+        "out_for_delivery_local_title": "Votre commande est en cours de livraison",
+        "out_for_delivery_local_description_html": "Votre commande arrivera sous peu.",
+        "delivered_local_title": "Votre commande a été livrée",
+        "delivered_local_description_html": "Vous n'avez pas reçu votre commande ? %{Faites le nous savoir}.",
+        "let_us_know": "Faites le nous savoir",
+        "qr_code": {
+          "title": "Suivre sur votre téléphone",
+          "subtitle": "Scannez le code avec l'appareil photo de votre téléphone pour le suivre avec Shop.",
+          "send_link_to_phone": "Ou envoyez un lien sur votre téléphone"
+        },
+        "gift_card_confirmation_by_text": "Les bons cadeaux sont envoyés par SMS. Si vous n'avez pas reçu le vôtre, veuillez nous le renvoyer ou nous contacter.",
+        "gift_card_confirmation_by_email": "Les chèques-cadeaux seront envoyés par e-mail. Si vous n'avez pas reçu le vôtre, veuillez nous le renvoyer ou nous contacter.",
+        "gift_card_title": "Chèques cadeaux",
+        "resend_gift_cards": "Renvoyer des chèques-cadeaux",
+        "attempted_delivery_local_title": "livraison manquée",
+        "attempted_delivery_local_description_html": "Nous n'avons pas pu livrer votre commande. Pour programmer une autre livraison, %{contact_us}.",
+        "thank_you_title_payment": "Votre paiement est confirmé.",
+        "thank_you_confirmed_order_with_email_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Vous avez effectué un paiement pour votre commande %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scannez avec votre téléphone",
+            "description": "Shop vous enverra des mises à jour de livraison en temps réel une fois votre commande expédiée."
+          },
+          "sms": {
+            "title": "Ou envoyez un lien sur votre téléphone"
+          }
+        },
+        "estimated_delivery": "Livraison estimée actuelle :",
+        "view_business_customer_account": "voir le compte",
+        "company_location_title": "Emplacement",
+        "thank_you_title_review": "Votre commande a été envoyée pour examen",
+        "thank_you_confirmed_order_with_draft": "Nous vous ferons savoir si nous avons besoin de plus d'informations ou lorsque votre commande aura été confirmée.",
+        "payment_method_draft_order": "A payer après vérification de la commande",
+        "breadcrumbs_submitted": "soumis",
+        "breadcrumbs_in_review": "En rétrospective",
+        "breadcrumbs_confirmed": "Confirmé",
+        "missing_shipping_address_banner": {
+          "title": "La commande n'a pas d'adresse de livraison",
+          "text_html": "%{contact_us} pour ajouter votre adresse"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Veuillez recontacter le représentant commercial.",
+        "order_status_confirmed_with_installments_payment_confirm": "Vous recevrez sous peu un e-mail de confirmation avec votre numéro de commande et votre plan de versement.",
+        "first_payment_complete": "Premier paiement effectué",
+        "in_store_purchase": "Achat en magasin",
+        "optimus_button_label": "Achetez avec Optimus : Pack de piste",
+        "branded_promise": {
+          "shop_promise": {
+            "confirmed": {
+              "guaranteed_on_time": "Livraison garantie d'ici le %{date} avec",
+              "on_time": "Livraison d'ici le %{date} avec"
+            },
+            "in_transit": {
+              "guaranteed_on_time": "Livraison garantie d'ici le %{date} avec",
+              "on_time": "Livraison d'ici le %{date} avec",
+              "guaranteed_delayed": "Votre envoi n'est pas arrivé le %{date} comme prévu. Une fois qu'il arrive, vous pouvez déposer une réclamation avec lui",
+              "delayed": "Votre livraison, prévue pour le %{date}, est retardée."
+            },
+            "out_for_delivery": {
+              "guaranteed_on_time": "Livraison garantie d'ici le %{date} avec",
+              "on_time": "Livraison d'ici le %{date} avec",
+              "guaranteed_delayed": "Votre envoi n'est pas arrivé le %{date} comme prévu. Une fois qu'il arrive, vous pouvez déposer une réclamation avec lui",
+              "delayed": "Votre livraison, prévue pour le %{date}, est retardée."
+            },
+            "delivered": {
+              "guaranteed_on_time": "Livré à temps avec",
+              "on_time": "Livré le %{date} avec",
+              "guaranteed_delayed": "Étant donné que votre livraison est arrivée plus tard que la date prévue le %{date}, vous pourriez avoir droit à %{shop_cash} avec celle-ci",
+              "delayed": "Livré le %{date}, initialement prévu le %{original_delivery_date}"
+            },
+            "guarantee": {
+              "app_user": {
+                "popover_title": "Scannez pour obtenir votre Cash Cash",
+                "popover_subtitle": "Votre commande est arrivée plus tard que prévu. Utilisez l'argent de votre boutique pour un futur achat dans l'application de la boutique."
+              },
+              "non_app_user": {
+                "popover_title": "Téléchargez Shop pour recevoir votre Shop Cash",
+                "popover_subtitle": "Votre commande est arrivée plus tard que prévu. Téléchargez Shop pour utiliser votre Shop Cash pour un futur achat."
+              }
+            }
+          }
+        },
+        "choose_payment_method_later": "Sélectionnez le mode de paiement plus tard",
+        "purchase_order_number_title": "Numéro de commande %{purchase_order_number}"
       },
       "payment": {
         "amazon_payments_login_hint": "Il vous sera demandé de vous connecter à Amazon.",
@@ -637,6 +732,52 @@
           "connect": "Cliquez ici pour connecter votre compte Apple Pay",
           "not_available": "Apple Pay n'est pas disponible dans ce navigateur. Pour connecter votre compte Apple Pay, vous devez utiliser Safari sur un appareil Apple."
         }
+      },
+      "review": {
+        "title": "examen",
+        "review_title": "vérifier la commande",
+        "checkout_as_guest": "Commander en tant qu'invité",
+        "blocks": {
+          "billing_address_title": "Facture",
+          "shipping_address_title": "Livrer",
+          "payment_method_title": "paiement",
+          "change_link_label": "Changement",
+          "change_contact_method_link_label": "modifier les coordonnées",
+          "change_billing_address_link_label": "Modifier l'adresse de facturation",
+          "change_shipping_address_link_label": "changer l'adresse de livraison",
+          "change_shipping_method_link_label": "Changer le mode d'expédition",
+          "change_payment_method_link_label": "Changer la méthode de paiement",
+          "pick_up_in_store_shipping_method_html": "Retrait en magasin %{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Envoyez-moi un e-mail avec des nouvelles et des offres",
+        "unsubscribe": {
+          "title": "Vous vous êtes déconnecté",
+          "description": "Vous ne recevrez plus de rappels de panier de notre part."
+        },
+        "accept_sms_checkbox_label": "Envoyez-moi des nouvelles et des offres par SMS",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "politique de confidentialité",
+            "terms_of_service": "Conditions d'utilisation",
+            "description_html": "En vous inscrivant par SMS, vous acceptez de recevoir des messages marketing automatisés récurrents, y compris des rappels de panier, au numéro de téléphone fourni. Le consentement n'est pas une condition d'achat. Répondez STOP pour vous désabonner. Répondez AIDE pour obtenir de l'aide. La fréquence des messages varie. Des frais de messagerie et de données peuvent s'appliquer. Consultez nos %{privacy_policy_link} et %{terms_of_service_link}.",
+            "description_transactional_html": "Vous pouvez recevoir des messages texte sur les confirmations de commande et les mises à jour d'expédition. Répondez STOP pour vous désabonner. Répondez AIDE pour obtenir de l'aide. La fréquence des messages varie. Des frais de messagerie et de données peuvent s'appliquer. Consultez nos %{privacy_policy_modal_link} et %{terms_of_service_modal_link}."
+          }
+        },
+        "post_accept_marketing_checkbox_label": "Vous vous êtes abonné pour recevoir des actualités et des offres par e-mail",
+        "pending_accept_marketing_checkbox_label": "Vérifiez votre e-mail pour confirmer votre abonnement aux actualités et aux offres"
+      },
+      "shop_policies": {
+        "refund_policy": "politique de remboursement",
+        "privacy_policy": "politique de confidentialité",
+        "terms_of_service": "Conditions d'utilisation",
+        "legal_notice": "imprimer",
+        "shipping_policy": "Conditions d'expédition",
+        "terms_of_sale": "Conditions de vente",
+        "subscription_policy": "Politique d'annulation pour les options d'achat",
+        "purchase_options_policy": "Politiques d'options d'achat",
+        "contact_information": "coordonnées"
       }
     },
     "notices": {
@@ -1749,6 +1890,31 @@
       "tracking_number": "Numéro de suivi",
       "subtotal": "Total",
       "note": "remarque client"
+    },
+    "addresses": {
+      "title": "adresses",
+      "tab_addresses": "adresses",
+      "tab_add_new": "Ajouter nouveau",
+      "default": "Adresse par défaut",
+      "add_new": "ajouter une nouvelle adresse",
+      "edit_address": "Modifier l'adresse",
+      "first_name": "Prénom",
+      "last_name": "nom de famille, nom de famille",
+      "company": "Poursuivre",
+      "city": "Ville",
+      "country": "pays",
+      "province": "province",
+      "zip": "Code Postal",
+      "phone": "téléphone",
+      "set_default": "Définir comme adresse par défaut",
+      "add": "Ajouter une adresse",
+      "update": "mettre à jour l'adresse",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "delete": "Éteindre",
+      "delete_confirm": "Voulez-vous vraiment supprimer cette adresse ?",
+      "select_country": "choisissez un pays",
+      "no_addresses": "Pas encore d'adresses. Ajoutez votre première adresse à l'aide de l'onglet \"Ajouter un nouveau\"."
     }
   }
 }
