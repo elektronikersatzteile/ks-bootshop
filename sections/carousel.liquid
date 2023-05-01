@@ -31,19 +31,15 @@
                     <img 
                         class="carousel-item-img d-lg-none w-100"
                         src="{{ block.settings.img_mobile | image_url: width: '960', crop: 'center' }}" 
-                        alt=" {{ block.settings.img_mobile.alt }}"
-                        width="960"
-                        height="{{ 960 | divided_by: block.settings.img_mobile.aspect_ratio | round }}"
-                        loading="lazy"
-                        style="height: {{ block.settings.img_mobile_height }}px; opacity: {{ block.settings.img_mobile_opacity }};">
+                        alt="{{ block.settings.img_mobile.alt }}"
+                        style="height: calc((960px / {{ block.settings.img_mobile.aspect_ratio }}) * (100vh / 100vw)); opacity: {{ block.settings.img_mobile_opacity }};"
+                        loading="lazy">
                     <img 
                         class="carousel-item-img d-none d-lg-block w-100"
                         src="{{ block.settings.img_desktop | image_url: width: '1920', crop: 'center' }}" 
-                        alt=" {{ block.settings.img_desktop.alt }}"
-                        width="1920"
-                        height="{{ 1920 | divided_by: block.settings.img_desktop.aspect_ratio | round }}"
-                        loading="lazy"
-                        style="height: {{ block.settings.img_desktop_height }}px; opacity: {{ block.settings.img_desktop_opacity }};">
+                        alt="{{ block.settings.img_desktop.alt }}"
+                        style="height: calc((1920px / {{ block.settings.img_desktop.aspect_ratio }}) * (100vh / 100vw)); opacity: {{ block.settings.img_desktop_opacity }};"
+                        loading="lazy">
                 {% endif %}
                 {% unless block.settings.title == blank %}
                     <div class="carousel-caption">
