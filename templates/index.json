@@ -51,108 +51,6 @@
         "mb": 0
       }
     },
-    "16527743361f98366e": {
-      "type": "cards-with-image",
-      "blocks": {
-        "a31f2a51-209c-40f5-8782-38280ee0b30d": {
-          "type": "item",
-          "settings": {
-            "text_align": "text-start",
-            "shadow": "shadow-sm",
-            "border_color": "",
-            "border_width": 1,
-            "img_orientation": "landscape",
-            "img_crop": "center",
-            "title": "Card with image",
-            "title_size": "h5",
-            "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post.<\/p>",
-            "description_size": "fs-6",
-            "btn_text": "Learn more",
-            "btn_url": "",
-            "btn_color": "btn-outline-primary",
-            "btn_size": ""
-          }
-        },
-        "8e95535f-a8b1-440c-8dc1-47263a1da13e": {
-          "type": "item",
-          "settings": {
-            "text_align": "text-start",
-            "shadow": "shadow",
-            "border_color": "border-primary",
-            "border_width": 1,
-            "img_orientation": "landscape",
-            "img_crop": "center",
-            "title": "Card with image",
-            "title_size": "h5",
-            "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post.<\/p>",
-            "description_size": "fs-6",
-            "btn_text": "Learn more",
-            "btn_url": "",
-            "btn_color": "btn-primary",
-            "btn_size": ""
-          }
-        },
-        "9450772e-4e92-4251-97cd-69e844e7fe9f": {
-          "type": "item",
-          "settings": {
-            "text_align": "text-start",
-            "shadow": "shadow-sm",
-            "border_color": "",
-            "border_width": 1,
-            "img_orientation": "landscape",
-            "img_crop": "center",
-            "title": "Card with image",
-            "title_size": "h5",
-            "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post.<\/p>",
-            "description_size": "fs-6",
-            "btn_text": "Learn more",
-            "btn_url": "",
-            "btn_color": "btn-outline-primary",
-            "btn_size": ""
-          }
-        },
-        "5f2ca4c4-dfa9-477b-95dc-1887e7efbb45": {
-          "type": "item",
-          "settings": {
-            "text_align": "text-start",
-            "shadow": "shadow-sm",
-            "border_color": "",
-            "border_width": 1,
-            "img_orientation": "landscape",
-            "img_crop": "center",
-            "title": "Card with image",
-            "title_size": "h5",
-            "description": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post.<\/p>",
-            "description_size": "fs-6",
-            "btn_text": "Learn more",
-            "btn_url": "",
-            "btn_color": "btn-outline-primary",
-            "btn_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "a31f2a51-209c-40f5-8782-38280ee0b30d",
-        "8e95535f-a8b1-440c-8dc1-47263a1da13e",
-        "9450772e-4e92-4251-97cd-69e844e7fe9f",
-        "5f2ca4c4-dfa9-477b-95dc-1887e7efbb45"
-      ],
-      "settings": {
-        "bg_color": "bg-white text-dark",
-        "text_align": "text-center",
-        "title": "Cards With Image",
-        "title_size": "h2",
-        "description": "<p>Add on optional description to this section<\/p>",
-        "description_size": "fs-6",
-        "row_xs": 1,
-        "row_sm": 2,
-        "row_lg": 4,
-        "pt": 10,
-        "pb": 10,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "1651754599ab801902": {
       "type": "image-with-text",
       "settings": {
@@ -239,26 +137,6 @@
         "mb": 0
       }
     },
-    "c74ebbe2-8be5-4594-80c9-25bb5250e03b": {
-      "type": "richtext",
-      "settings": {
-        "bg_color": "",
-        "max_width": "768",
-        "text_align": "text-center",
-        "title": "Richtext Section",
-        "title_size": "h2",
-        "description": "<p>Free Shopify Theme powered by Bootstrap v5 framework<\/p>",
-        "description_size": "fs-6",
-        "btn_text": "Download Free",
-        "btn_url": "https:\/\/www.kondasoft.com",
-        "btn_color": "btn-outline-primary",
-        "btn_size": "",
-        "pt": 6,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "16517348541d37c171": {
       "type": "separator",
       "settings": {
@@ -280,7 +158,7 @@
         "description": "<p>Entdecken Sie, wo wir zu Hause sind - Unser Hauptsitz in der Schweiz, ein stolzes lokales Unternehmen<\/p>",
         "description_size": "fs-6",
         "pt": 11,
-        "pb": 0,
+        "pb": 7,
         "mt": 0,
         "mb": 0
       }
@@ -288,10 +166,8 @@
   },
   "order": [
     "carousel",
-    "16527743361f98366e",
     "1651754599ab801902",
     "165175524396f2667c",
-    "c74ebbe2-8be5-4594-80c9-25bb5250e03b",
     "16517348541d37c171",
     "1ab6c22f-7e79-4e79-b4b5-e0939ba5593b"
   ]
