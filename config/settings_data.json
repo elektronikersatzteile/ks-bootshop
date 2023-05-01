@@ -6,9 +6,10 @@
     "color_body_text": "#212529",
     "font_headings": "roboto_n5",
     "font_body": "sans-serif",
+    "cart_drawer_show_cart_link": true,
     "social_facebook": "#",
     "social_twitter": "#",
-    "social_instagram": "#",
+    "social_instagram": "https:\/\/www.instagram.com\/elektronikersatzteilech\/",
     "social_pinterest": "",
     "social_tiktok": "#",
     "social_snapchat": "",
@@ -44,8 +45,8 @@
           "menu_mobile": "",
           "utilities_menu": "",
           "offcanvas_menu_show_social_icons": true,
-          "pt": 3,
-          "pb": 3
+          "pt": 6,
+          "pb": 6
         }
       },
       "footer": {
@@ -96,7 +97,7 @@
         ],
         "settings": {
           "bg_color": "bg-dark text-white",
-          "show_payment_icons": false,
+          "show_payment_icons": true,
           "show_social_icons": true,
           "show_powered_by": true,
           "pt": 10,
