@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "img_mobile": "shopify:\/\/shop_images\/3.jpg",
-            "img_mobile_height": 360,
+            "img_mobile_height": 200,
             "img_mobile_opacity": 0.5,
             "img_desktop": "shopify:\/\/shop_images\/TitleOriginal.jpg",
             "img_desktop_height": 1000,
@@ -46,11 +46,14 @@
         "7c7200c0-9e25-4d6f-8e80-68098f92561e",
         "45eefe8d-75a6-4c0d-83c1-bf904392cb96"
       ],
+      "custom_css": [
+        "img {max-width:1; height:auto;}"
+      ],
       "settings": {
         "controls": true,
         "indicators": true,
         "autoplay": true,
-        "animation": "slide carousel-fade",
+        "animation": "slide",
         "mt": 0,
         "mb": 0
       }
