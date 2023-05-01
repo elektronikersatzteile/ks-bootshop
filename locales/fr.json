@@ -1251,6 +1251,130 @@
     "continue_shopping": "Procéder aux achats",
     "view_cart": "Voir le panier",
     "checkout": "Espèces",
-    "remove": "Supprimé"
+    "remove": "Supprimé",
+    "quantity": "Foule",
+    "qty": "Foule",
+    "note_label": "Ajouter une note à votre commande",
+    "note_placeholder": "Quelque chose d'important que nous devrions savoir ? ! S'il vous plaît écrivez le ici.",
+    "note_button": "pour enregistrer une note",
+    "note_saved": "Remarque enregistrée",
+    "subtotal": "Total",
+    "subtotal_regular": "Prix habituel",
+    "subtotal_discounted": "Prix réduit",
+    "alert_item_added": "Produit ajouté au panier",
+    "alert_cart_updated": "Le panier a été mis à jour avec succès",
+    "alert_error": "Une erreur s'est produite lors du traitement de votre demande. Veuillez réessayer plus tard. Si le problème persiste, veuillez nous contacter",
+    "taxes_shipping_at_checkout_html": "Les taxes et <a href=\"\/policies\/shipping-policy\">les frais d'expédition<\/a> sont calculés à la caisse"
+  },
+  "blogs": {
+    "filter_by": "Filtrer par",
+    "all_topics": "Tous les sujets",
+    "posted_in": "Publié dans",
+    "article": {
+      "blog": "bloguer",
+      "read_more_title": "En savoir plus : {{ title }}",
+      "read_more": "continuer la lecture",
+      "comments": {
+        "one": "{{ count }} commentaire",
+        "other": "{{ count }} commentaires"
+      },
+      "moderated": "Veuillez noter que les commentaires doivent être approuvés avant publication.",
+      "comment_form_title": "laissez un commentaire",
+      "message": "commentaire",
+      "post": "ajouter un commentaire",
+      "back_to_blog": "Retour au blog",
+      "share": "Partagez cet article",
+      "success": "Votre commentaire a été publié avec succès ! Merci beaucoup!",
+      "success_moderated": "Votre commentaire a été publié avec succès. Nous le publierons sous peu lorsque notre blog sera modéré."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Mon compte",
+      "logout": "Se déconnecter",
+      "order_history": "Historique des commandes",
+      "account_details": "détails du compte",
+      "view_addresses": "afficher les adresses",
+      "return": "Retour aux détails du compte",
+      "drawer_manage_account_html": "Allez dans <a href=\"\/account\">Mon compte<\/a>",
+      "drawer_register_login_html": "Veuillez <a href=\"\/account\/register\">vous inscrire<\/a> ou <a href=\"\/account\/login\">vous connecter<\/a>"
+    },
+    "login": {
+      "title": "Inscription",
+      "password": "mot de passe",
+      "submit": "Enregistrer",
+      "forgot_password": "Avez-vous oublié votre mot de passe?",
+      "new": "Êtes-vous nouveau ici?",
+      "create_account": "Créer un compte gratuit",
+      "guest_title": "Procéder en tant qu'invité",
+      "guest_continue": "Continuer"
+    },
+    "recover_password": {
+      "title": "réinitialisez votre mot de passe",
+      "submit": "Soumettre",
+      "cancel": "Annuler",
+      "subtext": "Nous vous enverrons un e-mail pour réinitialiser votre mot de passe.",
+      "success": "Nous vous avons envoyé un e-mail avec un lien pour mettre à jour votre mot de passe."
+    },
+    "reset_password": {
+      "title": "réinitialiser le mot de passe",
+      "subtext": "Entrez un nouveau mot de passe pour {{ email }}",
+      "password": "mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "réinitialiser le mot de passe"
+    },
+    "activate_account": {
+      "title": "Activer le compte",
+      "subtext": "Créez votre mot de passe pour activer votre compte.",
+      "password": "mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "Activer le compte",
+      "cancel": "Refuser l'invitation"
+    },
+    "register": {
+      "title": "créer un compte",
+      "first_name": "Prénom",
+      "last_name": "nom de famille, nom de famille",
+      "password": "mot de passe",
+      "submit": "Créer",
+      "have_account": "Vous avez déjà un compte?",
+      "login": "Veuillez vous connecter"
+    },
+    "orders": {
+      "title": "Historique des commandes",
+      "order_number": "commande",
+      "date": "Date",
+      "payment_status": "statut de paiement",
+      "fulfillment_status": "état de conformité",
+      "total": "Au total",
+      "none": "Vous ne avez pas encore passé de commande."
+    },
+    "order": {
+      "title": "Commandez {{ name }}",
+      "date_html": "Placé le {{ date }}",
+      "cancelled_html": "Commande annulée le {{ date }}",
+      "cancelled_reason": "Raison : {{ reason }}",
+      "billing_address": "Adresse de facturation",
+      "cancelled": "Commande annulée le {{ date }}",
+      "date": "Placé le {{ date }}",
+      "payment_status": "statut de paiement",
+      "shipping_address": "Adresse de livraison",
+      "fulfillment_status": "état de conformité",
+      "discount": "Rabais",
+      "shipping": "Expédition",
+      "tax": "Impôt",
+      "product": "produit",
+      "sku": "numéro d'article",
+      "price": "Prix",
+      "quantity": "Foule",
+      "total": "Au total",
+      "fulfilled_at_html": "Réalisé le {{ date }}",
+      "track_shipment": "Suivi de l'expédition",
+      "tracking_url": "lien de suivi",
+      "tracking_company": "transporteur",
+      "tracking_number": "Numéro de suivi",
+      "subtotal": "Total",
+      "note": "remarque client"
+    }
   }
 }
