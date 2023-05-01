@@ -90,6 +90,7 @@
         "template--18926469251379__6a8fcfd5-432b-4df4-bf73-f4949fea9e88-168296990171b95f91-0": {
           "type": "slide",
           "settings": {
+            "img_mobile": "shopify:\/\/shop_images\/TitleOriginal.jpg",
             "img_mobile_height": 500,
             "img_mobile_opacity": 0.7,
             "img_desktop_height": 800,
