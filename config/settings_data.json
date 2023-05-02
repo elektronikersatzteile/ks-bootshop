@@ -42,7 +42,7 @@
       "navbar": {
         "type": "navbar",
         "custom_css": [
-          "@media screen and (max-width: 768px) {\/* passen Sie die maximale Breite je nach Bedarf an *\/ .navbar-brand {float: none; display: block; text-align: center; } .navbar-brand img {margin-top: 10px; \/* passen Sie den Abstand je nach Bedarf an *\/ } .navbar-collapse {text-align: center; } .navbar-nav {display: inline-block; margin-top: 10px; \/* passen Sie den Abstand je nach Bedarf an *\/ }}"
+
         ],
         "settings": {
           "bg_color": "bg-white text-dark",
