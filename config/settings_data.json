@@ -6,6 +6,7 @@
     "color_body_text": "#212529",
     "font_headings": "roboto_n5",
     "font_body": "sans-serif",
+    "offcanvas_img_border": "img-thumbnail",
     "favicon": "shopify:\/\/shop_images\/Blau_mit_Siel.png",
     "cart_drawer_show_cart_link": true,
     "social_facebook": "",
@@ -40,12 +41,15 @@
     "sections": {
       "navbar": {
         "type": "navbar",
+        "custom_css": [
+          "@media screen and (max-width: 768px) {\/* passen Sie die maximale Breite je nach Bedarf an *\/ .navbar-brand {float: none; display: block; text-align: center; } .navbar-brand img {margin-top: 10px; \/* passen Sie den Abstand je nach Bedarf an *\/ } .navbar-collapse {text-align: center; } .navbar-nav {display: inline-block; margin-top: 10px; \/* passen Sie den Abstand je nach Bedarf an *\/ }}"
+        ],
         "settings": {
           "bg_color": "bg-white text-dark",
           "shadow": "shadow-sm",
           "menu_desktop": "sidebar-menu",
           "logo_height_mobile": 40,
-          "logo_height_desktop": 40,
+          "logo_height_desktop": 66,
           "offcanvas_menu_header_bg": "bg-dark text-white",
           "menu_mobile": "sidebar-menu",
           "utilities_menu": "",
