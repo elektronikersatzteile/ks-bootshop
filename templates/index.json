@@ -133,14 +133,14 @@
           "type": "text",
           "settings": {
             "title": "Wann erhalte ich meine Bestellung?",
-            "description": "<p>Wir versenden Ihre Bestellung in der Regel innerhalb von 24 Stunden nach Zahlungseingang. Je nach Wohnort und gewählter Versandart beträgt die Lieferzeit zwischen 1-3 Werktagen.<br\/>Wenn ein Produkt nicht auf Lager vorrätig ist, kann sich die Lieferzeit verzögern. Beachten Sie hierfür die Beschreibung beim Produkt. Dort ist hinterlegt, ob ein Produkt auf Lager vorrätig ist oder nicht. Wenn bei einem Produkt kurzfristig eine starke Verzögerung vorliegt, bekommen Sie selbstverständlich eine Benachrichtigung per E-Mail.<\/p>"
+            "description": "<p>Wir versenden Ihre Bestellung in der Regel innerhalb von 24 Stunden nach Zahlungseingang. Je nach Wohnort und gewählter Versandart beträgt die Lieferzeit zwischen 1-5 Werktagen.<br\/>Wenn ein Produkt nicht auf Lager vorrätig ist, kann sich die Lieferzeit verzögern. Beachten Sie hierfür die Beschreibung beim Produkt. Dort ist hinterlegt, ob ein Produkt auf Lager vorrätig ist oder nicht. Wenn bei einem bestellten Produkt kurzfristig eine starke Verzögerung vorliegt, bekommen Sie selbstverständlich eine Benachrichtigung per E-Mail.<\/p>"
           }
         },
         "1651755243f618171d-2": {
           "type": "text",
           "settings": {
             "title": "Welche Zahlungsmöglichkeiten akzeptieren wir",
-            "description": "<p>Wir akzeptieren verschiedene Zahlungsmittel, darunter Kreditkarten Paypal und Shop Pay. So können Sie ganz bequem die Zahlungsmethode wählen, die für Sie am besten geeignet ist.<\/p>"
+            "description": "<p>Wir akzeptieren verschiedene Zahlungsmittel, darunter Kreditkarten, Paypal und Shop Pay. So können Sie ganz bequem die Zahlungsmethode wählen, die für Sie am besten geeignet ist.<\/p>"
           }
         },
         "1651755243f618171d-4": {
