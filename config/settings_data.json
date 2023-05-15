@@ -121,9 +121,9 @@
           "bg_color": "bg-dark text-white",
           "max_width": "600",
           "font_size": "small",
-          "text_transform": "text-capitalize",
-          "pt": 3,
-          "pb": 3
+          "text_transform": "",
+          "pt": 4,
+          "pb": 4
         }
       },
       "newsletter": {
