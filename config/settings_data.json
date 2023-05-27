@@ -137,7 +137,7 @@
           "description_size": "fs-6",
           "input_group_size": "",
           "btn_color": "btn-primary",
-          "notice": "<p>By signing up for email, you agree to our <a href=\"#\" title=\"#\">Terms of Service<\/a> and <a href=\"#\" title=\"#\">Privacy Policy<\/a>.<\/p>",
+          "notice": "<p>Indem Sie sich für E-Mail anmelden, stimmen Sie unseren <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Nutzungsbedingungen<\/a> zu.<\/p>",
           "pt": 10,
           "pb": 10,
           "mt": 0,
