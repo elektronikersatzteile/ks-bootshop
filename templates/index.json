@@ -88,8 +88,9 @@
       "type": "featured-products",
       "settings": {
         "products": [
-          "20w-lightning-ladekabel-fur-schnelles-aufladen-von-smartphones",
-          "lcd-bildschirm-fur-iphone-8-modelle"
+          "iphone-14-lcd-bildschirm",
+          "iphone-12-lcd-bildschirm",
+          "apple-lightning-usb-2-meter"
         ],
         "bg_color": "",
         "text_align": "text-center",
