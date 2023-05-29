@@ -52,7 +52,7 @@
       "settings": {
         "controls": true,
         "indicators": true,
-        "autoplay": true,
+        "autoplay": false,
         "animation": "slide",
         "mt": 0,
         "mb": 0
@@ -89,7 +89,7 @@
       "settings": {
         "products": [
           "iphone-14-lcd-bildschirm",
-          "apple-lightning-usb-2-meter",
+          "iphone-13-lcd-bildschirm",
           "iphone-12-lcd-bildschirm"
         ],
         "bg_color": "",
