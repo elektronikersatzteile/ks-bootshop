@@ -89,8 +89,8 @@
       "settings": {
         "products": [
           "iphone-14-lcd-bildschirm",
-          "iphone-12-lcd-bildschirm",
-          "apple-lightning-usb-2-meter"
+          "apple-lightning-usb-2-meter",
+          "iphone-12-lcd-bildschirm"
         ],
         "bg_color": "",
         "text_align": "text-center",
