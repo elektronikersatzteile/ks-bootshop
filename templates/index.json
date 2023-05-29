@@ -17,7 +17,7 @@
             "description": "",
             "description_size": "fs-5",
             "btn_text": "Produkte",
-            "btn_url": "shopify:\/\/collections",
+            "btn_url": "shopify:\/\/collections\/all",
             "btn_color": "btn-primary",
             "btn_size": ""
           }
