@@ -33,10 +33,10 @@
             "img_desktop_opacity": 0.6,
             "title": "Sparen anstatt neu kaufen!",
             "title_size": "h2",
-            "description": "<h5>Wie repariere ich mein Smartphone?<\/h5>",
+            "description": "",
             "description_size": "fs-5",
             "btn_text": "Anleitungen",
-            "btn_url": "shopify:\/\/blogs\/news\/eroffnungsbeitrag-elektronik-ersatzteile-schweiz",
+            "btn_url": "shopify:\/\/blogs\/news",
             "btn_color": "btn-primary",
             "btn_size": ""
           }
