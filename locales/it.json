@@ -756,6 +756,142 @@
         "loading_message": "La navigazione dell'account è in fase di caricamento"
       },
       "action_menu_accessibility_label": "Più promozioni"
+    },
+    "orders": {
+      "order_list": {
+        "carousel": {
+          "five_products_accessibility_label": "L'ordine include {{lineItemName1}} quantità {{lineItemQuantity1}} , {{lineItemName2}} quantità {{lineItemQuantity2}} , {{lineItemName3}} quantità {{lineItemQuantity3}} , {{lineItemName4}} quantità {{lineItemQuantity4}} , {{lineItemName5}} Quantità {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "L'ordine include {{lineItemName1}} quantità {{lineItemQuantity1}} , {{lineItemName2}} quantità {{lineItemQuantity2}} , {{lineItemName3}} quantità {{lineItemQuantity3}} , {{lineItemName4}} quantità {{lineItemQuantity4}} , {{lineItemName5}} quantità {{lineItemQuantity5}} , {{lineItemName6}} quantità {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "L'ordine include {{lineItemName1}} quantità {{lineItemQuantity1}} , {{lineItemName2}} quantità {{lineItemQuantity2}} , {{lineItemName3}} quantità {{lineItemQuantity3}} , {{lineItemName4}} quantità {{lineItemQuantity4}} , {{lineItemName5}} quantità {{lineItemQuantity5}} , {{lineItemName6}} quantità {{lineItemQuantity6}} e altro",
+          "view_order_details": "Visualizza i dettagli dell'ordine",
+          "previous": "precedente",
+          "next": "Prossimo"
+        },
+        "show_order_actions_accessibility_label": "Mostra le azioni dell'ordine per l'ordine {{name}}",
+        "empty_state_title_for_pending_orders": "Nessun ordine in sospeso",
+        "more_than_four_products_accessibility_label": "L'ordine include {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} e {{numberOfAdditionalProducts}} prodotti aggiuntivi",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} prodotti",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Vedere l'ordine per i dettagli",
+            "estimated_delivery": "Consegna stimata {{date}}",
+            "last_updated": "Ultimo aggiornamento il {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Ora legale europea. Consegna {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "L'ordine include {{lineItemName1}} , {{lineItemName2}} e {{numberOfAdditionalProducts}} prodotti aggiuntivi",
+        "plus_more": "+ {{numberOfAdditionalProducts}}"
+      },
+      "order_status": {
+        "canceled_description": "Il tuo ordine è stato annullato il giorno {{date}} .",
+        "canceled_label": "Annullato",
+        "canceled_title": "Il tuo ordine è stato annullato",
+        "come_back": "Torna su questa pagina per gli aggiornamenti sullo stato della tua spedizione.",
+        "company_tracking_number": "{{company}} numero di riferimento:",
+        "confirmed_label": "Confermato",
+        "confirmed_title": "Il tuo ordine è confermato",
+        "delivered_description": "Questa spedizione è stata consegnata.",
+        "delivered_label": "consegnato",
+        "delivered_title": "La tua spedizione è stata consegnata",
+        "estimated_delivery": "Consegna stimata {{date}}",
+        "in_review_description": "Ti faremo sapere se abbiamo bisogno di ulteriori informazioni o quando il tuo ordine sarà confermato.",
+        "in_review_label": "Ripensandoci",
+        "in_review_title": "Il tuo ordine è in fase di verifica",
+        "no_tracking_number": "Non esiste un numero di tracciamento per questa spedizione.",
+        "on_its_way_label": "Sulla strada",
+        "on_its_way_title": "La tua spedizione è in viaggio",
+        "out_for_delivery_label": "In consegna",
+        "out_for_delivery_title": "La tua spedizione è pronta per la consegna",
+        "resume_tracking": "continua il monitoraggio",
+        "submitted_label": "presentato",
+        "track_shipment": "Tracciamento della spedizione",
+        "request_return": "richiedere il reso",
+        "attempted_delivery_label": "Tentativo di consegna",
+        "attempted_delivery_description": "Il tentativo di consegna non è andato a buon fine.",
+        "confirmed_description": "Abbiamo ricevuto il tuo ordine.",
+        "on_its_way_description": "Questo spettacolo è in arrivo.",
+        "out_for_delivery_description": "Questa spedizione è pronta per la consegna.",
+        "preparing_for_shipping_label": "Preparazione della spedizione",
+        "preparing_for_shipping_description": "Questi articoli sono in fase di preparazione per la spedizione.",
+        "ready_for_pickup_label": "Pronto per essere ritirato",
+        "ready_for_pickup_description": "Questi articoli sono pronti per il ritiro. Si prega di portare con sé la conferma dell'ordine al momento del ritiro.",
+        "picked_up_label": "Raccolto",
+        "picked_up_description": "Questi oggetti sono stati raccolti.",
+        "submitted_description": "Controlla i dettagli dell'ordine e del pagamento.",
+        "last_updated": "Ultimo aggiornamento il {{date}}",
+        "multiple_shipments_label": "Spedizioni multiple",
+        "view_order_for_details": "Vedere l'ordine per i dettagli",
+        "confirmed_description_digital": "Riceverai un'e-mail quando il tuo ordine sarà pronto.",
+        "delivered_description_digital": "Il tuo ordine è completo.",
+        "delivered_description_gift_card": {
+          "one": "Il buono regalo è stato inviato via e-mail.",
+          "other": "I buoni sono stati inviati via e-mail."
+        },
+        "gift_card_label": {
+          "one": "carta regalo",
+          "other": "carte regalo"
+        },
+        "gift_card_resend": {
+          "one": "e-mail indietro",
+          "other": "Invia di nuovo le email"
+        },
+        "gift_card_resend_description": {
+          "one": "Se non l'hai ricevuto, ti preghiamo di inviare nuovamente l'e-mail o",
+          "other": "Se non li hai ricevuti, ti preghiamo di inviare nuovamente le e-mail o"
+        },
+        "ready_for_pickup_location": "Il tuo ordine è pronto per il ritiro in loco",
+        "confirmed_description_pickup": "Riceverai un'e-mail quando il tuo ordine sarà pronto per il ritiro.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Il buono regalo verrà inviato in un'e-mail separata.",
+          "other": "Ogni buono regalo viene inviato in un'e-mail separata."
+        },
+        "confirmed_description_gift_card_text": "Riceverai un SMS non appena il tuo ordine sarà pronto.",
+        "delivered_description_gift_card_text": {
+          "one": "Il buono regalo è stato inviato tramite SMS.",
+          "other": "I buoni regalo sono stati inviati tramite SMS."
+        },
+        "gift_card_resend_text": {
+          "one": "Invia di nuovo SMS",
+          "other": "Invia di nuovo i messaggi SMS"
+        },
+        "gift_card_resend_description_text": {
+          "one": "Se non l'hai ricevuto, invia nuovamente l'SMS o",
+          "other": "Se non li hai ricevuti, invia nuovamente i messaggi SMS o"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Il buono regalo verrà inviato in un SMS separato.",
+          "other": "Ogni buono regalo viene inviato in un SMS separato."
+        }
+      },
+      "status_mark_as_delivered": "Segna come consegnato",
+      "status_title": "lo stato dell'ordine",
+      "buy_again": "Compra di nuovo",
+      "buy_again_accessibility_label": "Acquista di nuovo per l'ordine {{orderId}}",
+      "manage": "Amministrare",
+      "manage_accessiblity_label": "Gestisci ordine {{orderId}}",
+      "group_title_label": "Parte di: {{groupTitle}}",
+      "havent_received_your_delivery": "Non hai ricevuto la tua consegna?",
+      "didnt_pick_up_order": "Non hai ritirato il tuo ordine?",
+      "let_us_know": "Facci sapere",
+      "contact_us": "Contattaci.",
+      "if_you_didnt_receive_this": "Se non hai ricevuto questo,"
+    },
+    "order_details": {
+      "addresses_section_title": "fattura e spedizione",
+      "billing_address": "Indirizzo di fatturazione",
+      "card_ending_with": "termina con {{lastDigits}}",
+      "contact": "Contatto",
+      "hide_items": "nascondere gli elementi",
+      "loading": "I dettagli dell'ordine sono in fase di caricamento",
+      "loading_finished_accessibility_message": "I dettagli dell'ordine sono stati caricati",
+      "payment": {
+        "status_in_review": "Pagamento dovuto dopo l'ispezione",
+        "status_unpaid": "Pagamento dovuto il {{date}}",
+        "title": "pagamento",
+        "card_payment_details": "termina con {{lastDigits}} - {{formattedTransactionAmount}}"
+      }
     }
   }
 }
