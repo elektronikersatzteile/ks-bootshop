@@ -967,8 +967,121 @@
         "status_in_review": "Pagamento dovuto dopo l'ispezione",
         "status_unpaid": "Pagamento dovuto il {{date}}",
         "title": "pagamento",
-        "card_payment_details": "termina con {{lastDigits}} - {{formattedTransactionAmount}}"
-      }
+        "card_payment_details": "termina con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Paga a rate con Shop Pay.",
+          "view_schedule": "visualizza programma"
+        },
+        "gift_card_payment_details": "termina con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Lettera di pagamento - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Contrassegno (COD) – {{formattedTransactionAmount}}",
+          "bank_deposit": "Bonifico bancario - {{formattedTransactionAmount}}"
+        }
+      },
+      "shipping": {
+        "address": "Indirizzo di consegna",
+        "address_map_marker": "Indirizzo di consegna",
+        "method": "metodo di spedizione",
+        "summary": "Spedizione",
+        "free": "Gratuito",
+        "one_time": "Spedizione una tantum",
+        "subscription": "Costi di spedizione dell'abbonamento"
+      },
+      "show_items": "Mostra articolo",
+      "subtitle": "Confermato il {{date}}",
+      "subtotal": "totale parziale",
+      "summary_list_title_accessibility_label": "articoli dell'ordine",
+      "summary_title": "Panoramica dell'ordine",
+      "summary_totals_title_accessibility_label": "totali dell'ordine",
+      "taxes": "Sterza",
+      "title": "Ordine {{name}}",
+      "total": "In totale",
+      "unit_price": "( {{price}} \/ea)",
+      "location": "Posizione",
+      "fully_refunded_label": "RIMBORSATO",
+      "partially_refunded_label": "PARZIALMENTE RIMBORSATO",
+      "refunded_amount": "rimborsato",
+      "discount": "Sconto",
+      "no_data": "nessuno",
+      "pagination": {
+        "load_more": "carica di più",
+        "load_more_accessibility_label": "Carica altri articoli",
+        "loading_accessibility_label": "carica articolo"
+      },
+      "returns": {
+        "expand_events_label": "Mostra dettagli",
+        "hide_events_label": "nascondere dettagli",
+        "print_shipping_label": "Stampa l'etichetta di spedizione",
+        "tracking_number": "Numero di identificazione:",
+        "ineligible_return_with_policy_message": "Nessun articolo di questo ordine può essere restituito. Leggi il nostro {{returnAndRefundPolicyLinkText}} per saperne di più.",
+        "ineligible_return_without_policy_message": "Nessun articolo di questo ordine può essere restituito.",
+        "return_and_refund_link_text": "Politica di restituzione e rimborso",
+        "return_and_refund_modal_header": "Politica di restituzione e rimborso"
+      },
+      "request_return_failed": "Si è verificato un problema durante l'elaborazione della tua richiesta. Per favore riprova.",
+      "mobile_summary_toggle_button": {
+        "open": "Visualizza la panoramica dell'ordine",
+        "closed": "Nascondi il riepilogo dell'ordine"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Mostra dettagli",
+        "expand_events_accessibility_label": "Visualizza i dettagli di spedizione dell'ordine",
+        "hide_events_label": "nascondere dettagli",
+        "hide_events_accessibility_label": "Nascondi i dettagli di spedizione dell'ordine"
+      },
+      "show_order_summary": "Visualizza la panoramica dell'ordine",
+      "hide_order_summary": "Nascondi il riepilogo dell'ordine",
+      "company": "Perseguire",
+      "no_data_provided_accessibility_label": "{{fieldName}} è vuoto",
+      "marketing_section_title": "Novità e offerte",
+      "marketing_description": "Ricevi e-mail di marketing. È possibile disdire in qualsiasi momento.",
+      "marketing_checkbox_label": "Inviami una mail con novità e offerte",
+      "marketing_checkmark_label": "Ti sei iscritto per ricevere notizie e offerte via e-mail",
+      "image_gallery": {
+        "next": "Mostra i prossimi articoli",
+        "previous": "Mostra gli elementi precedenti"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Scarica shop per tracciare il pacco",
+        "track_order_with_shop": "Traccia l'ordine con il negozio",
+        "title_header": "Scansiona con il tuo telefono",
+        "real_time_delivery_updates": "Il negozio ti invierà aggiornamenti sulla consegna in tempo reale una volta che il tuo ordine è stato spedito."
+      },
+      "shop_pay": {
+        "order_completed_with": "Ordine completato con",
+        "learn_more": "Saperne di più"
+      },
+      "edit_summary": {
+        "added": "Aggiunto",
+        "added_with_quantity": "Aggiunto {{quantity}}",
+        "removed": "RIMOSSO",
+        "removed_with_quantity": "{{quantity}} rimosso",
+        "updated_at": "Il tuo ordine è stato aggiornato il {{date}}"
+      },
+      "pickup": {
+        "pickup": "Raccolta",
+        "pickup_location": "punto d'incontro"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Pagato con rate Shop Pay",
+        "description": "Tieni traccia del tuo programma di pagamento con promemoria nell'app del negozio.",
+        "payment_reminders_button": "Ricevi solleciti di pagamento",
+        "desktop_qr_code_content": {
+          "title": "Scansiona i ricordi",
+          "description": "Lascia che Shop ti ricordi i tuoi pagamenti rateali."
+        }
+      },
+      "order_details": "Dettagli dell'ordine",
+      "contact_information": "informazioni sui contatti",
+      "login_to_view_all_order_details": "Accedi per visualizzare tutti i dettagli dell'ordine.",
+      "log_in": "Registrati",
+      "paid_amount": "Pagato",
+      "remaining_amount": "residuo",
+      "order_details_skeleton_accessibility_label": "Accedi per visualizzare tutti i dettagli dell'ordine.",
+      "tip": "mancia",
+      "logged_in_account_no_permission_to_order": "Hai effettuato l'accesso come {{email}} . Questo account non dispone dell'autorizzazione per gestire questo ordine.",
+      "log_in_to_a_different_account": "Accedi a un altro account utente"
     },
     "addresses": {
       "edit_section_accessibility_label": "Modifica {{address}}",
@@ -996,7 +1109,23 @@
       "add_button_accessibility_label": "Aggiungi indirizzo",
       "back_button": "Ritorno",
       "back_button_accessibility_label": "Torna a modifica indirizzo {{address}}",
-      "no_addresses_banner": "Nessun indirizzo aggiunto"
+      "no_addresses_banner": "Nessun indirizzo aggiunto",
+      "add_button": "Aggiungi indirizzo",
+      "address_deleted_notification": "Indirizzo cancellato",
+      "cancel_adding_address_accessibility_label": "Annulla l'aggiunta di un indirizzo",
+      "cancel_deletion_button": "Annulla",
+      "cancel_deletion_button_accessibility_label": "Annulla l'eliminazione di {{address}}",
+      "default_address": {
+        "title": "Indirizzo predefinito",
+        "title_accessibility_label": "Indirizzo predefinito: {{address}}"
+      },
+      "delete_button": "Spegnere",
+      "delete_button_accessibility_label": "Elimina {{address}}",
+      "delete_confirmation_button": "Elimina indirizzo",
+      "delete_confirmation_button_accessibility_label": "Elimina {{address}}",
+      "delete_confirmation_message": "Elimina indirizzo? Gli ordini esistenti non sono interessati.",
+      "edit_button": "Modificare",
+      "edit_button_accessibility_label": "Modifica {{address}}"
     },
     "address_form": {
       "auto_complete_close_accessibility_label": "chiudere suggerimenti",
