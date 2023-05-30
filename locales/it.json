@@ -505,6 +505,132 @@
         "custom_label": "Suggerimento personalizzato",
         "add_tip": "Aggiungi mancia"
       }
+    },
+    "addresses": {
+      "region": "regione",
+      "prefecture": "prefettura",
+      "province": "Provincia",
+      "state": "Condizione",
+      "state_and_territory": "Stato\/territorio",
+      "county": "quartiere",
+      "emirate": "emirato",
+      "governorate": "governatorato",
+      "confirm": "Vuoi davvero eliminare questo indirizzo?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "evidenziato",
+        "best_selling": "I più venduti",
+        "az": "In ordine alfabetico, AZ",
+        "za": "In ordine alfabetico ZA",
+        "price_ascending": "Prezzo da basso ad alto",
+        "price_descending": "Prezzo, dal più alto al più basso",
+        "date_ascending": "Data, dal vecchio al nuovo",
+        "date_descending": "data, dal nuovo al vecchio",
+        "most_relevant": "più rilevanti"
+      }
+    },
+    "errors": {
+      "blank": "non deve essere vuoto",
+      "credit_card_session_expired": "L'autorizzazione della carta di credito è scaduta, inserisci nuovamente i tuoi dati di pagamento. La tua carta non è stata addebitata.",
+      "empty": "Non può essere vuoto",
+      "invalid_email": "deve essere un indirizzo email valido",
+      "discount_disabled": "Questo sconto è stato disattivato",
+      "discount_expired": "Questo sconto non è più valido",
+      "discount_limit_reached": "Questo sconto ha raggiunto il limite di utilizzo",
+      "discount_not_found": "Non è stato trovato alcuno sconto valido che corrisponda al codice inserito",
+      "customer_already_used_once_per_customer_discount_notice": "Questo sconto ha raggiunto il limite di utilizzo",
+      "gift_card_already_applied": "Il codice è già stato applicato al tuo checkout",
+      "gift_card_code_invalid": "Il codice non è valido",
+      "gift_card_currency_mismatch": "La tua carta regalo è in %{gift_card_currency}. Contattaci per ristamparlo in %{checkout_currency}.",
+      "gift_card_depleted": "Non è rimasto alcun saldo su questa carta regalo",
+      "gift_card_disabled": "La carta regalo è disabilitata",
+      "gift_card_expired": "La carta regalo è scaduta",
+      "invalid": "è invalido",
+      "bad_domain": "contiene un nome di dominio non valido",
+      "taken": "è già stato ripreso",
+      "contains_html_tags": "non deve contenere tag HTML",
+      "too_short": "è troppo breve (almeno %{count} caratteri)",
+      "too_long": "è troppo lungo (massimo %{count} caratteri)",
+      "password_mismatch": "deve corrispondere alla password specificata",
+      "contains_spaces": "inizia o finisce con spazi.",
+      "email_domain_invalid": "Il provider non è supportato",
+      "invalid_for_country": "non è valido per %{country}",
+      "invalid_for_country_and_province": "non è valido per %{province} e %{country}",
+      "invalid_province_in_country": "non è una provincia valida in %{country}",
+      "invalid_state_in_country": "non è un paese valido in %{country}",
+      "invalid_region_in_country": "non è una regione valida in %{country}",
+      "less_than_or_equal_to": "deve essere minore o uguale a %{count}",
+      "not_supported": "non è supportato",
+      "full_name_required": "Inserisci un nome e un cognome",
+      "invalid_for_card_type": "è invalido",
+      "invalid_type": "Siamo spiacenti, non accettiamo carte di questo tipo",
+      "invalid_format": "Il formato non è valido",
+      "expired": "scaduto",
+      "invalid_start_date_or_issue_number_for_debit": "è richiesta una data di inizio o un numero di emissione validi",
+      "invalid_expiry_year": "non è un anno di scadenza valido",
+      "reset_password_html": "Questo indirizzo email è già collegato a un account. Se possiedi questo account, puoi <a href=\"\/account\/login#recover\">reimpostare la tua password<\/a>",
+      "verify_email": "Abbiamo inviato un'e-mail a %{customer_email}, fai clic sul link all'interno per verificare il tuo indirizzo e-mail.",
+      "blocked_address": "Questa posizione non è supportata.",
+      "product_not_available": "Il prodotto non è pubblicato per questo cliente."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Errore durante il ripristino della password",
+        "no_account_found": "Nessun account trovato con questa email.",
+        "invalid_credentials": "Email o password errate.",
+        "denylisted_reset_password": "Non è stato possibile accedere al tuo account perché la password corrente non è sicura. Riceverai un'e-mail per aggiornare la tua password."
+      },
+      "address": {
+        "updated": "Indirizzo aggiornato con successo.",
+        "error_updating": "Errore durante l'aggiornamento dell'indirizzo",
+        "created": "Indirizzo creato con successo",
+        "error_creating": "Errore durante la creazione dell'indirizzo.",
+        "deleted": "Indirizzo eliminato con successo",
+        "error_deleting": "Errore durante l'eliminazione dell'indirizzo."
+      },
+      "order": {
+        "not_available": "Questo ordine non è disponibile",
+        "financial_status": {
+          "authorized": "Autorizzato",
+          "pending": "In attesa di",
+          "paid": "Pagato",
+          "unpaid": "non pagato",
+          "voided": "annullato",
+          "partially_paid": "Parzialmente pagato",
+          "partially_refunded": "Parzialmente rimborsato",
+          "refunded": "rimborsato",
+          "expired": "Scaduto"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Soddisfa",
+          "complete": "Completare",
+          "partial": "Parzialmente",
+          "unfulfilled": "Insoddisfatto",
+          "restocked": "riempito"
+        },
+        "transaction_status": {
+          "success": "Successo",
+          "pending": "In attesa di",
+          "failure": "Fallire",
+          "error": "Errore"
+        },
+        "cancel_reason": {
+          "declined": "pagamento rifiutato",
+          "inventory": "Articolo non disponibile",
+          "fraud": "Ordine fraudolento",
+          "customer": "Il cliente ha modificato\/annullato l'ordine",
+          "other": "Altro"
+        },
+        "cash_on_delivery": "Contrassegno (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Puoi aggiungere solo %{count} %{name} al carrello.",
+        "too_many_items_in_cart": "Non puoi aggiungere più %{name} al carrello.",
+        "all_items_in_cart": "Tutti i %{count} %{name} sono nel tuo carrello.",
+        "empty_update": "il carrello vuoto non può essere aggiornato",
+        "missing_parameters": "non è un ID o un parametro di riga valido"
+      }
     }
   },
   "customer_accounts": {
