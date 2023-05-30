@@ -899,6 +899,136 @@
           "one": "Riceverai un SMS con la tua carta regalo in pochi minuti.",
           "other": "Riceverai un SMS con i tuoi buoni regalo in pochi minuti."
         }
+      },
+      "field_errors": {
+        "payment_gateway_unsupported_for_development_store_html": "È necessario utilizzare un gateway di pagamento di prova per effettuare un ordine di prova. Ulteriori informazioni sugli <a href=\"%{docs_link}\">ordini di test nei development store<\/a> .",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Hai raggiunto il limite per gli ordini del Development Shop con questo processore di pagamento. È necessario utilizzare un gateway di pagamento di prova per effettuare un altro ordine. Ulteriori informazioni sugli <a href=\"%{docs_link}\">ordini di test nei development store<\/a> .",
+        "address_country_invalid": "Selezionare un paese\/regione dall'elenco",
+        "address_zip_invalid": "Inserisci un codice postale valido",
+        "sms_marketing_phone_invalid": "Inserisci un numero di telefono valido",
+        "thank_you_remember_me_phone_invalid": "Inserisci un numero di telefono valido",
+        "address_suggestion_did_you_mean_html": "Intendevi %{html}?",
+        "vaulting_agreement_blank": "Dovrai salvare la tua nuova carta di credito per continuare, poiché il pagamento per questo ordine verrà elaborato in seguito."
+      },
+      "payment_errors": {
+        "generic_error": "Si è verificato un problema durante l'elaborazione del pagamento. Riprova o utilizza un altro metodo di pagamento.",
+        "rejected_transaction": "Il tuo pagamento è stato rifiutato. Riprova o utilizza un altro metodo di pagamento.",
+        "credit_card_processing": "Il pagamento non può essere elaborato per motivi tecnici. Riprova tra qualche minuto o utilizza un altro metodo di pagamento.",
+        "order_total_changed": "Il tuo pagamento non può essere elaborato perché l'importo totale del tuo ordine è cambiato. Controlla il totale dell'ordine e riprova.",
+        "payment_processing": "Il pagamento non può essere elaborato per motivi tecnici. Riprova o utilizza un altro metodo di pagamento.",
+        "paypal_zero_amount": "Non puoi usare PayPal per %{amount} ordini. Conferma che il tuo ordine è corretto ed effettua il check out senza PayPal.",
+        "paypal_invalid_token": "PayPal non era disponibile. Riprova o utilizza un'altra opzione di pagamento.",
+        "pay_later_failed": "Si è verificato un errore durante l'elaborazione del pagamento con Paga dopo. Scegli un metodo di pagamento diverso e riprova.",
+        "three_d_secure_failed": "Non è stato possibile verificare il tuo pagamento. Riprova o utilizza un altro metodo di pagamento.",
+        "three_d_secure_throttled": "Troppi tentativi; Attendere prima di riprovare",
+        "subscription_agreement_blank": "Per poter acquistare un abbonamento, i tuoi dati di pagamento devono essere salvati. Per continuare, conferma di accettare o rimuovi gli articoli in abbonamento dal tuo ordine.",
+        "three_d_secure_failed_duplicate": "L'autenticazione 3D Secure della carta di credito è fallita perché ne è già in corso un'altra.",
+        "insufficient_funds": "Il tuo pagamento è stato rifiutato a causa di fondi insufficienti. Riprova o utilizza un altro metodo di pagamento.",
+        "payment_processing_no_retry": "Il pagamento non può essere elaborato per motivi tecnici. Si prega di provare un altro metodo di pagamento.",
+        "checkout_amount_changed": "Non è stato possibile elaborare il pagamento perché l'importo dovuto al momento del pagamento è cambiato. Controlla il tuo ordine e riprova.",
+        "deferred_payment_not_allowed": "Non è consentito il pagamento dilazionato. Controlla il tuo ordine e riprova.",
+        "deferred_payment_required": "Questo ordine richiede il pagamento dilazionato. Controlla il tuo ordine e riprova.",
+        "deferred_amount_changed": "Non è stato possibile elaborare il pagamento perché l'importo del pagamento differito è cambiato. Controlla il tuo ordine e riprova.",
+        "deferred_date_changed": "Non è stato possibile elaborare il pagamento perché la data del pagamento differito è cambiata. Controlla il tuo ordine e riprova.",
+        "multiple_deferred_payment_not_allowed": "È consentito un solo pagamento dilazionato per richiesta. Rivedi la tua richiesta e riprova.",
+        "shipping_must_match_billing": "L'indirizzo di fatturazione deve corrispondere all'indirizzo di spedizione. Si prega di utilizzare un altro metodo di pagamento.",
+        "decision_rule_block": "Si è verificato un problema durante l'elaborazione del pagamento. Si prega di contattare il proprietario del negozio.",
+        "pick_up_card": "La tua carta è stata rifiutata. Riprova o utilizza un altro metodo di pagamento.",
+        "cannot_verify": "Non è stato possibile verificare i tuoi dati di pagamento. Controlla i dettagli della tua carta e riprova.",
+        "invalid_number": "Inserisci un numero di carta valido",
+        "invalid_expiry_date": "Inserisci una data di scadenza della carta valida",
+        "invalid_cvc": "Inserisci un codice di sicurezza valido",
+        "expired_card": "La tua carta è scaduta. Usa un metodo di pagamento diverso.",
+        "card_declined": "La tua carta è stata rifiutata. Riprova o utilizza un altro metodo di pagamento.",
+        "processing_error": "Si è verificato un problema durante l'elaborazione del pagamento. Riprova o utilizza un altro metodo di pagamento.",
+        "call_issuer": "La tua carta è stata rifiutata. Utilizza un metodo di pagamento diverso o contatta la tua banca per ulteriori informazioni.",
+        "test_mode_live_card": "Questo negozio non può accettare ordini reali o pagamenti reali.",
+        "transient_error": "Si è verificato un problema durante l'elaborazione del pagamento. Prova ad aggiornare questa pagina o controlla la tua connessione Internet.",
+        "missing_shipping_address": "Non è stato possibile elaborare il pagamento perché non hai inserito un indirizzo di consegna. Aggiungi un indirizzo di spedizione e riprova.",
+        "invalid_shipping_address": "Non è stato possibile elaborare il pagamento perché non siamo riusciti a trovare il tuo indirizzo di spedizione. Controlla il tuo indirizzo di spedizione e riprova.",
+        "successful_offsite_with_gift_card_error": "Si è verificato un problema durante l'elaborazione del pagamento del buono regalo. Riprova o utilizza un altro metodo di pagamento.",
+        "development_store_order_limit_reached": "Hai raggiunto il limite per gli ordini del Development Shop con questo processore di pagamento. È necessario utilizzare un gateway di pagamento di prova per effettuare un altro ordine. Ulteriori informazioni su %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "È necessario utilizzare un gateway di pagamento di prova per effettuare un ordine di prova. Ulteriori informazioni su %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "Ordini di prova nei development store"
+      },
+      "shipping_errors": {
+        "shipping_method": "Il tuo carrello è stato aggiornato e il prezzo di spedizione precedente non è valido. Scegli un nuovo piano.",
+        "shipping_method_not_available": "Il tuo carrello è stato aggiornato e gli articoli aggiunti non possono essere spediti al tuo indirizzo. Rimuovi gli articoli per completare l'ordine.",
+        "shipping_method_not_available_generic": {
+          "one": "Questo ordine non può essere spedito all'indirizzo che hai inserito. Controlla il tuo indirizzo per assicurarti che tutti i campi siano compilati correttamente e riprova.",
+          "other": "Alcuni articoli nel tuo carrello non possono essere spediti all'indirizzo che hai inserito. Controlla il tuo indirizzo per assicurarti che tutti i campi siano compilati correttamente e riprova."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "L'articolo aggiunto non viene consegnato nella tua posizione. Rimuovilo per effettuare il check-out o contattare il negozio.",
+          "other": "Uno o più articoli che hai aggiunto non vengono consegnati nella tua posizione. Rimuovili per effettuare il check-out o contattare il negozio."
+        },
+        "payment_method_not_supported": "Non puoi utilizzare questo metodo di pagamento per %{country}. Si prega di utilizzare un metodo di pagamento diverso per spedire in questo paese.",
+        "empty_state": "Inserisci il tuo indirizzo di spedizione per visualizzare i metodi di spedizione disponibili."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "cassa rapida",
+        "or": "O",
+        "show_more_options": "Mostra più opzioni"
+      },
+      "alternative_payment_method": {
+        "button_html": "Acquista con: %{method}",
+        "button_label": "Acquista con: %{method}"
+      },
+      "paypal": {
+        "button_html": "Vai alla cassa con %{logo}"
+      },
+      "apple_pay": {
+        "button_html": "Acquista con %{logo}"
+      },
+      "processing": {
+        "redirecting_page_title": "Deviazione…",
+        "redirecting_title": "Deviazione…",
+        "redirecting_notice": "Aspetta che ti reindirizziamo.",
+        "complete_your_purchase_title": "Completa il tuo acquisto",
+        "continue_to_payment_gateway_notice": "Procedi con il pagamento per aggiungere i tuoi dati di fatturazione.",
+        "continue_to_payment_gateway_button_label": "Procedere al pagamento",
+        "complete_your_purchase_title_error": "Correggi i tuoi dati di pagamento",
+        "continue_to_payment_gateway_notice_error": "Non è stato possibile verificare i tuoi dati di pagamento.",
+        "continue_to_payment_gateway_button_label_error": "Aggiorna le informazioni di pagamento",
+        "page_title": "Modifica ordine",
+        "title": "Modifica ordine",
+        "your_order_has_been_received_title": "grazie per il tuo ordine",
+        "you_will_receive_confirmation": "Stiamo ricevendo molti ordini in questo momento. A breve dovresti ricevere una conferma via e-mail o SMS. Se non lo ricevi entro un'ora, faccelo sapere.",
+        "wait": {
+          "short": "Il tuo ordine verrà elaborato.",
+          "medium": {
+            "one": "Il vostro ordine è in fase di elaborazione. Il tempo di attesa stimato è di %{count} minuti.",
+            "other": "Il vostro ordine è in fase di elaborazione. Il tempo di attesa stimato è di %{count} minuti."
+          },
+          "long": "Riceverai un'e-mail non appena il tuo ordine sarà stato elaborato. Al momento stiamo registrando un gran numero di ordini.",
+          "no_auto_refresh_html": "Se non vieni reindirizzato automaticamente, %{link}.",
+          "refresh_this_page": "ricaricare la pagina"
+        },
+        "you_will_not_be_charged": "Non ti verrà ancora addebitato",
+        "action_required": "azione richiesta"
+      },
+      "failed_payment": {
+        "page_title": "Impossibile elaborare il pagamento",
+        "title": "Impossibile elaborare il pagamento",
+        "payment_not_processed_title": "Non è stato possibile elaborare il pagamento.",
+        "payment_not_processed_text": "Non sei stato addebitato. Torna al carrello per completare l'acquisto.",
+        "return_to_cart_button_label": "Ritorna al carrello"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Carta di credito",
+        "bank_deposit_label": "Trasferimento bancario",
+        "cash_on_delivery_label": "pagamento alla consegna",
+        "money_order_label": "vaglia",
+        "debit_card_label": "carta di debito",
+        "shop_pay": {
+          "name": "Paga in negozio",
+          "installments_label": "Paga per intero o a rate",
+          "next_time": "La prossima volta che effettuerai il check-out qui o in altri negozi Shopify, riceverai un codice tramite SMS e potrai fare acquisti in sicurezza con Shop Pay.",
+          "terms": "Continuando, accetti %{privacyLink} e %{termsLink} di Shop Pay.",
+          "privacy_label": "Protezione dati",
+          "terms_label": "Termini generali e condizioni"
+        },
+        "deferred_payment_label": "Seleziona il metodo di pagamento più tardi"
       }
     },
     "pagination": {
