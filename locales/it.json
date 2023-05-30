@@ -590,6 +590,172 @@
       "postal_code": "Codice Postale",
       "postcode": "Codice Postale",
       "pincode": "SPILLO"
+    },
+    "notices": {
+      "cart": {
+        "generic_error": "Errore carrello",
+        "too_many_line_items_error": "Il tuo carrello non può contenere più di %{max} articoli.",
+        "link_expired": "Collegamento scaduto",
+        "link_no_longer_exists": "La connessione non esiste più.",
+        "stock_problems_html": "Uno o più articoli non sono più disponibili. Abbiamo fornito un <a href=\"%%7Blink%7D\">carrello della spesa aggiornato<\/a> .",
+        "changed": "Carrello cambiato",
+        "items_changed": "Uno o più elementi sono cambiati.",
+        "product_sold_out": "Il prodotto '%{name}' è già esaurito.",
+        "variant_not_found": "Variante non trovata",
+        "variant_requires_selling_plan": "La variante può essere acquistata solo con un piano di vendita.",
+        "shipping_address_not_required": "Questo carrello non necessita di spedizione",
+        "shipping_address_invalid": "Si è verificato un problema durante il calcolo dei costi di spedizione. Procedi al checkout per selezionare una tariffa di spedizione prima di completare l'ordine.",
+        "selling_plan_not_applicable": "Il programma vendite non può essere applicato alla variante",
+        "selling_plan_not_available_for_company_locations": "Per gli ordini B2B è possibile solo un acquisto una tantum",
+        "digital_product_not_available_for_company_locations": "Questo articolo non può essere aggiunto a un ordine B2B",
+        "product_not_available": "Il prodotto non è disponibile",
+        "less_than_minimum": "Questo elemento ha almeno %{min}.",
+        "more_than_maximum": "Questo articolo ha un massimo di %{max}.",
+        "not_respect_step": "Puoi aggiungere questo elemento solo in multipli di %{step}.",
+        "bundle_requires_components": "Il prodotto in bundle \"%{name}\" non può essere aggiunto al carrello."
+      },
+      "storefront": {
+        "invalid_password": "Password errata, riprova."
+      },
+      "tags": {
+        "add_articles": "Limita la ricerca agli elementi che hanno anche il tag %{tag}",
+        "add_products": "Limita la selezione ai prodotti corrispondenti al tag %{tag}",
+        "remove_articles": "Allarga la ricerca agli elementi non taggati con %{tag}",
+        "remove_products": "Rimuovi il tag %{tag}"
+      }
+    },
+    "page_titles": {
+      "products": "Prodotti",
+      "shopping_cart": "Il tuo carrello acquisti",
+      "account": "Account",
+      "create_account": "creare un account",
+      "reset_account": "resettare l'account",
+      "addresses": "indirizzi",
+      "order": "Ordine %{name}",
+      "search": "Cercare",
+      "collections": "collezioni",
+      "not_found": "404 non trovato",
+      "challenge": "Sfida",
+      "checkpoint": "punto di controllo",
+      "search_results": {
+        "one": "Ricerca: %{count} risultato trovato per \"%{terms}\"",
+        "other": "Ricerca: %{count} risultati trovati per \"%{terms}\""
+      },
+      "blog_or_article_with_error": "Errore - %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Sono stati applicati %{count} sconti"
+    },
+    "challenge": {
+      "message": "Facci sapere che non sei un robot per procedere.",
+      "error": "La tua risposta non è corretta, riprova.",
+      "submit_button_text": "Invia"
+    },
+    "checkpoint": {
+      "message": "Risolvi il captcha per continuare",
+      "error": "Convalida captcha fallita",
+      "submit_button_text": "Invia"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Grazie per esserti iscritto alla nostra mailing list.",
+        "disclaimer": "È possibile disdire in qualsiasi momento.",
+        "unsubscribe": "per annullare l'iscrizione"
+      },
+      "unsubscribed": {
+        "confirmation": "Ti sei cancellato dalla nostra mailing list.",
+        "disclaimer": "Non riceverai più aggiornamenti di marketing da parte nostra. Puoi accedere di nuovo in qualsiasi momento.",
+        "preview": "Mostrano un'anteprima di ciò che i clienti vedono quando rinunciano."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Hai optato per il tracciamento delle email aperte.<\/b>",
+          "visibility": "I tassi di apertura delle e-mail sono segnalati in forma anonima. Vediamo solo se hai aperto un'e-mail come parte di un tasso di apertura e-mail aggregato.",
+          "opt_out_html": "Puoi <a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">disattivare<\/a> il monitoraggio dell'apertura della posta elettronica se non desideri condividere queste informazioni.",
+          "preview_bar": "Mostrano un'anteprima di ciò che i clienti vedranno se scelgono di tenere traccia delle e-mail aperte."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Hai disattivato il tracciamento delle email aperte.<\/b>",
+          "visibility": "Non vedremo se hai aperto le nostre e-mail.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">Registrati per il monitoraggio delle e-mail delle e-mail aperte<\/a> .",
+          "preview_bar": "Mostrano un'anteprima di ciò che i clienti vedono quando annullano l'iscrizione al monitoraggio delle e-mail aperte."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Non teniamo più traccia delle email aperte.<\/b>",
+          "privacy_policy": "Dopo l'invio di questa email, abbiamo aggiornato la nostra politica sulla privacy e non tracciamo più le aperture."
+        },
+        "track": {
+          "status_html": "<b>Viene segnalato il tracciamento delle email aperte.<\/b>",
+          "visibility": "Come parte del tasso complessivo di apertura dell'email, vediamo solo se hai aperto l'email."
+        },
+        "updated_policy": {
+          "status_html": "<b>Viene segnalato il tracciamento delle email aperte.<\/b>",
+          "visibility": "Abbiamo aggiornato la nostra politica e ora stiamo monitorando le aperture delle email. I tassi di apertura delle e-mail sono segnalati in forma anonima. Vediamo solo se hai aperto un'e-mail come parte del tasso complessivo di apertura delle e-mail.",
+          "opt_out_html": "Se non desideri condividere queste informazioni, puoi <a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">rinunciare.<\/a>"
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Di solito pronto in 1 ora",
+        "two_hours": "Di solito pronto in 2 ore",
+        "four_hours": "Di solito pronto in 4 ore",
+        "twenty_four_hours": "Di solito pronto in 24 ore",
+        "two_to_four_days": "Di solito pronto in 2-4 giorni",
+        "five_or_more_days": "Di solito pronto in 5+ giorni",
+        "zero_to_two_hours": "Di solito pronto in 2 ore",
+        "two_to_four_hours": "Di solito pronto in 4 ore",
+        "immediately": "Ora pronto per il ritiro",
+        "next_day": "Pronto per il ritiro il giorno successivo"
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "Disponibilità",
+        "value": {
+          "in_stock": "In magazzino",
+          "out_of_stock": "Esaurito"
+        }
+      },
+      "vendor": {
+        "label": "marca"
+      },
+      "price": {
+        "label": "Prezzo"
+      },
+      "product_type": {
+        "label": "Tipologia di prodotto"
+      },
+      "boolean": {
+        "true_label": "SÌ",
+        "false_label": "NO"
+      },
+      "tags": {
+        "label": "Più filtri"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "rilevanza",
+        "price_ascending": "Prezzo da basso ad alto",
+        "price_descending": "Prezzo, dal più alto al più basso"
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Nascondi il menu dell'account",
+        "label": "Account",
+        "show_accessibility_label": "Mostra il menu dell'account",
+        "nav_accessibility_label": "Navigazione dell'account",
+        "open_menu_accessibility_label": "Apri la navigazione dell'account",
+        "close_menu_accessibility_label": "Chiudi la navigazione dell'account",
+        "business_profile_label": "Attività commerciale",
+        "personal_profile_label": "Personale",
+        "loading_message": "La navigazione dell'account è in fase di caricamento"
+      },
+      "action_menu_accessibility_label": "Più promozioni"
     }
   }
 }
