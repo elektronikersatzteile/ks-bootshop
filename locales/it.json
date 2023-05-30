@@ -637,6 +637,146 @@
             "tuesday": "Martedì"
           }
         }
+      },
+      "thank_you": {
+        "fulfillment": {
+          "unfulfilled_table_title": "Prepara gli articoli per la spedizione",
+          "product_image_label": "immagine del prodotto",
+          "description_label": "Descrizione",
+          "quantity_label": "Folla"
+        },
+        "opt_in_message_html": "Le tue informazioni sono state salvate con successo con %{shopify_pay}",
+        "order_updates_description_missing": "Non riceverai aggiornamenti sulla spedizione.",
+        "order_updates_subscribe_to_email_notifications": "Ricevi gli aggiornamenti sulla spedizione via e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Ricevi aggiornamenti sulla spedizione tramite e-mail o SMS",
+        "order_updates_subscribe_to_phone_notifications": "Ricevi gli aggiornamenti sulla spedizione tramite SMS",
+        "order_updates_submit_subscription": "Invia",
+        "track_shipment": "Tracciamento della spedizione",
+        "shopify_pay": {
+          "order_completed_html": "Ordine completato con %{shopify_pay}",
+          "learn_more_label": "Ulteriori informazioni su ShopPay"
+        },
+        "order_status_confirmed_order_with_email_pick_up": "Riceverai un'e-mail non appena il tuo ordine sarà pronto per il ritiro.",
+        "order_status_confirmed_order_with_phone_pick_up": "Riceverai un SMS non appena il tuo ordine sarà pronto per il ritiro.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Riceverai un'e-mail e un messaggio di testo non appena il tuo ordine sarà pronto per il ritiro.",
+        "pick_up_in_store_marker": {
+          "current": "Luogo di spedizione attuale",
+          "shipping": "punto d'incontro"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Riceverai un'e-mail non appena il tuo ordine sarà pronto per il ritiro.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Riceverai un SMS non appena il tuo ordine sarà pronto per il ritiro.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Riceverai un'e-mail non appena il tuo ordine sarà pronto per il ritiro.",
+        "ready_for_pickup_title": "Il tuo ordine è pronto per il ritiro",
+        "ready_for_pickup_description": "Il tuo ordine è pronto per il ritiro. Si prega di portare con sé la conferma dell'ordine per ritirare l'ordine.",
+        "other_options": "Altre opzioni",
+        "picked_up_title": "Il tuo ordine è stato ritirato",
+        "picked_up_description_html": "Il tuo ordine è stato ritirato il %{date} a %{location_name}.",
+        "shop_phone_description": "Riceverai un SMS con un link all'app del negozio per tracciare il tuo ordine.",
+        "ready_for_delivery_title": "Il tuo ordine è pronto per la consegna",
+        "ready_for_delivery_description": "Abbiamo preparato il tuo ordine.",
+        "order_status_confirmed_order_local": "Stiamo preparando il tuo ordine per la consegna.",
+        "delivery_information_label": "Informazioni di consegna:",
+        "gift_card_sent_confirmation": "buoni inviati",
+        "out_for_delivery_local_title": "Il tuo ordine è in fase di consegna",
+        "out_for_delivery_local_description_html": "Il tuo ordine arriverà a breve.",
+        "delivered_local_title": "Il tuo ordine è stato consegnato",
+        "delivered_local_description_html": "Non hai ricevuto il tuo ordine? %{Facci sapere}.",
+        "let_us_know": "Facci sapere",
+        "qr_code": {
+          "title": "Traccia sul tuo telefono",
+          "subtitle": "Scansiona il codice con la fotocamera del tuo telefono per rintracciarlo con Shop.",
+          "send_link_to_phone": "Oppure invia un link al tuo telefono"
+        },
+        "gift_card_confirmation_by_text": "Se non l'hai ricevuto, invia nuovamente l'SMS o contattaci.",
+        "gift_card_confirmation_by_email": "Se non l'hai ricevuto, invia nuovamente l'e-mail o contattaci.",
+        "gift_card_title": "buoni regalo",
+        "resend_gift_cards": "Invia nuovamente buoni regalo",
+        "attempted_delivery_local_title": "mancata consegna",
+        "attempted_delivery_local_description_html": "Non siamo riusciti a consegnare il tuo ordine. Per programmare un'altra consegna, %{contact_us}.",
+        "thank_you_title_payment": "Il tuo pagamento è confermato.",
+        "thank_you_confirmed_order_with_email_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Hai effettuato un pagamento per il tuo ordine %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scansiona con il tuo telefono",
+            "description": "Shop ti invierà aggiornamenti sulla consegna in tempo reale una volta che il tuo ordine è stato spedito."
+          },
+          "sms": {
+            "title": "Oppure invia un link al tuo telefono"
+          }
+        },
+        "estimated_delivery": "Consegna stimata attuale:",
+        "view_business_customer_account": "vedere l'account",
+        "company_location_title": "Posizione",
+        "thank_you_title_review": "Il tuo ordine è stato inviato per la revisione",
+        "thank_you_confirmed_order_with_draft": "Ti faremo sapere se abbiamo bisogno di ulteriori informazioni o quando il tuo ordine sarà confermato.",
+        "payment_method_draft_order": "Dovuto dopo la verifica dell'ordine",
+        "breadcrumbs_submitted": "presentato",
+        "breadcrumbs_in_review": "Ripensandoci",
+        "breadcrumbs_confirmed": "Confermato",
+        "missing_shipping_address_banner": {
+          "title": "L'ordine non ha un indirizzo di consegna",
+          "text_html": "%{contact_us} per aggiungere il tuo indirizzo",
+          "contact_us": "Contattaci"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Si prega di contattare nuovamente il rappresentante di vendita.",
+        "order_status_confirmed_with_installments_payment_confirm": "A breve riceverai un'e-mail di conferma con il numero dell'ordine e il piano di rateizzazione.",
+        "first_payment_complete": "Primo pagamento completato",
+        "in_store_purchase": "Acquista in negozio",
+        "optimus_button_label": "Acquista con Optimus: Track Pack",
+        "branded_promise": {
+          "shop_promise": {
+            "confirmed": {
+              "guaranteed_on_time": "Consegna garantita entro %{date} con",
+              "on_time": "Consegna entro %{date} con"
+            },
+            "in_transit": {
+              "guaranteed_on_time": "Consegna garantita entro %{date} con",
+              "on_time": "Consegna entro %{date} con",
+              "guaranteed_delayed": "La tua spedizione non è arrivata il %{date} come previsto. Una volta arrivato, puoi presentare un reclamo con esso",
+              "delayed": "La tua consegna, prevista entro il %{date}, è in ritardo."
+            },
+            "out_for_delivery": {
+              "guaranteed_on_time": "Consegna garantita entro %{date} con",
+              "on_time": "Consegna entro %{date} con",
+              "guaranteed_delayed": "La tua spedizione non è arrivata il %{date} come previsto. Una volta arrivato, puoi presentare un reclamo con esso",
+              "delayed": "La tua consegna, prevista entro il %{date}, è in ritardo."
+            },
+            "delivered": {
+              "guaranteed_on_time": "Consegnato in tempo con",
+              "on_time": "Consegnato il %{date} con",
+              "guaranteed_delayed": "Poiché la tua consegna è arrivata in ritardo rispetto alla data prevista il %{date}, potresti avere diritto a %{shop_cash} con essa",
+              "delayed": "Consegnato il %{date}, originariamente previsto il %{original_delivery_date}"
+            },
+            "guarantee": {
+              "app_user": {
+                "popover_title": "Scansiona per ottenere il tuo Shop Cash",
+                "popover_subtitle": "Il tuo ordine è arrivato più tardi del previsto. Usa i contanti del tuo negozio per un acquisto futuro nell'app del negozio."
+              },
+              "non_app_user": {
+                "popover_title": "Scarica Shop per ricevere i tuoi Shop Cash",
+                "popover_subtitle": "Il tuo ordine è arrivato più tardi del previsto. Scarica Shop per utilizzare il tuo Shop Cash per un acquisto futuro."
+              }
+            }
+          }
+        },
+        "choose_payment_method_later": "Seleziona il metodo di pagamento più tardi",
+        "purchase_order_number_title": "Numero ordine %{purchaseOrderNumber}",
+        "subscriptions_management": {
+          "title": "sottoscrizione",
+          "description": "Vai al tuo account per visualizzare e gestire i tuoi abbonamenti.",
+          "button_label": "Gestisci il tuo abbonamento"
+        },
+        "manage_order_label": "gestire l'ordine",
+        "location_title": "Posizione",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Riceverai un SMS con la tua carta regalo in pochi minuti.",
+          "other": "Riceverai un SMS con i tuoi buoni regalo in pochi minuti."
+        }
       }
     },
     "pagination": {
