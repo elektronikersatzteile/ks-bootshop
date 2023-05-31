@@ -1749,46 +1749,94 @@
     "unavailable": "Non disponibile",
     "product_options": "opzioni del prodotto",
     "save": "Salva sul computer",
-    "in_stock": "In magazzino"
+    "in_stock": "In magazzino",
+    "price_unit": "prezzo unitario",
+    "buy_it_now": "Compralo Subito",
+    "select_variant": "selezionare la variante",
+    "color_options": "opzioni di colore"
   },
   "cart": {
     "remove": "RIMOSSO",
     "quantity": "Folla",
     "qty": "Folla",
     "subtotal": "totale parziale",
-    "subtotal_regular": "Prezzo regolare"
+    "subtotal_regular": "Prezzo regolare",
+    "title": "il tuo carrello della spesa",
+    "empty_html": "<p>Il carrello è vuoto<\/p>",
+    "summary": "Riepilogo",
+    "continue_shopping": "Procedi con gli acquisti",
+    "view_cart": "Visualizza carrello",
+    "checkout": "Contanti",
+    "note_label": "Aggiungi una nota al tuo ordine",
+    "note_placeholder": "Qualcosa di importante che dovremmo sapere?! Per favore, lo scriva qui.",
+    "note_button": "per salvare una nota",
+    "note_saved": "Nota salvata",
+    "subtotal_discounted": "Prezzo ridotto",
+    "alert_item_added": "Prodotto aggiunto al carrello",
+    "alert_cart_updated": "Il carrello è stato aggiornato con successo",
+    "alert_error": "Si è verificato un errore durante l'elaborazione della richiesta. Per favore riprova più tardi. Se il problema persiste, contattaci",
+    "taxes_shipping_at_checkout_html": "Le tasse e <a href=\"\/policies\/shipping-policy\">la spedizione<\/a> vengono calcolate al momento del pagamento"
   },
   "customer": {
     "account": {
-      "logout": "disconnettersi"
+      "logout": "disconnettersi",
+      "title": "Il mio conto",
+      "order_history": "Cronologia ordini",
+      "account_details": "Dettagli account",
+      "view_addresses": "mostra gli indirizzi",
+      "return": "Torna ai dettagli dell'account",
+      "drawer_manage_account_html": "Vai a <a href=\"\/account\">Il mio account<\/a>",
+      "drawer_register_login_html": "Per favore <a href=\"\/account\/register\">registrati<\/a> o <a href=\"\/account\/login\">accedi<\/a>"
     },
     "login": {
       "title": "Registrazione",
       "password": "parola d'ordine",
       "submit": "Registrati",
-      "guest_continue": "Continuare"
+      "guest_continue": "Continuare",
+      "forgot_password": "Hai dimenticato la tua password?",
+      "new": "Sei nuovo?",
+      "create_account": "Crea un account gratis",
+      "guest_title": "Procedi come ospite"
     },
     "recover_password": {
       "submit": "Invia",
-      "cancel": "Annulla"
+      "cancel": "Annulla",
+      "title": "reimposta la tua password",
+      "subtext": "Ti invieremo un'e-mail per reimpostare la tua password.",
+      "success": "Ti abbiamo inviato un'email con un link per aggiornare la tua password."
     },
     "reset_password": {
-      "password": "parola d'ordine"
+      "password": "parola d'ordine",
+      "title": "Resetta la password",
+      "subtext": "Inserisci una nuova password per {{ email }}",
+      "password_confirm": "Conferma la password",
+      "submit": "Resetta la password"
     },
     "activate_account": {
-      "password": "parola d'ordine"
+      "password": "parola d'ordine",
+      "title": "Attiva account",
+      "subtext": "Crea la tua password per attivare il tuo account.",
+      "password_confirm": "Conferma la password",
+      "submit": "Attiva account",
+      "cancel": "Rifiuta l'invito"
     },
     "register": {
       "title": "creare un account",
       "first_name": "Nome di battesimo",
       "last_name": "cognome, cognome",
       "password": "parola d'ordine",
-      "have_account": "Hai già un account?"
+      "have_account": "Hai già un account?",
+      "submit": "Creare",
+      "login": "Accedere prego"
     },
     "orders": {
       "order_number": "comando",
       "payment_status": "Stato del pagamento",
-      "total": "In totale"
+      "total": "In totale",
+      "title": "Cronologia ordini",
+      "date": "Data",
+      "fulfillment_status": "stato di conformità",
+      "none": "Non hai ancora effettuato alcun ordine."
     },
     "order": {
       "billing_address": "Indirizzo di fatturazione",
@@ -1800,7 +1848,22 @@
       "quantity": "Folla",
       "total": "In totale",
       "track_shipment": "Tracciamento della spedizione",
-      "subtotal": "totale parziale"
+      "subtotal": "totale parziale",
+      "title": "Ordina {{ name }}",
+      "date_html": "Inserito il {{ date }}",
+      "cancelled_html": "Ordine annullato il {{ date }}",
+      "cancelled_reason": "Motivo: {{ reason }}",
+      "cancelled": "Ordine annullato il {{ date }}",
+      "date": "Inserito il {{ date }}",
+      "fulfillment_status": "stato di conformità",
+      "tax": "Imposta",
+      "product": "Prodotto",
+      "sku": "codice articolo",
+      "fulfilled_at_html": "Eseguito il {{ date }}",
+      "tracking_url": "link di tracciamento",
+      "tracking_company": "vettore",
+      "tracking_number": "numero di identificazione",
+      "note": "nota del cliente"
     },
     "addresses": {
       "title": "indirizzi",
@@ -1819,7 +1882,37 @@
       "cancel": "Annulla",
       "edit": "Modificare",
       "delete": "Spegnere",
-      "delete_confirm": "Vuoi davvero eliminare questo indirizzo?"
+      "delete_confirm": "Vuoi davvero eliminare questo indirizzo?",
+      "add_new": "Aggiungi un nuovo indirizzo",
+      "address1": "Indirizzo 1",
+      "address2": "Indirizzo 2",
+      "country": "Paese",
+      "set_default": "Imposta come indirizzo predefinito",
+      "update": "indirizzo di aggiornamento",
+      "select_country": "scegli il paese",
+      "no_addresses": "Ancora nessun indirizzo. Aggiungi il tuo primo indirizzo utilizzando la scheda \"Aggiungi nuovo\"."
+    }
+  },
+  "blogs": {
+    "filter_by": "Filtra per",
+    "all_topics": "Tutti gli argomenti",
+    "posted_in": "Pubblicato in",
+    "article": {
+      "blog": "al blog",
+      "read_more_title": "Leggi di più: {{ title }}",
+      "read_more": "Continua a leggere",
+      "comments": {
+        "one": "{{ count }} commento",
+        "other": "{{ count }} commenti"
+      },
+      "moderated": "Si prega di notare che i commenti devono essere approvati prima della pubblicazione.",
+      "comment_form_title": "lascia un commento",
+      "message": "commento",
+      "post": "Aggiungi un commento",
+      "back_to_blog": "Torniamo al blog",
+      "share": "Condividi questo articolo",
+      "success": "Il tuo commento è stato pubblicato con successo! Grazie mille!",
+      "success_moderated": "Il tuo commento è stato pubblicato con successo. Lo pubblicheremo a breve non appena il nostro blog sarà moderato."
     }
   }
 }
