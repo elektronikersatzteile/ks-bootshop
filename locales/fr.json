@@ -1871,7 +1871,8 @@
       "payment_methods": "méthodes de payement",
       "sorted_by": "Trier par",
       "product_media_gallery": "Galerie média du produit",
-      "product_options": "options de produit"
+      "product_options": "options de produit",
+      "search": "Chercher"
     },
     "offcanvas_search": {
       "title": "Rechercher dans notre boutique",
@@ -1884,7 +1885,8 @@
       "search_for": "Rechercher",
       "result_found": "1 résultat trouvé",
       "results_found": "[count] résultats trouvés",
-      "no_results": "Aucun résultat trouvé"
+      "no_results": "Aucun résultat trouvé",
+      "button": "Chercher"
     },
     "search_page": {
       "title": "Rechercher dans notre boutique",
@@ -1896,7 +1898,8 @@
       },
       "form": {
         "input_label": "Rechercher...",
-        "select_label": "types de produits"
+        "select_label": "types de produits",
+        "btn_text": "Chercher"
       },
       "types": {
         "products": "Des produits",
