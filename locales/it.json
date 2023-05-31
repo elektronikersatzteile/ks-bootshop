@@ -1741,6 +1741,85 @@
     "add_to_cart": "Aggiungi al carrello",
     "add": "aggiungere a",
     "added_to_cart": "✓ Aggiunto al carrello",
-    "price_regular": "Prezzo regolare"
+    "price_regular": "Prezzo regolare",
+    "price_from": "Fuori da",
+    "price_sale": "prezzo di vendita",
+    "sold_out": "Esaurito",
+    "quantity": "Folla",
+    "unavailable": "Non disponibile",
+    "product_options": "opzioni del prodotto",
+    "save": "Salva sul computer",
+    "in_stock": "In magazzino"
+  },
+  "cart": {
+    "remove": "RIMOSSO",
+    "quantity": "Folla",
+    "qty": "Folla",
+    "subtotal": "totale parziale",
+    "subtotal_regular": "Prezzo regolare"
+  },
+  "customer": {
+    "account": {
+      "logout": "disconnettersi"
+    },
+    "login": {
+      "title": "Registrazione",
+      "password": "parola d'ordine",
+      "submit": "Registrati",
+      "guest_continue": "Continuare"
+    },
+    "recover_password": {
+      "submit": "Invia",
+      "cancel": "Annulla"
+    },
+    "reset_password": {
+      "password": "parola d'ordine"
+    },
+    "activate_account": {
+      "password": "parola d'ordine"
+    },
+    "register": {
+      "title": "creare un account",
+      "first_name": "Nome di battesimo",
+      "last_name": "cognome, cognome",
+      "password": "parola d'ordine",
+      "have_account": "Hai già un account?"
+    },
+    "orders": {
+      "order_number": "comando",
+      "payment_status": "Stato del pagamento",
+      "total": "In totale"
+    },
+    "order": {
+      "billing_address": "Indirizzo di fatturazione",
+      "payment_status": "Stato del pagamento",
+      "shipping_address": "Indirizzo di consegna",
+      "discount": "Sconto",
+      "shipping": "Spedizione",
+      "price": "Prezzo",
+      "quantity": "Folla",
+      "total": "In totale",
+      "track_shipment": "Tracciamento della spedizione",
+      "subtotal": "totale parziale"
+    },
+    "addresses": {
+      "title": "indirizzi",
+      "tab_addresses": "indirizzi",
+      "tab_add_new": "Aggiungere nuova",
+      "default": "Indirizzo predefinito",
+      "edit_address": "Modifica indirizzo",
+      "first_name": "Nome di battesimo",
+      "last_name": "cognome, cognome",
+      "company": "Perseguire",
+      "city": "Città",
+      "province": "Provincia",
+      "zip": "Codice Postale",
+      "phone": "telefono",
+      "add": "Aggiungi indirizzo",
+      "cancel": "Annulla",
+      "edit": "Modificare",
+      "delete": "Spegnere",
+      "delete_confirm": "Vuoi davvero eliminare questo indirizzo?"
+    }
   }
 }
